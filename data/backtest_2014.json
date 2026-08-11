@@ -1,0 +1,1568 @@
+{
+  "_meta": {
+    "enrichment": {
+      "pre_elo": {
+        "method": "International Football World Elo snapshot before tournament opening.",
+        "snapshot_date": "2014-06-11",
+        "source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014"
+      },
+      "pre_odds": {
+        "date_range": [
+          "2014-06-12",
+          "2014-07-13"
+        ],
+        "method": "TipsterArea daily World Championship pages; decimal 1X2 averages (pre-match).",
+        "source": "https://tipsterarea.com/matches/date-DD-MM-2014"
+      }
+    },
+    "finals_source": "https://raw.githubusercontent.com/openfootball/worldcup/master/2014--brazil/cup_finals.txt",
+    "generated_at": "2026-07-21T15:18:33.096185+00:00",
+    "group_matches": 48,
+    "knockout_matches": 15,
+    "knockout_note": "KO-Scoreline = Ergebnis nach Verlaengerung; Elfmeter entscheidet nur das Weiterkommen. KO-Elo = Pre-Turnier-Snapshot pro Team. KO hat pre_odds (odds-Variante deckt auch die KO-Phase).",
+    "matches": 63,
+    "missing_data": [],
+    "pre_elo_matches": 63,
+    "pre_odds_matches": 63,
+    "source": "https://raw.githubusercontent.com/openfootball/worldcup/master/2014--brazil/cup.txt",
+    "stages_covered": [
+      "group",
+      "knockout"
+    ],
+    "tournament": "2014"
+  },
+  "results": [
+    {
+      "actual": [
+        3,
+        1
+      ],
+      "away": "Croatia",
+      "group": "A",
+      "home": "Brazil",
+      "match": "Brazil - Croatia",
+      "pre_elo": {
+        "away": 1819.0,
+        "home": 2138.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 11.83,
+        "draw": 5.25,
+        "home": 1.29
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena de São Paulo, São Paulo"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Cameroon",
+      "group": "A",
+      "home": "Mexico",
+      "match": "Mexico - Cameroon",
+      "pre_elo": {
+        "away": 1609.0,
+        "home": 1814.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 3.7,
+        "draw": 3.08,
+        "home": 2.15
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio das Dunas, Natal"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Mexico",
+      "group": "A",
+      "home": "Brazil",
+      "match": "Brazil - Mexico",
+      "pre_elo": {
+        "away": 1814.0,
+        "home": 2138.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 8.67,
+        "draw": 5.43,
+        "home": 1.33
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Castelão, Fortaleza"
+    },
+    {
+      "actual": [
+        0,
+        4
+      ],
+      "away": "Croatia",
+      "group": "A",
+      "home": "Cameroon",
+      "match": "Cameroon - Croatia",
+      "pre_elo": {
+        "away": 1819.0,
+        "home": 1609.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.68,
+        "draw": 3.77,
+        "home": 4.98
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Amazônia, Manaus"
+    },
+    {
+      "actual": [
+        1,
+        4
+      ],
+      "away": "Brazil",
+      "group": "A",
+      "home": "Cameroon",
+      "match": "Cameroon - Brazil",
+      "pre_elo": {
+        "away": 2138.0,
+        "home": 1609.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.13,
+        "draw": 8.52,
+        "home": 17.5
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Nacional Mané Garrincha, Brasília"
+    },
+    {
+      "actual": [
+        1,
+        3
+      ],
+      "away": "Mexico",
+      "group": "A",
+      "home": "Croatia",
+      "match": "Croatia - Mexico",
+      "pre_elo": {
+        "away": 1814.0,
+        "home": 1819.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 2.65,
+        "draw": 3.25,
+        "home": 2.67
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Pernambuco, Recife"
+    },
+    {
+      "actual": [
+        1,
+        5
+      ],
+      "away": "Netherlands",
+      "group": "B",
+      "home": "Spain",
+      "match": "Spain - Netherlands",
+      "pre_elo": {
+        "away": 1986.0,
+        "home": 2109.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 4.98,
+        "draw": 3.37,
+        "home": 1.81
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Fonte Nova, Salvador"
+    },
+    {
+      "actual": [
+        3,
+        1
+      ],
+      "away": "Australia",
+      "group": "B",
+      "home": "Chile",
+      "match": "Chile - Australia",
+      "pre_elo": {
+        "away": 1709.0,
+        "home": 1920.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 7.42,
+        "draw": 4.23,
+        "home": 1.45
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Pantanal, Cuiabá"
+    },
+    {
+      "actual": [
+        2,
+        3
+      ],
+      "away": "Netherlands",
+      "group": "B",
+      "home": "Australia",
+      "match": "Australia - Netherlands",
+      "pre_elo": {
+        "away": 1986.0,
+        "home": 1709.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.2,
+        "draw": 6.57,
+        "home": 12.83
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Beira-Rio, Porto Alegre"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Chile",
+      "group": "B",
+      "home": "Spain",
+      "match": "Spain - Chile",
+      "pre_elo": {
+        "away": 1920.0,
+        "home": 2109.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 5.5,
+        "draw": 4.32,
+        "home": 1.55
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio do Maracanã, Rio de Janeiro"
+    },
+    {
+      "actual": [
+        0,
+        3
+      ],
+      "away": "Spain",
+      "group": "B",
+      "home": "Australia",
+      "match": "Australia - Spain",
+      "pre_elo": {
+        "away": 2109.0,
+        "home": 1709.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.44,
+        "draw": 4.72,
+        "home": 6.45
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena da Baixada, Curitiba"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Chile",
+      "group": "B",
+      "home": "Netherlands",
+      "match": "Netherlands - Chile",
+      "pre_elo": {
+        "away": 1920.0,
+        "home": 1986.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 2.7,
+        "draw": 3.38,
+        "home": 2.53
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena de São Paulo, São Paulo"
+    },
+    {
+      "actual": [
+        3,
+        0
+      ],
+      "away": "Greece",
+      "group": "C",
+      "home": "Colombia",
+      "match": "Colombia - Greece",
+      "pre_elo": {
+        "away": 1824.0,
+        "home": 1922.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 5.18,
+        "draw": 3.4,
+        "home": 1.75
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Mineirão, Belo Horizonte"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Japan",
+      "group": "C",
+      "home": "Côte d'Ivoire",
+      "match": "Côte d'Ivoire - Japan",
+      "pre_elo": {
+        "away": 1785.0,
+        "home": 1776.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 2.72,
+        "draw": 3.18,
+        "home": 2.65
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Pernambuco, Recife"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Côte d'Ivoire",
+      "group": "C",
+      "home": "Colombia",
+      "match": "Colombia - Côte d'Ivoire",
+      "pre_elo": {
+        "away": 1776.0,
+        "home": 1922.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 3.62,
+        "draw": 3.45,
+        "home": 2.02
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Nacional Mané Garrincha, Brasília"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Greece",
+      "group": "C",
+      "home": "Japan",
+      "match": "Japan - Greece",
+      "pre_elo": {
+        "away": 1824.0,
+        "home": 1785.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 3.13,
+        "draw": 3.33,
+        "home": 2.27
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio das Dunas, Natal"
+    },
+    {
+      "actual": [
+        1,
+        4
+      ],
+      "away": "Colombia",
+      "group": "C",
+      "home": "Japan",
+      "match": "Japan - Colombia",
+      "pre_elo": {
+        "away": 1922.0,
+        "home": 1785.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.9,
+        "draw": 3.72,
+        "home": 3.77
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Pantanal, Cuiabá"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Côte d'Ivoire",
+      "group": "C",
+      "home": "Greece",
+      "match": "Greece - Côte d'Ivoire",
+      "pre_elo": {
+        "away": 1776.0,
+        "home": 1824.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.94,
+        "draw": 3.47,
+        "home": 3.88
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Castelão, Fortaleza"
+    },
+    {
+      "actual": [
+        1,
+        3
+      ],
+      "away": "Costa Rica",
+      "group": "D",
+      "home": "Uruguay",
+      "match": "Uruguay - Costa Rica",
+      "pre_elo": {
+        "away": 1712.0,
+        "home": 1919.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 8.0,
+        "draw": 4.23,
+        "home": 1.43
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Castelão, Fortaleza"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Italy",
+      "group": "D",
+      "home": "England",
+      "match": "England - Italy",
+      "pre_elo": {
+        "away": 1888.0,
+        "home": 1931.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 2.85,
+        "draw": 2.87,
+        "home": 2.77
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Amazônia, Manaus"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "England",
+      "group": "D",
+      "home": "Uruguay",
+      "match": "Uruguay - England",
+      "pre_elo": {
+        "away": 1931.0,
+        "home": 1919.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.98,
+        "draw": 3.58,
+        "home": 3.62
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena de São Paulo, São Paulo"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Costa Rica",
+      "group": "D",
+      "home": "Italy",
+      "match": "Italy - Costa Rica",
+      "pre_elo": {
+        "away": 1712.0,
+        "home": 1888.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 6.58,
+        "draw": 4.07,
+        "home": 1.51
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Pernambuco, Recife"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Uruguay",
+      "group": "D",
+      "home": "Italy",
+      "match": "Italy - Uruguay",
+      "pre_elo": {
+        "away": 1919.0,
+        "home": 1888.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 2.78,
+        "draw": 3.3,
+        "home": 2.51
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio das Dunas, Natal"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "England",
+      "group": "D",
+      "home": "Costa Rica",
+      "match": "Costa Rica - England",
+      "pre_elo": {
+        "away": 1931.0,
+        "home": 1712.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.81,
+        "draw": 3.87,
+        "home": 4.02
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Mineirão, Belo Horizonte"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Ecuador",
+      "group": "E",
+      "home": "Switzerland",
+      "match": "Switzerland - Ecuador",
+      "pre_elo": {
+        "away": 1837.0,
+        "home": 1855.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 3.1,
+        "draw": 3.12,
+        "home": 2.4
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Nacional Mané Garrincha, Brasília"
+    },
+    {
+      "actual": [
+        3,
+        0
+      ],
+      "away": "Honduras",
+      "group": "E",
+      "home": "France",
+      "match": "France - Honduras",
+      "pre_elo": {
+        "away": 1669.0,
+        "home": 1897.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 10.17,
+        "draw": 5.7,
+        "home": 1.28
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Beira-Rio, Porto Alegre"
+    },
+    {
+      "actual": [
+        2,
+        5
+      ],
+      "away": "France",
+      "group": "E",
+      "home": "Switzerland",
+      "match": "Switzerland - France",
+      "pre_elo": {
+        "away": 1897.0,
+        "home": 1855.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.87,
+        "draw": 3.5,
+        "home": 4.23
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Fonte Nova, Salvador"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Ecuador",
+      "group": "E",
+      "home": "Honduras",
+      "match": "Honduras - Ecuador",
+      "pre_elo": {
+        "away": 1837.0,
+        "home": 1669.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.63,
+        "draw": 3.82,
+        "home": 5.42
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena da Baixada, Curitiba"
+    },
+    {
+      "actual": [
+        0,
+        3
+      ],
+      "away": "Switzerland",
+      "group": "E",
+      "home": "Honduras",
+      "match": "Honduras - Switzerland",
+      "pre_elo": {
+        "away": 1855.0,
+        "home": 1669.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.43,
+        "draw": 4.52,
+        "home": 7.22
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Amazônia, Manaus"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "France",
+      "group": "E",
+      "home": "Ecuador",
+      "match": "Ecuador - France",
+      "pre_elo": {
+        "away": 1897.0,
+        "home": 1837.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.59,
+        "draw": 4.14,
+        "home": 5.27
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio do Maracanã, Rio de Janeiro"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Bosnia-Herzegovina",
+      "group": "F",
+      "home": "Argentina",
+      "match": "Argentina - Bosnia-Herzegovina",
+      "pre_elo": {
+        "away": 1788.0,
+        "home": 2019.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 8.28,
+        "draw": 5.05,
+        "home": 1.35
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio do Maracanã, Rio de Janeiro"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Nigeria",
+      "group": "F",
+      "home": "Iran",
+      "match": "Iran - Nigeria",
+      "pre_elo": {
+        "away": 1729.0,
+        "home": 1713.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.9,
+        "draw": 3.37,
+        "home": 4.2
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena da Baixada, Curitiba"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Iran",
+      "group": "F",
+      "home": "Argentina",
+      "match": "Argentina - Iran",
+      "pre_elo": {
+        "away": 1713.0,
+        "home": 2019.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 20.0,
+        "draw": 8.25,
+        "home": 1.14
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Mineirão, Belo Horizonte"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Bosnia-Herzegovina",
+      "group": "F",
+      "home": "Nigeria",
+      "match": "Nigeria - Bosnia-Herzegovina",
+      "pre_elo": {
+        "away": 1788.0,
+        "home": 1729.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.85,
+        "draw": 3.52,
+        "home": 4.23
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Pantanal, Cuiabá"
+    },
+    {
+      "actual": [
+        2,
+        3
+      ],
+      "away": "Argentina",
+      "group": "F",
+      "home": "Nigeria",
+      "match": "Nigeria - Argentina",
+      "pre_elo": {
+        "away": 2019.0,
+        "home": 1729.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.42,
+        "draw": 4.1,
+        "home": 9.05
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Beira-Rio, Porto Alegre"
+    },
+    {
+      "actual": [
+        3,
+        1
+      ],
+      "away": "Iran",
+      "group": "F",
+      "home": "Bosnia-Herzegovina",
+      "match": "Bosnia-Herzegovina - Iran",
+      "pre_elo": {
+        "away": 1713.0,
+        "home": 1788.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 3.55,
+        "draw": 3.5,
+        "home": 2.03
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Fonte Nova, Salvador"
+    },
+    {
+      "actual": [
+        4,
+        0
+      ],
+      "away": "Portugal",
+      "group": "G",
+      "home": "Germany",
+      "match": "Germany - Portugal",
+      "pre_elo": {
+        "away": 1943.0,
+        "home": 2073.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 4.02,
+        "draw": 3.62,
+        "home": 1.91
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Fonte Nova, Salvador"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "USA",
+      "group": "G",
+      "home": "Ghana",
+      "match": "Ghana - USA",
+      "pre_elo": {
+        "away": 1857.0,
+        "home": 1709.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 2.92,
+        "draw": 3.32,
+        "home": 2.4
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio das Dunas, Natal"
+    },
+    {
+      "actual": [
+        2,
+        2
+      ],
+      "away": "Ghana",
+      "group": "G",
+      "home": "Germany",
+      "match": "Germany - Ghana",
+      "pre_elo": {
+        "away": 1709.0,
+        "home": 2073.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 8.67,
+        "draw": 5.58,
+        "home": 1.31
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Castelão, Fortaleza"
+    },
+    {
+      "actual": [
+        2,
+        2
+      ],
+      "away": "Portugal",
+      "group": "G",
+      "home": "USA",
+      "match": "USA - Portugal",
+      "pre_elo": {
+        "away": 1943.0,
+        "home": 1857.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.8,
+        "draw": 3.75,
+        "home": 4.15
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Amazônia, Manaus"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Germany",
+      "group": "G",
+      "home": "USA",
+      "match": "USA - Germany",
+      "pre_elo": {
+        "away": 2073.0,
+        "home": 1857.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.62,
+        "draw": 3.1,
+        "home": 8.25
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Pernambuco, Recife"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Ghana",
+      "group": "G",
+      "home": "Portugal",
+      "match": "Portugal - Ghana",
+      "pre_elo": {
+        "away": 1709.0,
+        "home": 1943.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 3.38,
+        "draw": 4.0,
+        "home": 1.94
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Nacional Mané Garrincha, Brasília"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Algeria",
+      "group": "H",
+      "home": "Belgium",
+      "match": "Belgium - Algeria",
+      "pre_elo": {
+        "away": 1629.0,
+        "home": 1852.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 8.87,
+        "draw": 5.25,
+        "home": 1.33
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Mineirão, Belo Horizonte"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "South Korea",
+      "group": "H",
+      "home": "Russia",
+      "match": "Russia - South Korea",
+      "pre_elo": {
+        "away": 1668.0,
+        "home": 1849.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 4.42,
+        "draw": 3.6,
+        "home": 1.8
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena Pantanal, Cuiabá"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Russia",
+      "group": "H",
+      "home": "Belgium",
+      "match": "Belgium - Russia",
+      "pre_elo": {
+        "away": 1849.0,
+        "home": 1852.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 3.38,
+        "draw": 3.27,
+        "home": 2.18
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio do Maracanã, Rio de Janeiro"
+    },
+    {
+      "actual": [
+        2,
+        4
+      ],
+      "away": "Algeria",
+      "group": "H",
+      "home": "South Korea",
+      "match": "South Korea - Algeria",
+      "pre_elo": {
+        "away": 1629.0,
+        "home": 1668.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 2.95,
+        "draw": 3.28,
+        "home": 2.4
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Estádio Beira-Rio, Porto Alegre"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Belgium",
+      "group": "H",
+      "home": "South Korea",
+      "match": "South Korea - Belgium",
+      "pre_elo": {
+        "away": 1852.0,
+        "home": 1668.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.8,
+        "draw": 3.53,
+        "home": 4.48
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena de São Paulo, São Paulo"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Russia",
+      "group": "H",
+      "home": "Algeria",
+      "match": "Algeria - Russia",
+      "pre_elo": {
+        "away": 1849.0,
+        "home": 1629.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 1.96,
+        "draw": 3.53,
+        "home": 3.75
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "group",
+      "venue": "Arena da Baixada, Curitiba"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Chile",
+      "group": null,
+      "home": "Brazil",
+      "match": "Brazil - Chile",
+      "penalty_winner": "home",
+      "pre_elo": {
+        "away": 1920.0,
+        "home": 2138.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 6.07,
+        "draw": 4.38,
+        "home": 1.51
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "shootout": [
+        3,
+        2
+      ],
+      "stage": "knockout",
+      "venue": "Estádio Mineirão, Belo Horizonte # 1A - 2B"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Uruguay",
+      "group": null,
+      "home": "Colombia",
+      "match": "Colombia - Uruguay",
+      "pre_elo": {
+        "away": 1919.0,
+        "home": 1922.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 3.82,
+        "draw": 3.28,
+        "home": 2.05
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "knockout",
+      "venue": "Estádio do Maracanã, Rio de Janeiro # 1C - 2D"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Mexico",
+      "group": null,
+      "home": "Netherlands",
+      "match": "Netherlands - Mexico",
+      "pre_elo": {
+        "away": 1814.0,
+        "home": 1986.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 3.55,
+        "draw": 3.33,
+        "home": 2.12
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "knockout",
+      "venue": "Estádio Castelão, Fortaleza # 1B - 2A"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Greece",
+      "group": null,
+      "home": "Costa Rica",
+      "match": "Costa Rica - Greece",
+      "penalty_winner": "home",
+      "pre_elo": {
+        "away": 1824.0,
+        "home": 1712.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 2.9,
+        "draw": 3.0,
+        "home": 2.67
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "shootout": [
+        5,
+        3
+      ],
+      "stage": "knockout",
+      "venue": "Arena Pernambuco, Recife # 1D - 2C"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Nigeria",
+      "group": null,
+      "home": "France",
+      "match": "France - Nigeria",
+      "pre_elo": {
+        "away": 1729.0,
+        "home": 1897.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 8.0,
+        "draw": 4.53,
+        "home": 1.41
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "knockout",
+      "venue": "Estádio Nacional Mané Garrincha, Brasília # 1E - 2F"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Algeria",
+      "group": null,
+      "home": "Germany",
+      "match": "Germany - Algeria",
+      "pre_elo": {
+        "away": 1629.0,
+        "home": 2073.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 9.62,
+        "draw": 5.5,
+        "home": 1.3
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "knockout",
+      "venue": "Estádio Beira-Rio, Porto Alegre # 1G - 2H"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Switzerland",
+      "group": null,
+      "home": "Argentina",
+      "match": "Argentina - Switzerland",
+      "pre_elo": {
+        "away": 1855.0,
+        "home": 2019.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 5.95,
+        "draw": 4.1,
+        "home": 1.56
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "knockout",
+      "venue": "Arena de São Paulo, São Paulo # 1F - 2E"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "USA",
+      "group": null,
+      "home": "Belgium",
+      "match": "Belgium - USA",
+      "pre_elo": {
+        "away": 1857.0,
+        "home": 1852.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 3.85,
+        "draw": 3.37,
+        "home": 2.02
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "knockout",
+      "venue": "Arena Fonte Nova, Salvador # 1H - 2G"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Germany",
+      "group": null,
+      "home": "France",
+      "match": "France - Germany",
+      "pre_elo": {
+        "away": 2073.0,
+        "home": 1897.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 2.7,
+        "draw": 3.1,
+        "home": 2.8
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "knockout",
+      "venue": "Estádio do Maracanã, Rio de Janeiro # W53 - W54"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Colombia",
+      "group": null,
+      "home": "Brazil",
+      "match": "Brazil - Colombia",
+      "pre_elo": {
+        "away": 1922.0,
+        "home": 2138.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 4.65,
+        "draw": 3.67,
+        "home": 1.79
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "knockout",
+      "venue": "Estádio Castelão, Fortaleza # W49 - W50"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Belgium",
+      "group": null,
+      "home": "Argentina",
+      "match": "Argentina - Belgium",
+      "pre_elo": {
+        "away": 1852.0,
+        "home": 2019.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 4.03,
+        "draw": 3.33,
+        "home": 1.98
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "knockout",
+      "venue": "Estádio Nacional Mané Garrincha, Brasília # W55 - W56"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Costa Rica",
+      "group": null,
+      "home": "Netherlands",
+      "match": "Netherlands - Costa Rica",
+      "penalty_winner": "home",
+      "pre_elo": {
+        "away": 1712.0,
+        "home": 1986.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 6.72,
+        "draw": 4.12,
+        "home": 1.51
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "shootout": [
+        4,
+        3
+      ],
+      "stage": "knockout",
+      "venue": "Arena Fonte Nova, Salvador # W51 - W52"
+    },
+    {
+      "actual": [
+        1,
+        7
+      ],
+      "away": "Germany",
+      "group": null,
+      "home": "Brazil",
+      "match": "Brazil - Germany",
+      "pre_elo": {
+        "away": 2073.0,
+        "home": 2138.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 2.8,
+        "draw": 3.17,
+        "home": 2.68
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "knockout",
+      "venue": "Estádio Mineirão, Belo Horizonte # W57 - W58"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Argentina",
+      "group": null,
+      "home": "Netherlands",
+      "match": "Netherlands - Argentina",
+      "penalty_winner": "away",
+      "pre_elo": {
+        "away": 2019.0,
+        "home": 1986.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 2.47,
+        "draw": 3.18,
+        "home": 3.05
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "shootout": [
+        2,
+        4
+      ],
+      "stage": "knockout",
+      "venue": "Arena de São Paulo, São Paulo # W59 - W69"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Argentina",
+      "group": null,
+      "home": "Germany",
+      "match": "Germany - Argentina",
+      "pre_elo": {
+        "away": 2019.0,
+        "home": 2073.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=11&month=06&year=2014",
+      "pre_odds": {
+        "away": 3.53,
+        "draw": 3.23,
+        "home": 2.24
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2014",
+      "stage": "knockout",
+      "venue": "Estádio do Maracanã, Rio de Janeiro"
+    }
+  ]
+}

@@ -1,0 +1,3218 @@
+{
+  "fixtures": [
+    {
+      "away_team": "South Africa",
+      "group": "A",
+      "home_team": "Mexico",
+      "key": "ga-mexico-v-south-africa",
+      "kickoff_utc": "2026-06-11T19:00:00+00:00",
+      "local_time": "2026-06-11 13:00 UTC-6",
+      "match_id": "ga-001",
+      "match_number": 1,
+      "result": [
+        2,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Mexico City"
+    },
+    {
+      "away_team": "Czech Republic",
+      "group": "A",
+      "home_team": "South Korea",
+      "key": "ga-south-korea-v-czech-republic",
+      "kickoff_utc": "2026-06-12T02:00:00+00:00",
+      "local_time": "2026-06-11 20:00 UTC-6",
+      "match_id": "ga-002",
+      "match_number": 2,
+      "result": [
+        2,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Guadalajara (Zapopan)"
+    },
+    {
+      "away_team": "South Africa",
+      "group": "A",
+      "home_team": "Czech Republic",
+      "key": "ga-czech-republic-v-south-africa",
+      "kickoff_utc": "2026-06-18T16:00:00+00:00",
+      "local_time": "2026-06-18 12:00 UTC-4",
+      "match_id": "ga-003",
+      "match_number": 3,
+      "result": [
+        1,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Atlanta"
+    },
+    {
+      "away_team": "South Korea",
+      "group": "A",
+      "home_team": "Mexico",
+      "key": "ga-mexico-v-south-korea",
+      "kickoff_utc": "2026-06-19T01:00:00+00:00",
+      "local_time": "2026-06-18 19:00 UTC-6",
+      "match_id": "ga-004",
+      "match_number": 4,
+      "result": [
+        1,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Guadalajara (Zapopan)"
+    },
+    {
+      "away_team": "Mexico",
+      "group": "A",
+      "home_team": "Czech Republic",
+      "key": "ga-czech-republic-v-mexico",
+      "kickoff_utc": "2026-06-25T01:00:00+00:00",
+      "local_time": "2026-06-24 19:00 UTC-6",
+      "match_id": "ga-005",
+      "match_number": 5,
+      "result": [
+        0,
+        3
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Mexico City"
+    },
+    {
+      "away_team": "South Korea",
+      "group": "A",
+      "home_team": "South Africa",
+      "key": "ga-south-africa-v-south-korea",
+      "kickoff_utc": "2026-06-25T01:00:00+00:00",
+      "local_time": "2026-06-24 19:00 UTC-6",
+      "match_id": "ga-006",
+      "match_number": 6,
+      "result": [
+        1,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Monterrey (Guadalupe)"
+    },
+    {
+      "away_team": "Bosnia & Herzegovina",
+      "group": "B",
+      "home_team": "Canada",
+      "key": "gb-canada-v-bosnia-herzegovina",
+      "kickoff_utc": "2026-06-12T19:00:00+00:00",
+      "local_time": "2026-06-12 15:00 UTC-4",
+      "match_id": "gb-007",
+      "match_number": 7,
+      "result": [
+        1,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Toronto"
+    },
+    {
+      "away_team": "Switzerland",
+      "group": "B",
+      "home_team": "Qatar",
+      "key": "gb-qatar-v-switzerland",
+      "kickoff_utc": "2026-06-13T19:00:00+00:00",
+      "local_time": "2026-06-13 12:00 UTC-7",
+      "match_id": "gb-008",
+      "match_number": 8,
+      "result": [
+        1,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "San Francisco Bay Area (Santa Clara)"
+    },
+    {
+      "away_team": "Bosnia & Herzegovina",
+      "group": "B",
+      "home_team": "Switzerland",
+      "key": "gb-switzerland-v-bosnia-herzegovina",
+      "kickoff_utc": "2026-06-18T19:00:00+00:00",
+      "local_time": "2026-06-18 12:00 UTC-7",
+      "match_id": "gb-009",
+      "match_number": 9,
+      "result": [
+        4,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Los Angeles (Inglewood)"
+    },
+    {
+      "away_team": "Qatar",
+      "group": "B",
+      "home_team": "Canada",
+      "key": "gb-canada-v-qatar",
+      "kickoff_utc": "2026-06-18T22:00:00+00:00",
+      "local_time": "2026-06-18 15:00 UTC-7",
+      "match_id": "gb-010",
+      "match_number": 10,
+      "result": [
+        6,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Vancouver"
+    },
+    {
+      "away_team": "Canada",
+      "group": "B",
+      "home_team": "Switzerland",
+      "key": "gb-switzerland-v-canada",
+      "kickoff_utc": "2026-06-24T19:00:00+00:00",
+      "local_time": "2026-06-24 12:00 UTC-7",
+      "match_id": "gb-011",
+      "match_number": 11,
+      "result": [
+        2,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Vancouver"
+    },
+    {
+      "away_team": "Qatar",
+      "group": "B",
+      "home_team": "Bosnia & Herzegovina",
+      "key": "gb-bosnia-herzegovina-v-qatar",
+      "kickoff_utc": "2026-06-24T19:00:00+00:00",
+      "local_time": "2026-06-24 12:00 UTC-7",
+      "match_id": "gb-012",
+      "match_number": 12,
+      "result": [
+        3,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Seattle"
+    },
+    {
+      "away_team": "Morocco",
+      "group": "C",
+      "home_team": "Brazil",
+      "key": "gc-brazil-v-morocco",
+      "kickoff_utc": "2026-06-13T22:00:00+00:00",
+      "local_time": "2026-06-13 18:00 UTC-4",
+      "match_id": "gc-013",
+      "match_number": 13,
+      "result": [
+        1,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "New York/New Jersey (East Rutherford)"
+    },
+    {
+      "away_team": "Scotland",
+      "group": "C",
+      "home_team": "Haiti",
+      "key": "gc-haiti-v-scotland",
+      "kickoff_utc": "2026-06-14T01:00:00+00:00",
+      "local_time": "2026-06-13 21:00 UTC-4",
+      "match_id": "gc-014",
+      "match_number": 14,
+      "result": [
+        0,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Boston (Foxborough)"
+    },
+    {
+      "away_team": "Morocco",
+      "group": "C",
+      "home_team": "Scotland",
+      "key": "gc-scotland-v-morocco",
+      "kickoff_utc": "2026-06-19T22:00:00+00:00",
+      "local_time": "2026-06-19 18:00 UTC-4",
+      "match_id": "gc-015",
+      "match_number": 15,
+      "result": [
+        0,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Boston (Foxborough)"
+    },
+    {
+      "away_team": "Haiti",
+      "group": "C",
+      "home_team": "Brazil",
+      "key": "gc-brazil-v-haiti",
+      "kickoff_utc": "2026-06-20T00:30:00+00:00",
+      "local_time": "2026-06-19 20:30 UTC-4",
+      "match_id": "gc-016",
+      "match_number": 16,
+      "result": [
+        3,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Philadelphia"
+    },
+    {
+      "away_team": "Brazil",
+      "group": "C",
+      "home_team": "Scotland",
+      "key": "gc-scotland-v-brazil",
+      "kickoff_utc": "2026-06-24T22:00:00+00:00",
+      "local_time": "2026-06-24 18:00 UTC-4",
+      "match_id": "gc-017",
+      "match_number": 17,
+      "result": [
+        0,
+        3
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Miami (Miami Gardens)"
+    },
+    {
+      "away_team": "Haiti",
+      "group": "C",
+      "home_team": "Morocco",
+      "key": "gc-morocco-v-haiti",
+      "kickoff_utc": "2026-06-24T22:00:00+00:00",
+      "local_time": "2026-06-24 18:00 UTC-4",
+      "match_id": "gc-018",
+      "match_number": 18,
+      "result": [
+        4,
+        2
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Atlanta"
+    },
+    {
+      "away_team": "Paraguay",
+      "group": "D",
+      "home_team": "USA",
+      "key": "gd-usa-v-paraguay",
+      "kickoff_utc": "2026-06-13T01:00:00+00:00",
+      "local_time": "2026-06-12 18:00 UTC-7",
+      "match_id": "gd-019",
+      "match_number": 19,
+      "result": [
+        4,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Los Angeles (Inglewood)"
+    },
+    {
+      "away_team": "Turkey",
+      "group": "D",
+      "home_team": "Australia",
+      "key": "gd-australia-v-turkey",
+      "kickoff_utc": "2026-06-14T04:00:00+00:00",
+      "local_time": "2026-06-13 21:00 UTC-7",
+      "match_id": "gd-020",
+      "match_number": 20,
+      "result": [
+        2,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Vancouver"
+    },
+    {
+      "away_team": "Australia",
+      "group": "D",
+      "home_team": "USA",
+      "key": "gd-usa-v-australia",
+      "kickoff_utc": "2026-06-19T19:00:00+00:00",
+      "local_time": "2026-06-19 12:00 UTC-7",
+      "match_id": "gd-021",
+      "match_number": 21,
+      "result": [
+        2,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Seattle"
+    },
+    {
+      "away_team": "Paraguay",
+      "group": "D",
+      "home_team": "Turkey",
+      "key": "gd-turkey-v-paraguay",
+      "kickoff_utc": "2026-06-20T03:00:00+00:00",
+      "local_time": "2026-06-19 20:00 UTC-7",
+      "match_id": "gd-022",
+      "match_number": 22,
+      "result": [
+        0,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "San Francisco Bay Area (Santa Clara)"
+    },
+    {
+      "away_team": "USA",
+      "group": "D",
+      "home_team": "Turkey",
+      "key": "gd-turkey-v-usa",
+      "kickoff_utc": "2026-06-26T02:00:00+00:00",
+      "local_time": "2026-06-25 19:00 UTC-7",
+      "match_id": "gd-023",
+      "match_number": 23,
+      "result": [
+        3,
+        2
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Los Angeles (Inglewood)"
+    },
+    {
+      "away_team": "Australia",
+      "group": "D",
+      "home_team": "Paraguay",
+      "key": "gd-paraguay-v-australia",
+      "kickoff_utc": "2026-06-26T02:00:00+00:00",
+      "local_time": "2026-06-25 19:00 UTC-7",
+      "match_id": "gd-024",
+      "match_number": 24,
+      "result": [
+        0,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "San Francisco Bay Area (Santa Clara)"
+    },
+    {
+      "away_team": "Curaçao",
+      "group": "E",
+      "home_team": "Germany",
+      "key": "ge-germany-v-cura-ao",
+      "kickoff_utc": "2026-06-14T17:00:00+00:00",
+      "local_time": "2026-06-14 12:00 UTC-5",
+      "match_id": "ge-025",
+      "match_number": 25,
+      "result": [
+        7,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Houston"
+    },
+    {
+      "away_team": "Ecuador",
+      "group": "E",
+      "home_team": "Ivory Coast",
+      "key": "ge-ivory-coast-v-ecuador",
+      "kickoff_utc": "2026-06-14T23:00:00+00:00",
+      "local_time": "2026-06-14 19:00 UTC-4",
+      "match_id": "ge-026",
+      "match_number": 26,
+      "result": [
+        1,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Philadelphia"
+    },
+    {
+      "away_team": "Ivory Coast",
+      "group": "E",
+      "home_team": "Germany",
+      "key": "ge-germany-v-ivory-coast",
+      "kickoff_utc": "2026-06-20T20:00:00+00:00",
+      "local_time": "2026-06-20 16:00 UTC-4",
+      "match_id": "ge-027",
+      "match_number": 27,
+      "result": [
+        2,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Toronto"
+    },
+    {
+      "away_team": "Curaçao",
+      "group": "E",
+      "home_team": "Ecuador",
+      "key": "ge-ecuador-v-cura-ao",
+      "kickoff_utc": "2026-06-21T00:00:00+00:00",
+      "local_time": "2026-06-20 19:00 UTC-5",
+      "match_id": "ge-028",
+      "match_number": 28,
+      "result": [
+        0,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Kansas City"
+    },
+    {
+      "away_team": "Ivory Coast",
+      "group": "E",
+      "home_team": "Curaçao",
+      "key": "ge-cura-ao-v-ivory-coast",
+      "kickoff_utc": "2026-06-25T20:00:00+00:00",
+      "local_time": "2026-06-25 16:00 UTC-4",
+      "match_id": "ge-029",
+      "match_number": 29,
+      "result": [
+        0,
+        2
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Philadelphia"
+    },
+    {
+      "away_team": "Germany",
+      "group": "E",
+      "home_team": "Ecuador",
+      "key": "ge-ecuador-v-germany",
+      "kickoff_utc": "2026-06-25T20:00:00+00:00",
+      "local_time": "2026-06-25 16:00 UTC-4",
+      "match_id": "ge-030",
+      "match_number": 30,
+      "result": [
+        2,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "New York/New Jersey (East Rutherford)"
+    },
+    {
+      "away_team": "Japan",
+      "group": "F",
+      "home_team": "Netherlands",
+      "key": "gf-netherlands-v-japan",
+      "kickoff_utc": "2026-06-14T20:00:00+00:00",
+      "local_time": "2026-06-14 15:00 UTC-5",
+      "match_id": "gf-031",
+      "match_number": 31,
+      "result": [
+        2,
+        2
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Dallas (Arlington)"
+    },
+    {
+      "away_team": "Tunisia",
+      "group": "F",
+      "home_team": "Sweden",
+      "key": "gf-sweden-v-tunisia",
+      "kickoff_utc": "2026-06-15T02:00:00+00:00",
+      "local_time": "2026-06-14 20:00 UTC-6",
+      "match_id": "gf-032",
+      "match_number": 32,
+      "result": [
+        5,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Monterrey (Guadalupe)"
+    },
+    {
+      "away_team": "Sweden",
+      "group": "F",
+      "home_team": "Netherlands",
+      "key": "gf-netherlands-v-sweden",
+      "kickoff_utc": "2026-06-20T17:00:00+00:00",
+      "local_time": "2026-06-20 12:00 UTC-5",
+      "match_id": "gf-033",
+      "match_number": 33,
+      "result": [
+        5,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Houston"
+    },
+    {
+      "away_team": "Japan",
+      "group": "F",
+      "home_team": "Tunisia",
+      "key": "gf-tunisia-v-japan",
+      "kickoff_utc": "2026-06-21T04:00:00+00:00",
+      "local_time": "2026-06-20 22:00 UTC-6",
+      "match_id": "gf-034",
+      "match_number": 34,
+      "result": [
+        0,
+        4
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Monterrey (Guadalupe)"
+    },
+    {
+      "away_team": "Sweden",
+      "group": "F",
+      "home_team": "Japan",
+      "key": "gf-japan-v-sweden",
+      "kickoff_utc": "2026-06-25T23:00:00+00:00",
+      "local_time": "2026-06-25 18:00 UTC-5",
+      "match_id": "gf-035",
+      "match_number": 35,
+      "result": [
+        1,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Dallas (Arlington)"
+    },
+    {
+      "away_team": "Netherlands",
+      "group": "F",
+      "home_team": "Tunisia",
+      "key": "gf-tunisia-v-netherlands",
+      "kickoff_utc": "2026-06-25T23:00:00+00:00",
+      "local_time": "2026-06-25 18:00 UTC-5",
+      "match_id": "gf-036",
+      "match_number": 36,
+      "result": [
+        1,
+        3
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Kansas City"
+    },
+    {
+      "away_team": "Egypt",
+      "group": "G",
+      "home_team": "Belgium",
+      "key": "gg-belgium-v-egypt",
+      "kickoff_utc": "2026-06-15T19:00:00+00:00",
+      "local_time": "2026-06-15 12:00 UTC-7",
+      "match_id": "gg-037",
+      "match_number": 37,
+      "result": [
+        1,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Seattle"
+    },
+    {
+      "away_team": "New Zealand",
+      "group": "G",
+      "home_team": "Iran",
+      "key": "gg-iran-v-new-zealand",
+      "kickoff_utc": "2026-06-16T01:00:00+00:00",
+      "local_time": "2026-06-15 18:00 UTC-7",
+      "match_id": "gg-038",
+      "match_number": 38,
+      "result": [
+        2,
+        2
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Los Angeles (Inglewood)"
+    },
+    {
+      "away_team": "Iran",
+      "group": "G",
+      "home_team": "Belgium",
+      "key": "gg-belgium-v-iran",
+      "kickoff_utc": "2026-06-21T19:00:00+00:00",
+      "local_time": "2026-06-21 12:00 UTC-7",
+      "match_id": "gg-039",
+      "match_number": 39,
+      "result": [
+        0,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Los Angeles (Inglewood)"
+    },
+    {
+      "away_team": "Egypt",
+      "group": "G",
+      "home_team": "New Zealand",
+      "key": "gg-new-zealand-v-egypt",
+      "kickoff_utc": "2026-06-22T01:00:00+00:00",
+      "local_time": "2026-06-21 18:00 UTC-7",
+      "match_id": "gg-040",
+      "match_number": 40,
+      "result": [
+        1,
+        3
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Vancouver"
+    },
+    {
+      "away_team": "Iran",
+      "group": "G",
+      "home_team": "Egypt",
+      "key": "gg-egypt-v-iran",
+      "kickoff_utc": "2026-06-27T03:00:00+00:00",
+      "local_time": "2026-06-26 20:00 UTC-7",
+      "match_id": "gg-041",
+      "match_number": 41,
+      "result": [
+        1,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Seattle"
+    },
+    {
+      "away_team": "Belgium",
+      "group": "G",
+      "home_team": "New Zealand",
+      "key": "gg-new-zealand-v-belgium",
+      "kickoff_utc": "2026-06-27T03:00:00+00:00",
+      "local_time": "2026-06-26 20:00 UTC-7",
+      "match_id": "gg-042",
+      "match_number": 42,
+      "result": [
+        1,
+        5
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Vancouver"
+    },
+    {
+      "away_team": "Cape Verde",
+      "group": "H",
+      "home_team": "Spain",
+      "key": "gh-spain-v-cape-verde",
+      "kickoff_utc": "2026-06-15T16:00:00+00:00",
+      "local_time": "2026-06-15 12:00 UTC-4",
+      "match_id": "gh-043",
+      "match_number": 43,
+      "result": [
+        0,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Atlanta"
+    },
+    {
+      "away_team": "Uruguay",
+      "group": "H",
+      "home_team": "Saudi Arabia",
+      "key": "gh-saudi-arabia-v-uruguay",
+      "kickoff_utc": "2026-06-15T22:00:00+00:00",
+      "local_time": "2026-06-15 18:00 UTC-4",
+      "match_id": "gh-044",
+      "match_number": 44,
+      "result": [
+        1,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Miami (Miami Gardens)"
+    },
+    {
+      "away_team": "Saudi Arabia",
+      "group": "H",
+      "home_team": "Spain",
+      "key": "gh-spain-v-saudi-arabia",
+      "kickoff_utc": "2026-06-21T16:00:00+00:00",
+      "local_time": "2026-06-21 12:00 UTC-4",
+      "match_id": "gh-045",
+      "match_number": 45,
+      "result": [
+        4,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Atlanta"
+    },
+    {
+      "away_team": "Cape Verde",
+      "group": "H",
+      "home_team": "Uruguay",
+      "key": "gh-uruguay-v-cape-verde",
+      "kickoff_utc": "2026-06-21T22:00:00+00:00",
+      "local_time": "2026-06-21 18:00 UTC-4",
+      "match_id": "gh-046",
+      "match_number": 46,
+      "result": [
+        2,
+        2
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Miami (Miami Gardens)"
+    },
+    {
+      "away_team": "Saudi Arabia",
+      "group": "H",
+      "home_team": "Cape Verde",
+      "key": "gh-cape-verde-v-saudi-arabia",
+      "kickoff_utc": "2026-06-27T00:00:00+00:00",
+      "local_time": "2026-06-26 19:00 UTC-5",
+      "match_id": "gh-047",
+      "match_number": 47,
+      "result": [
+        0,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Houston"
+    },
+    {
+      "away_team": "Spain",
+      "group": "H",
+      "home_team": "Uruguay",
+      "key": "gh-uruguay-v-spain",
+      "kickoff_utc": "2026-06-27T00:00:00+00:00",
+      "local_time": "2026-06-26 18:00 UTC-6",
+      "match_id": "gh-048",
+      "match_number": 48,
+      "result": [
+        0,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Guadalajara (Zapopan)"
+    },
+    {
+      "away_team": "Senegal",
+      "group": "I",
+      "home_team": "France",
+      "key": "gi-france-v-senegal",
+      "kickoff_utc": "2026-06-16T19:00:00+00:00",
+      "local_time": "2026-06-16 15:00 UTC-4",
+      "match_id": "gi-049",
+      "match_number": 49,
+      "result": [
+        3,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "New York/New Jersey (East Rutherford)"
+    },
+    {
+      "away_team": "Norway",
+      "group": "I",
+      "home_team": "Iraq",
+      "key": "gi-iraq-v-norway",
+      "kickoff_utc": "2026-06-16T22:00:00+00:00",
+      "local_time": "2026-06-16 18:00 UTC-4",
+      "match_id": "gi-050",
+      "match_number": 50,
+      "result": [
+        1,
+        4
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Boston (Foxborough)"
+    },
+    {
+      "away_team": "Iraq",
+      "group": "I",
+      "home_team": "France",
+      "key": "gi-france-v-iraq",
+      "kickoff_utc": "2026-06-22T21:00:00+00:00",
+      "local_time": "2026-06-22 17:00 UTC-4",
+      "match_id": "gi-051",
+      "match_number": 51,
+      "result": [
+        3,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Philadelphia"
+    },
+    {
+      "away_team": "Senegal",
+      "group": "I",
+      "home_team": "Norway",
+      "key": "gi-norway-v-senegal",
+      "kickoff_utc": "2026-06-23T00:00:00+00:00",
+      "local_time": "2026-06-22 20:00 UTC-4",
+      "match_id": "gi-052",
+      "match_number": 52,
+      "result": [
+        3,
+        2
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "New York/New Jersey (East Rutherford)"
+    },
+    {
+      "away_team": "France",
+      "group": "I",
+      "home_team": "Norway",
+      "key": "gi-norway-v-france",
+      "kickoff_utc": "2026-06-26T19:00:00+00:00",
+      "local_time": "2026-06-26 15:00 UTC-4",
+      "match_id": "gi-053",
+      "match_number": 53,
+      "result": [
+        1,
+        4
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Boston (Foxborough)"
+    },
+    {
+      "away_team": "Iraq",
+      "group": "I",
+      "home_team": "Senegal",
+      "key": "gi-senegal-v-iraq",
+      "kickoff_utc": "2026-06-26T19:00:00+00:00",
+      "local_time": "2026-06-26 15:00 UTC-4",
+      "match_id": "gi-054",
+      "match_number": 54,
+      "result": [
+        5,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Toronto"
+    },
+    {
+      "away_team": "Algeria",
+      "group": "J",
+      "home_team": "Argentina",
+      "key": "gj-argentina-v-algeria",
+      "kickoff_utc": "2026-06-17T01:00:00+00:00",
+      "local_time": "2026-06-16 20:00 UTC-5",
+      "match_id": "gj-055",
+      "match_number": 55,
+      "result": [
+        3,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Kansas City"
+    },
+    {
+      "away_team": "Jordan",
+      "group": "J",
+      "home_team": "Austria",
+      "key": "gj-austria-v-jordan",
+      "kickoff_utc": "2026-06-17T04:00:00+00:00",
+      "local_time": "2026-06-16 21:00 UTC-7",
+      "match_id": "gj-056",
+      "match_number": 56,
+      "result": [
+        3,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "San Francisco Bay Area (Santa Clara)"
+    },
+    {
+      "away_team": "Austria",
+      "group": "J",
+      "home_team": "Argentina",
+      "key": "gj-argentina-v-austria",
+      "kickoff_utc": "2026-06-22T17:00:00+00:00",
+      "local_time": "2026-06-22 12:00 UTC-5",
+      "match_id": "gj-057",
+      "match_number": 57,
+      "result": [
+        2,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Dallas (Arlington)"
+    },
+    {
+      "away_team": "Algeria",
+      "group": "J",
+      "home_team": "Jordan",
+      "key": "gj-jordan-v-algeria",
+      "kickoff_utc": "2026-06-23T03:00:00+00:00",
+      "local_time": "2026-06-22 20:00 UTC-7",
+      "match_id": "gj-058",
+      "match_number": 58,
+      "result": [
+        1,
+        2
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "San Francisco Bay Area (Santa Clara)"
+    },
+    {
+      "away_team": "Austria",
+      "group": "J",
+      "home_team": "Algeria",
+      "key": "gj-algeria-v-austria",
+      "kickoff_utc": "2026-06-28T02:00:00+00:00",
+      "local_time": "2026-06-27 21:00 UTC-5",
+      "match_id": "gj-059",
+      "match_number": 59,
+      "result": [
+        3,
+        3
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Kansas City"
+    },
+    {
+      "away_team": "Argentina",
+      "group": "J",
+      "home_team": "Jordan",
+      "key": "gj-jordan-v-argentina",
+      "kickoff_utc": "2026-06-28T02:00:00+00:00",
+      "local_time": "2026-06-27 21:00 UTC-5",
+      "match_id": "gj-060",
+      "match_number": 60,
+      "result": [
+        1,
+        3
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Dallas (Arlington)"
+    },
+    {
+      "away_team": "DR Congo",
+      "group": "K",
+      "home_team": "Portugal",
+      "key": "gk-portugal-v-dr-congo",
+      "kickoff_utc": "2026-06-17T17:00:00+00:00",
+      "local_time": "2026-06-17 12:00 UTC-5",
+      "match_id": "gk-061",
+      "match_number": 61,
+      "result": [
+        1,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Houston"
+    },
+    {
+      "away_team": "Colombia",
+      "group": "K",
+      "home_team": "Uzbekistan",
+      "key": "gk-uzbekistan-v-colombia",
+      "kickoff_utc": "2026-06-18T02:00:00+00:00",
+      "local_time": "2026-06-17 20:00 UTC-6",
+      "match_id": "gk-062",
+      "match_number": 62,
+      "result": [
+        1,
+        3
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Mexico City"
+    },
+    {
+      "away_team": "Uzbekistan",
+      "group": "K",
+      "home_team": "Portugal",
+      "key": "gk-portugal-v-uzbekistan",
+      "kickoff_utc": "2026-06-23T17:00:00+00:00",
+      "local_time": "2026-06-23 12:00 UTC-5",
+      "match_id": "gk-063",
+      "match_number": 63,
+      "result": [
+        5,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Houston"
+    },
+    {
+      "away_team": "DR Congo",
+      "group": "K",
+      "home_team": "Colombia",
+      "key": "gk-colombia-v-dr-congo",
+      "kickoff_utc": "2026-06-24T02:00:00+00:00",
+      "local_time": "2026-06-23 20:00 UTC-6",
+      "match_id": "gk-064",
+      "match_number": 64,
+      "result": [
+        1,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Guadalajara (Zapopan)"
+    },
+    {
+      "away_team": "Portugal",
+      "group": "K",
+      "home_team": "Colombia",
+      "key": "gk-colombia-v-portugal",
+      "kickoff_utc": "2026-06-27T23:30:00+00:00",
+      "local_time": "2026-06-27 19:30 UTC-4",
+      "match_id": "gk-065",
+      "match_number": 65,
+      "result": [
+        0,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Miami (Miami Gardens)"
+    },
+    {
+      "away_team": "Uzbekistan",
+      "group": "K",
+      "home_team": "DR Congo",
+      "key": "gk-dr-congo-v-uzbekistan",
+      "kickoff_utc": "2026-06-27T23:30:00+00:00",
+      "local_time": "2026-06-27 19:30 UTC-4",
+      "match_id": "gk-066",
+      "match_number": 66,
+      "result": [
+        3,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Atlanta"
+    },
+    {
+      "away_team": "Croatia",
+      "group": "L",
+      "home_team": "England",
+      "key": "gl-england-v-croatia",
+      "kickoff_utc": "2026-06-17T20:00:00+00:00",
+      "local_time": "2026-06-17 15:00 UTC-5",
+      "match_id": "gl-067",
+      "match_number": 67,
+      "result": [
+        4,
+        2
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Dallas (Arlington)"
+    },
+    {
+      "away_team": "Panama",
+      "group": "L",
+      "home_team": "Ghana",
+      "key": "gl-ghana-v-panama",
+      "kickoff_utc": "2026-06-17T23:00:00+00:00",
+      "local_time": "2026-06-17 19:00 UTC-4",
+      "match_id": "gl-068",
+      "match_number": 68,
+      "result": [
+        1,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Toronto"
+    },
+    {
+      "away_team": "Ghana",
+      "group": "L",
+      "home_team": "England",
+      "key": "gl-england-v-ghana",
+      "kickoff_utc": "2026-06-23T20:00:00+00:00",
+      "local_time": "2026-06-23 16:00 UTC-4",
+      "match_id": "gl-069",
+      "match_number": 69,
+      "result": [
+        0,
+        0
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Boston (Foxborough)"
+    },
+    {
+      "away_team": "Croatia",
+      "group": "L",
+      "home_team": "Panama",
+      "key": "gl-panama-v-croatia",
+      "kickoff_utc": "2026-06-23T23:00:00+00:00",
+      "local_time": "2026-06-23 19:00 UTC-4",
+      "match_id": "gl-070",
+      "match_number": 70,
+      "result": [
+        0,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Toronto"
+    },
+    {
+      "away_team": "England",
+      "group": "L",
+      "home_team": "Panama",
+      "key": "gl-panama-v-england",
+      "kickoff_utc": "2026-06-27T21:00:00+00:00",
+      "local_time": "2026-06-27 17:00 UTC-4",
+      "match_id": "gl-071",
+      "match_number": 71,
+      "result": [
+        0,
+        2
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "New York/New Jersey (East Rutherford)"
+    },
+    {
+      "away_team": "Ghana",
+      "group": "L",
+      "home_team": "Croatia",
+      "key": "gl-croatia-v-ghana",
+      "kickoff_utc": "2026-06-27T21:00:00+00:00",
+      "local_time": "2026-06-27 17:00 UTC-4",
+      "match_id": "gl-072",
+      "match_number": 72,
+      "result": [
+        2,
+        1
+      ],
+      "stage": "group",
+      "status": "played",
+      "venue": "Philadelphia"
+    },
+    {
+      "away_slot": "2B",
+      "away_team": "Canada",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "2A",
+      "home_team": "South Africa",
+      "key": "ko-073",
+      "kickoff_utc": "2026-06-28T19:00:00+00:00",
+      "local_time": "2026-06-28 12:00 UTC-7",
+      "match_id": "ko-073",
+      "match_number": 73,
+      "pending_slots": [],
+      "result": [
+        0,
+        1
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Los Angeles (Inglewood)"
+    },
+    {
+      "away_slot": "3D",
+      "away_team": "Paraguay",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "1E",
+      "home_team": "Germany",
+      "key": "ko-074",
+      "kickoff_utc": "2026-06-29T20:30:00+00:00",
+      "local_time": "2026-06-29 16:30 UTC-4",
+      "match_id": "ko-074",
+      "match_number": 74,
+      "penalty_winner": "away",
+      "pending_slots": [],
+      "result": [
+        1,
+        1
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Boston (Foxborough)"
+    },
+    {
+      "away_slot": "2C",
+      "away_team": "Morocco",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "1F",
+      "home_team": "Netherlands",
+      "key": "ko-075",
+      "kickoff_utc": "2026-06-30T01:00:00+00:00",
+      "local_time": "2026-06-29 19:00 UTC-6",
+      "match_id": "ko-075",
+      "match_number": 75,
+      "penalty_winner": "away",
+      "pending_slots": [],
+      "result": [
+        1,
+        1
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Monterrey (Guadalupe)"
+    },
+    {
+      "away_slot": "2F",
+      "away_team": "Japan",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "1C",
+      "home_team": "Brazil",
+      "key": "ko-076",
+      "kickoff_utc": "2026-06-29T17:00:00+00:00",
+      "local_time": "2026-06-29 12:00 UTC-5",
+      "match_id": "ko-076",
+      "match_number": 76,
+      "pending_slots": [],
+      "result": [
+        2,
+        1
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Houston"
+    },
+    {
+      "away_slot": "3F",
+      "away_team": "Sweden",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "1I",
+      "home_team": "France",
+      "key": "ko-077",
+      "kickoff_utc": "2026-06-30T21:00:00+00:00",
+      "local_time": "2026-06-30 17:00 UTC-4",
+      "match_id": "ko-077",
+      "match_number": 77,
+      "pending_slots": [],
+      "result": [
+        3,
+        0
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "New York/New Jersey (East Rutherford)"
+    },
+    {
+      "away_slot": "2I",
+      "away_team": "Norway",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "2E",
+      "home_team": "Ivory Coast",
+      "key": "ko-078",
+      "kickoff_utc": "2026-06-30T17:00:00+00:00",
+      "local_time": "2026-06-30 12:00 UTC-5",
+      "match_id": "ko-078",
+      "match_number": 78,
+      "pending_slots": [],
+      "result": [
+        1,
+        2
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Dallas (Arlington)"
+    },
+    {
+      "away_slot": "3E",
+      "away_team": "Ecuador",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "1A",
+      "home_team": "Mexico",
+      "key": "ko-079",
+      "kickoff_utc": "2026-07-01T01:00:00+00:00",
+      "local_time": "2026-06-30 19:00 UTC-6",
+      "match_id": "ko-079",
+      "match_number": 79,
+      "pending_slots": [],
+      "result": [
+        2,
+        0
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Mexico City"
+    },
+    {
+      "away_slot": "3K",
+      "away_team": "DR Congo",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "1L",
+      "home_team": "England",
+      "key": "ko-080",
+      "kickoff_utc": "2026-07-01T16:00:00+00:00",
+      "local_time": "2026-07-01 12:00 UTC-4",
+      "match_id": "ko-080",
+      "match_number": 80,
+      "pending_slots": [],
+      "result": [
+        2,
+        1
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Atlanta"
+    },
+    {
+      "away_slot": "3B",
+      "away_team": "Bosnia & Herzegovina",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "1D",
+      "home_team": "USA",
+      "key": "ko-081",
+      "kickoff_utc": "2026-07-02T00:00:00+00:00",
+      "local_time": "2026-07-01 17:00 UTC-7",
+      "match_id": "ko-081",
+      "match_number": 81,
+      "pending_slots": [],
+      "result": [
+        2,
+        0
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "San Francisco Bay Area (Santa Clara)"
+    },
+    {
+      "away_slot": "3I",
+      "away_team": "Senegal",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "1G",
+      "home_team": "Belgium",
+      "key": "ko-082",
+      "kickoff_utc": "2026-07-01T20:00:00+00:00",
+      "local_time": "2026-07-01 13:00 UTC-7",
+      "match_id": "ko-082",
+      "match_number": 82,
+      "pending_slots": [],
+      "result": [
+        3,
+        2
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Seattle"
+    },
+    {
+      "away_slot": "2L",
+      "away_team": "Croatia",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "2K",
+      "home_team": "Portugal",
+      "key": "ko-083",
+      "kickoff_utc": "2026-07-02T23:00:00+00:00",
+      "local_time": "2026-07-02 19:00 UTC-4",
+      "match_id": "ko-083",
+      "match_number": 83,
+      "pending_slots": [],
+      "result": [
+        2,
+        1
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Toronto"
+    },
+    {
+      "away_slot": "2J",
+      "away_team": "Austria",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "1H",
+      "home_team": "Spain",
+      "key": "ko-084",
+      "kickoff_utc": "2026-07-02T19:00:00+00:00",
+      "local_time": "2026-07-02 12:00 UTC-7",
+      "match_id": "ko-084",
+      "match_number": 84,
+      "pending_slots": [],
+      "result": [
+        3,
+        0
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Los Angeles (Inglewood)"
+    },
+    {
+      "away_slot": "3J",
+      "away_team": "Algeria",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "1B",
+      "home_team": "Switzerland",
+      "key": "ko-085",
+      "kickoff_utc": "2026-07-03T03:00:00+00:00",
+      "local_time": "2026-07-02 20:00 UTC-7",
+      "match_id": "ko-085",
+      "match_number": 85,
+      "pending_slots": [],
+      "result": [
+        2,
+        0
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Vancouver"
+    },
+    {
+      "away_slot": "2H",
+      "away_team": "Cape Verde",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "1J",
+      "home_team": "Argentina",
+      "key": "ko-086",
+      "kickoff_utc": "2026-07-03T22:00:00+00:00",
+      "local_time": "2026-07-03 18:00 UTC-4",
+      "match_id": "ko-086",
+      "match_number": 86,
+      "pending_slots": [],
+      "result": [
+        3,
+        2
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Miami (Miami Gardens)"
+    },
+    {
+      "away_slot": "3L",
+      "away_team": "Ghana",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "1K",
+      "home_team": "Colombia",
+      "key": "ko-087",
+      "kickoff_utc": "2026-07-04T01:30:00+00:00",
+      "local_time": "2026-07-03 20:30 UTC-5",
+      "match_id": "ko-087",
+      "match_number": 87,
+      "pending_slots": [],
+      "result": [
+        1,
+        0
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Kansas City"
+    },
+    {
+      "away_slot": "2G",
+      "away_team": "Egypt",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "2D",
+      "home_team": "Australia",
+      "key": "ko-088",
+      "kickoff_utc": "2026-07-03T18:00:00+00:00",
+      "local_time": "2026-07-03 13:00 UTC-5",
+      "match_id": "ko-088",
+      "match_number": 88,
+      "penalty_winner": "away",
+      "pending_slots": [],
+      "result": [
+        1,
+        1
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_32",
+      "status": "played",
+      "venue": "Dallas (Arlington)"
+    },
+    {
+      "away_slot": "W77",
+      "away_team": "France",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W74",
+      "home_team": "Paraguay",
+      "key": "ko-089",
+      "kickoff_utc": "2026-07-04T21:00:00+00:00",
+      "local_time": "2026-07-04 17:00 UTC-4",
+      "match_id": "ko-089",
+      "match_number": 89,
+      "pending_slots": [],
+      "result": [
+        0,
+        1
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_16",
+      "status": "played",
+      "venue": "Philadelphia"
+    },
+    {
+      "away_slot": "W75",
+      "away_team": "Morocco",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W73",
+      "home_team": "Canada",
+      "key": "ko-090",
+      "kickoff_utc": "2026-07-04T17:00:00+00:00",
+      "local_time": "2026-07-04 12:00 UTC-5",
+      "match_id": "ko-090",
+      "match_number": 90,
+      "pending_slots": [],
+      "result": [
+        0,
+        3
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_16",
+      "status": "played",
+      "venue": "Houston"
+    },
+    {
+      "away_slot": "W78",
+      "away_team": "Norway",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W76",
+      "home_team": "Brazil",
+      "key": "ko-091",
+      "kickoff_utc": "2026-07-05T20:00:00+00:00",
+      "local_time": "2026-07-05 16:00 UTC-4",
+      "match_id": "ko-091",
+      "match_number": 91,
+      "pending_slots": [],
+      "result": [
+        1,
+        2
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_16",
+      "status": "played",
+      "venue": "New York/New Jersey (East Rutherford)"
+    },
+    {
+      "away_slot": "W80",
+      "away_team": "England",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W79",
+      "home_team": "Mexico",
+      "key": "ko-092",
+      "kickoff_utc": "2026-07-06T00:00:00+00:00",
+      "local_time": "2026-07-05 18:00 UTC-6",
+      "match_id": "ko-092",
+      "match_number": 92,
+      "pending_slots": [],
+      "result": [
+        2,
+        3
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_16",
+      "status": "played",
+      "venue": "Mexico City"
+    },
+    {
+      "away_slot": "W84",
+      "away_team": "Spain",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W83",
+      "home_team": "Portugal",
+      "key": "ko-093",
+      "kickoff_utc": "2026-07-06T19:00:00+00:00",
+      "local_time": "2026-07-06 14:00 UTC-5",
+      "match_id": "ko-093",
+      "match_number": 93,
+      "pending_slots": [],
+      "result": [
+        0,
+        1
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_16",
+      "status": "played",
+      "venue": "Dallas (Arlington)"
+    },
+    {
+      "away_slot": "W82",
+      "away_team": "Belgium",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W81",
+      "home_team": "USA",
+      "key": "ko-094",
+      "kickoff_utc": "2026-07-07T00:00:00+00:00",
+      "local_time": "2026-07-06 17:00 UTC-7",
+      "match_id": "ko-094",
+      "match_number": 94,
+      "pending_slots": [],
+      "result": [
+        1,
+        4
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_16",
+      "status": "played",
+      "venue": "Seattle"
+    },
+    {
+      "away_slot": "W88",
+      "away_team": "Egypt",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W86",
+      "home_team": "Argentina",
+      "key": "ko-095",
+      "kickoff_utc": "2026-07-07T16:00:00+00:00",
+      "local_time": "2026-07-07 12:00 UTC-4",
+      "match_id": "ko-095",
+      "match_number": 95,
+      "pending_slots": [],
+      "result": [
+        3,
+        2
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_16",
+      "status": "played",
+      "venue": "Atlanta"
+    },
+    {
+      "away_slot": "W87",
+      "away_team": "Colombia",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W85",
+      "home_team": "Switzerland",
+      "key": "ko-096",
+      "kickoff_utc": "2026-07-07T20:00:00+00:00",
+      "local_time": "2026-07-07 13:00 UTC-7",
+      "match_id": "ko-096",
+      "match_number": 96,
+      "penalty_winner": "home",
+      "pending_slots": [],
+      "result": [
+        0,
+        0
+      ],
+      "source": "fifa_bracket",
+      "stage": "round_of_16",
+      "status": "played",
+      "venue": "Vancouver"
+    },
+    {
+      "away_slot": "W90",
+      "away_team": "Morocco",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W89",
+      "home_team": "France",
+      "key": "ko-097",
+      "kickoff_utc": "2026-07-09T20:00:00+00:00",
+      "local_time": "2026-07-09 16:00 UTC-4",
+      "match_id": "ko-097",
+      "match_number": 97,
+      "pending_slots": [],
+      "result": [
+        2,
+        0
+      ],
+      "source": "fifa_bracket",
+      "stage": "quarter",
+      "status": "played",
+      "venue": "Boston (Foxborough)"
+    },
+    {
+      "away_slot": "W94",
+      "away_team": "Belgium",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W93",
+      "home_team": "Spain",
+      "key": "ko-098",
+      "kickoff_utc": "2026-07-10T19:00:00+00:00",
+      "local_time": "2026-07-10 12:00 UTC-7",
+      "match_id": "ko-098",
+      "match_number": 98,
+      "pending_slots": [],
+      "result": [
+        2,
+        1
+      ],
+      "source": "fifa_bracket",
+      "stage": "quarter",
+      "status": "played",
+      "venue": "Los Angeles (Inglewood)"
+    },
+    {
+      "away_slot": "W92",
+      "away_team": "England",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W91",
+      "home_team": "Norway",
+      "key": "ko-099",
+      "kickoff_utc": "2026-07-11T21:00:00+00:00",
+      "local_time": "2026-07-11 17:00 UTC-4",
+      "match_id": "ko-099",
+      "match_number": 99,
+      "pending_slots": [],
+      "result": [
+        1,
+        2
+      ],
+      "source": "fifa_bracket",
+      "stage": "quarter",
+      "status": "played",
+      "venue": "Miami (Miami Gardens)"
+    },
+    {
+      "away_slot": "W96",
+      "away_team": "Switzerland",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W95",
+      "home_team": "Argentina",
+      "key": "ko-100",
+      "kickoff_utc": "2026-07-12T01:00:00+00:00",
+      "local_time": "2026-07-11 20:00 UTC-5",
+      "match_id": "ko-100",
+      "match_number": 100,
+      "pending_slots": [],
+      "result": [
+        3,
+        1
+      ],
+      "source": "fifa_bracket",
+      "stage": "quarter",
+      "status": "played",
+      "venue": "Kansas City"
+    },
+    {
+      "away_slot": "W98",
+      "away_team": "Spain",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W97",
+      "home_team": "France",
+      "key": "ko-101",
+      "kickoff_utc": "2026-07-14T19:00:00+00:00",
+      "local_time": "2026-07-14 14:00 UTC-5",
+      "match_id": "ko-101",
+      "match_number": 101,
+      "pending_slots": [],
+      "result": [
+        0,
+        2
+      ],
+      "source": "fifa_bracket",
+      "stage": "semi",
+      "status": "played",
+      "venue": "Dallas (Arlington)"
+    },
+    {
+      "away_slot": "W100",
+      "away_team": "Argentina",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W99",
+      "home_team": "England",
+      "key": "ko-102",
+      "kickoff_utc": "2026-07-15T19:00:00+00:00",
+      "local_time": "2026-07-15 15:00 UTC-4",
+      "match_id": "ko-102",
+      "match_number": 102,
+      "pending_slots": [],
+      "result": [
+        1,
+        2
+      ],
+      "source": "fifa_bracket",
+      "stage": "semi",
+      "status": "played",
+      "venue": "Atlanta"
+    },
+    {
+      "away_slot": "L102",
+      "away_team": "England",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "L101",
+      "home_team": "France",
+      "key": "ko-103",
+      "kickoff_utc": "2026-07-18T21:00:00+00:00",
+      "local_time": "2026-07-18 17:00 UTC-4",
+      "match_id": "ko-103",
+      "match_number": 103,
+      "pending_slots": [],
+      "result": [
+        4,
+        6
+      ],
+      "source": "fifa_bracket",
+      "stage": "third_place",
+      "status": "played",
+      "venue": "Miami (Miami Gardens)"
+    },
+    {
+      "away_slot": "W102",
+      "away_team": "Argentina",
+      "group": null,
+      "has_pending_slot": false,
+      "home_slot": "W101",
+      "home_team": "Spain",
+      "key": "ko-104",
+      "kickoff_utc": "2026-07-19T19:00:00+00:00",
+      "local_time": "2026-07-19 15:00 UTC-4",
+      "match_id": "ko-104",
+      "match_number": 104,
+      "pending_slots": [],
+      "result": [
+        1,
+        0
+      ],
+      "source": "fifa_bracket",
+      "stage": "final",
+      "status": "played",
+      "venue": "New York/New Jersey (East Rutherford)"
+    }
+  ],
+  "groups": {
+    "A": [
+      "Mexico",
+      "South Africa",
+      "South Korea",
+      "Czech Republic"
+    ],
+    "B": [
+      "Canada",
+      "Bosnia & Herzegovina",
+      "Qatar",
+      "Switzerland"
+    ],
+    "C": [
+      "Brazil",
+      "Morocco",
+      "Haiti",
+      "Scotland"
+    ],
+    "D": [
+      "USA",
+      "Paraguay",
+      "Australia",
+      "Turkey"
+    ],
+    "E": [
+      "Germany",
+      "Curaçao",
+      "Ivory Coast",
+      "Ecuador"
+    ],
+    "F": [
+      "Netherlands",
+      "Japan",
+      "Sweden",
+      "Tunisia"
+    ],
+    "G": [
+      "Belgium",
+      "Egypt",
+      "Iran",
+      "New Zealand"
+    ],
+    "H": [
+      "Spain",
+      "Cape Verde",
+      "Saudi Arabia",
+      "Uruguay"
+    ],
+    "I": [
+      "France",
+      "Senegal",
+      "Iraq",
+      "Norway"
+    ],
+    "J": [
+      "Argentina",
+      "Algeria",
+      "Austria",
+      "Jordan"
+    ],
+    "K": [
+      "Portugal",
+      "DR Congo",
+      "Uzbekistan",
+      "Colombia"
+    ],
+    "L": [
+      "England",
+      "Croatia",
+      "Ghana",
+      "Panama"
+    ]
+  },
+  "knockout_status": {
+    "listed": [
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-06-28T19:00:00+00:00",
+        "match": "South Africa - Canada",
+        "match_id": "ko-073",
+        "match_number": 73,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-06-29T20:30:00+00:00",
+        "match": "Germany - Paraguay",
+        "match_id": "ko-074",
+        "match_number": 74,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-06-30T01:00:00+00:00",
+        "match": "Netherlands - Morocco",
+        "match_id": "ko-075",
+        "match_number": 75,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-06-29T17:00:00+00:00",
+        "match": "Brazil - Japan",
+        "match_id": "ko-076",
+        "match_number": 76,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-06-30T21:00:00+00:00",
+        "match": "France - Sweden",
+        "match_id": "ko-077",
+        "match_number": 77,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-06-30T17:00:00+00:00",
+        "match": "Ivory Coast - Norway",
+        "match_id": "ko-078",
+        "match_number": 78,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-01T01:00:00+00:00",
+        "match": "Mexico - Ecuador",
+        "match_id": "ko-079",
+        "match_number": 79,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-01T16:00:00+00:00",
+        "match": "England - DR Congo",
+        "match_id": "ko-080",
+        "match_number": 80,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-02T00:00:00+00:00",
+        "match": "USA - Bosnia & Herzegovina",
+        "match_id": "ko-081",
+        "match_number": 81,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-01T20:00:00+00:00",
+        "match": "Belgium - Senegal",
+        "match_id": "ko-082",
+        "match_number": 82,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-02T23:00:00+00:00",
+        "match": "Portugal - Croatia",
+        "match_id": "ko-083",
+        "match_number": 83,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-02T19:00:00+00:00",
+        "match": "Spain - Austria",
+        "match_id": "ko-084",
+        "match_number": 84,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-03T03:00:00+00:00",
+        "match": "Switzerland - Algeria",
+        "match_id": "ko-085",
+        "match_number": 85,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-03T22:00:00+00:00",
+        "match": "Argentina - Cape Verde",
+        "match_id": "ko-086",
+        "match_number": 86,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-04T01:30:00+00:00",
+        "match": "Colombia - Ghana",
+        "match_id": "ko-087",
+        "match_number": 87,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-03T18:00:00+00:00",
+        "match": "Australia - Egypt",
+        "match_id": "ko-088",
+        "match_number": 88,
+        "pending_slots": [],
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-04T21:00:00+00:00",
+        "match": "Paraguay - France",
+        "match_id": "ko-089",
+        "match_number": 89,
+        "pending_slots": [],
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-04T17:00:00+00:00",
+        "match": "Canada - Morocco",
+        "match_id": "ko-090",
+        "match_number": 90,
+        "pending_slots": [],
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-05T20:00:00+00:00",
+        "match": "Brazil - Norway",
+        "match_id": "ko-091",
+        "match_number": 91,
+        "pending_slots": [],
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-06T00:00:00+00:00",
+        "match": "Mexico - England",
+        "match_id": "ko-092",
+        "match_number": 92,
+        "pending_slots": [],
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-06T19:00:00+00:00",
+        "match": "Portugal - Spain",
+        "match_id": "ko-093",
+        "match_number": 93,
+        "pending_slots": [],
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-07T00:00:00+00:00",
+        "match": "USA - Belgium",
+        "match_id": "ko-094",
+        "match_number": 94,
+        "pending_slots": [],
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-07T16:00:00+00:00",
+        "match": "Argentina - Egypt",
+        "match_id": "ko-095",
+        "match_number": 95,
+        "pending_slots": [],
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-07T20:00:00+00:00",
+        "match": "Switzerland - Colombia",
+        "match_id": "ko-096",
+        "match_number": 96,
+        "pending_slots": [],
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-09T20:00:00+00:00",
+        "match": "France - Morocco",
+        "match_id": "ko-097",
+        "match_number": 97,
+        "pending_slots": [],
+        "stage": "quarter",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-10T19:00:00+00:00",
+        "match": "Spain - Belgium",
+        "match_id": "ko-098",
+        "match_number": 98,
+        "pending_slots": [],
+        "stage": "quarter",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-11T21:00:00+00:00",
+        "match": "Norway - England",
+        "match_id": "ko-099",
+        "match_number": 99,
+        "pending_slots": [],
+        "stage": "quarter",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-12T01:00:00+00:00",
+        "match": "Argentina - Switzerland",
+        "match_id": "ko-100",
+        "match_number": 100,
+        "pending_slots": [],
+        "stage": "quarter",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-14T19:00:00+00:00",
+        "match": "France - Spain",
+        "match_id": "ko-101",
+        "match_number": 101,
+        "pending_slots": [],
+        "stage": "semi",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-15T19:00:00+00:00",
+        "match": "England - Argentina",
+        "match_id": "ko-102",
+        "match_number": 102,
+        "pending_slots": [],
+        "stage": "semi",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-18T21:00:00+00:00",
+        "match": "France - England",
+        "match_id": "ko-103",
+        "match_number": 103,
+        "pending_slots": [],
+        "stage": "third_place",
+        "status": "played"
+      },
+      {
+        "has_pending_slot": false,
+        "kickoff_utc": "2026-07-19T19:00:00+00:00",
+        "match": "Spain - Argentina",
+        "match_id": "ko-104",
+        "match_number": 104,
+        "pending_slots": [],
+        "stage": "final",
+        "status": "played"
+      }
+    ],
+    "manual_slot_conflicts": [],
+    "manual_slots": [],
+    "pending": [],
+    "qualified_third_groups": "BDEFIJKL",
+    "resolved": [
+      {
+        "kickoff_utc": "2026-06-28T19:00:00+00:00",
+        "match": "South Africa - Canada",
+        "match_id": "ko-073",
+        "match_number": 73,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-06-29T20:30:00+00:00",
+        "match": "Germany - Paraguay",
+        "match_id": "ko-074",
+        "match_number": 74,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-06-30T01:00:00+00:00",
+        "match": "Netherlands - Morocco",
+        "match_id": "ko-075",
+        "match_number": 75,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-06-29T17:00:00+00:00",
+        "match": "Brazil - Japan",
+        "match_id": "ko-076",
+        "match_number": 76,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-06-30T21:00:00+00:00",
+        "match": "France - Sweden",
+        "match_id": "ko-077",
+        "match_number": 77,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-06-30T17:00:00+00:00",
+        "match": "Ivory Coast - Norway",
+        "match_id": "ko-078",
+        "match_number": 78,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-01T01:00:00+00:00",
+        "match": "Mexico - Ecuador",
+        "match_id": "ko-079",
+        "match_number": 79,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-01T16:00:00+00:00",
+        "match": "England - DR Congo",
+        "match_id": "ko-080",
+        "match_number": 80,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-02T00:00:00+00:00",
+        "match": "USA - Bosnia & Herzegovina",
+        "match_id": "ko-081",
+        "match_number": 81,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-01T20:00:00+00:00",
+        "match": "Belgium - Senegal",
+        "match_id": "ko-082",
+        "match_number": 82,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-02T23:00:00+00:00",
+        "match": "Portugal - Croatia",
+        "match_id": "ko-083",
+        "match_number": 83,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-02T19:00:00+00:00",
+        "match": "Spain - Austria",
+        "match_id": "ko-084",
+        "match_number": 84,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-03T03:00:00+00:00",
+        "match": "Switzerland - Algeria",
+        "match_id": "ko-085",
+        "match_number": 85,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-03T22:00:00+00:00",
+        "match": "Argentina - Cape Verde",
+        "match_id": "ko-086",
+        "match_number": 86,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-04T01:30:00+00:00",
+        "match": "Colombia - Ghana",
+        "match_id": "ko-087",
+        "match_number": 87,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-03T18:00:00+00:00",
+        "match": "Australia - Egypt",
+        "match_id": "ko-088",
+        "match_number": 88,
+        "stage": "round_of_32",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-04T21:00:00+00:00",
+        "match": "Paraguay - France",
+        "match_id": "ko-089",
+        "match_number": 89,
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-04T17:00:00+00:00",
+        "match": "Canada - Morocco",
+        "match_id": "ko-090",
+        "match_number": 90,
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-05T20:00:00+00:00",
+        "match": "Brazil - Norway",
+        "match_id": "ko-091",
+        "match_number": 91,
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-06T00:00:00+00:00",
+        "match": "Mexico - England",
+        "match_id": "ko-092",
+        "match_number": 92,
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-06T19:00:00+00:00",
+        "match": "Portugal - Spain",
+        "match_id": "ko-093",
+        "match_number": 93,
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-07T00:00:00+00:00",
+        "match": "USA - Belgium",
+        "match_id": "ko-094",
+        "match_number": 94,
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-07T16:00:00+00:00",
+        "match": "Argentina - Egypt",
+        "match_id": "ko-095",
+        "match_number": 95,
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-07T20:00:00+00:00",
+        "match": "Switzerland - Colombia",
+        "match_id": "ko-096",
+        "match_number": 96,
+        "stage": "round_of_16",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-09T20:00:00+00:00",
+        "match": "France - Morocco",
+        "match_id": "ko-097",
+        "match_number": 97,
+        "stage": "quarter",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-10T19:00:00+00:00",
+        "match": "Spain - Belgium",
+        "match_id": "ko-098",
+        "match_number": 98,
+        "stage": "quarter",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-11T21:00:00+00:00",
+        "match": "Norway - England",
+        "match_id": "ko-099",
+        "match_number": 99,
+        "stage": "quarter",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-12T01:00:00+00:00",
+        "match": "Argentina - Switzerland",
+        "match_id": "ko-100",
+        "match_number": 100,
+        "stage": "quarter",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-14T19:00:00+00:00",
+        "match": "France - Spain",
+        "match_id": "ko-101",
+        "match_number": 101,
+        "stage": "semi",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-15T19:00:00+00:00",
+        "match": "England - Argentina",
+        "match_id": "ko-102",
+        "match_number": 102,
+        "stage": "semi",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-18T21:00:00+00:00",
+        "match": "France - England",
+        "match_id": "ko-103",
+        "match_number": 103,
+        "stage": "third_place",
+        "status": "played"
+      },
+      {
+        "kickoff_utc": "2026-07-19T19:00:00+00:00",
+        "match": "Spain - Argentina",
+        "match_id": "ko-104",
+        "match_number": 104,
+        "stage": "final",
+        "status": "played"
+      }
+    ],
+    "standings": {
+      "complete_groups": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "open_groups": [],
+      "standings": {
+        "A": [
+          {
+            "draws": 0,
+            "ga": 0,
+            "gf": 6,
+            "group": "A",
+            "losses": 0,
+            "played": 3,
+            "points": 9,
+            "team": "Mexico",
+            "tiebreak_status": "decided",
+            "wins": 3
+          },
+          {
+            "draws": 1,
+            "ga": 3,
+            "gf": 2,
+            "group": "A",
+            "losses": 1,
+            "played": 3,
+            "points": 4,
+            "team": "South Africa",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 0,
+            "ga": 3,
+            "gf": 2,
+            "group": "A",
+            "losses": 2,
+            "played": 3,
+            "points": 3,
+            "team": "South Korea",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 1,
+            "ga": 6,
+            "gf": 2,
+            "group": "A",
+            "losses": 2,
+            "played": 3,
+            "points": 1,
+            "team": "Czech Republic",
+            "tiebreak_status": "decided",
+            "wins": 0
+          }
+        ],
+        "B": [
+          {
+            "draws": 1,
+            "ga": 3,
+            "gf": 7,
+            "group": "B",
+            "losses": 0,
+            "played": 3,
+            "points": 7,
+            "team": "Switzerland",
+            "tiebreak_status": "decided",
+            "wins": 2
+          },
+          {
+            "draws": 1,
+            "ga": 3,
+            "gf": 8,
+            "group": "B",
+            "losses": 1,
+            "played": 3,
+            "points": 4,
+            "team": "Canada",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 1,
+            "ga": 6,
+            "gf": 5,
+            "group": "B",
+            "losses": 1,
+            "played": 3,
+            "points": 4,
+            "team": "Bosnia & Herzegovina",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 1,
+            "ga": 10,
+            "gf": 2,
+            "group": "B",
+            "losses": 2,
+            "played": 3,
+            "points": 1,
+            "team": "Qatar",
+            "tiebreak_status": "decided",
+            "wins": 0
+          }
+        ],
+        "C": [
+          {
+            "draws": 1,
+            "ga": 1,
+            "gf": 7,
+            "group": "C",
+            "losses": 0,
+            "played": 3,
+            "points": 7,
+            "team": "Brazil",
+            "tiebreak_status": "decided",
+            "wins": 2
+          },
+          {
+            "draws": 1,
+            "ga": 3,
+            "gf": 6,
+            "group": "C",
+            "losses": 0,
+            "played": 3,
+            "points": 7,
+            "team": "Morocco",
+            "tiebreak_status": "decided",
+            "wins": 2
+          },
+          {
+            "draws": 0,
+            "ga": 4,
+            "gf": 1,
+            "group": "C",
+            "losses": 2,
+            "played": 3,
+            "points": 3,
+            "team": "Scotland",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 0,
+            "ga": 8,
+            "gf": 2,
+            "group": "C",
+            "losses": 3,
+            "played": 3,
+            "points": 0,
+            "team": "Haiti",
+            "tiebreak_status": "decided",
+            "wins": 0
+          }
+        ],
+        "D": [
+          {
+            "draws": 0,
+            "ga": 4,
+            "gf": 8,
+            "group": "D",
+            "losses": 1,
+            "played": 3,
+            "points": 6,
+            "team": "USA",
+            "tiebreak_status": "decided",
+            "wins": 2
+          },
+          {
+            "draws": 1,
+            "ga": 2,
+            "gf": 2,
+            "group": "D",
+            "losses": 1,
+            "played": 3,
+            "points": 4,
+            "team": "Australia",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 1,
+            "ga": 4,
+            "gf": 2,
+            "group": "D",
+            "losses": 1,
+            "played": 3,
+            "points": 4,
+            "team": "Paraguay",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 0,
+            "ga": 5,
+            "gf": 3,
+            "group": "D",
+            "losses": 2,
+            "played": 3,
+            "points": 3,
+            "team": "Turkey",
+            "tiebreak_status": "decided",
+            "wins": 1
+          }
+        ],
+        "E": [
+          {
+            "draws": 0,
+            "ga": 4,
+            "gf": 10,
+            "group": "E",
+            "losses": 1,
+            "played": 3,
+            "points": 6,
+            "team": "Germany",
+            "tiebreak_status": "decided",
+            "wins": 2
+          },
+          {
+            "draws": 0,
+            "ga": 2,
+            "gf": 4,
+            "group": "E",
+            "losses": 1,
+            "played": 3,
+            "points": 6,
+            "team": "Ivory Coast",
+            "tiebreak_status": "decided",
+            "wins": 2
+          },
+          {
+            "draws": 1,
+            "ga": 2,
+            "gf": 2,
+            "group": "E",
+            "losses": 1,
+            "played": 3,
+            "points": 4,
+            "team": "Ecuador",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 1,
+            "ga": 9,
+            "gf": 1,
+            "group": "E",
+            "losses": 2,
+            "played": 3,
+            "points": 1,
+            "team": "Curaçao",
+            "tiebreak_status": "decided",
+            "wins": 0
+          }
+        ],
+        "F": [
+          {
+            "draws": 1,
+            "ga": 4,
+            "gf": 10,
+            "group": "F",
+            "losses": 0,
+            "played": 3,
+            "points": 7,
+            "team": "Netherlands",
+            "tiebreak_status": "decided",
+            "wins": 2
+          },
+          {
+            "draws": 2,
+            "ga": 3,
+            "gf": 7,
+            "group": "F",
+            "losses": 0,
+            "played": 3,
+            "points": 5,
+            "team": "Japan",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 1,
+            "ga": 7,
+            "gf": 7,
+            "group": "F",
+            "losses": 1,
+            "played": 3,
+            "points": 4,
+            "team": "Sweden",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 0,
+            "ga": 12,
+            "gf": 2,
+            "group": "F",
+            "losses": 3,
+            "played": 3,
+            "points": 0,
+            "team": "Tunisia",
+            "tiebreak_status": "decided",
+            "wins": 0
+          }
+        ],
+        "G": [
+          {
+            "draws": 2,
+            "ga": 2,
+            "gf": 6,
+            "group": "G",
+            "losses": 0,
+            "played": 3,
+            "points": 5,
+            "team": "Belgium",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 2,
+            "ga": 3,
+            "gf": 5,
+            "group": "G",
+            "losses": 0,
+            "played": 3,
+            "points": 5,
+            "team": "Egypt",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 3,
+            "ga": 3,
+            "gf": 3,
+            "group": "G",
+            "losses": 0,
+            "played": 3,
+            "points": 3,
+            "team": "Iran",
+            "tiebreak_status": "decided",
+            "wins": 0
+          },
+          {
+            "draws": 1,
+            "ga": 10,
+            "gf": 4,
+            "group": "G",
+            "losses": 2,
+            "played": 3,
+            "points": 1,
+            "team": "New Zealand",
+            "tiebreak_status": "decided",
+            "wins": 0
+          }
+        ],
+        "H": [
+          {
+            "draws": 1,
+            "ga": 0,
+            "gf": 5,
+            "group": "H",
+            "losses": 0,
+            "played": 3,
+            "points": 7,
+            "team": "Spain",
+            "tiebreak_status": "decided",
+            "wins": 2
+          },
+          {
+            "draws": 3,
+            "ga": 2,
+            "gf": 2,
+            "group": "H",
+            "losses": 0,
+            "played": 3,
+            "points": 3,
+            "team": "Cape Verde",
+            "tiebreak_status": "decided",
+            "wins": 0
+          },
+          {
+            "draws": 2,
+            "ga": 4,
+            "gf": 3,
+            "group": "H",
+            "losses": 1,
+            "played": 3,
+            "points": 2,
+            "team": "Uruguay",
+            "tiebreak_status": "decided",
+            "wins": 0
+          },
+          {
+            "draws": 2,
+            "ga": 5,
+            "gf": 1,
+            "group": "H",
+            "losses": 1,
+            "played": 3,
+            "points": 2,
+            "team": "Saudi Arabia",
+            "tiebreak_status": "decided",
+            "wins": 0
+          }
+        ],
+        "I": [
+          {
+            "draws": 0,
+            "ga": 2,
+            "gf": 10,
+            "group": "I",
+            "losses": 0,
+            "played": 3,
+            "points": 9,
+            "team": "France",
+            "tiebreak_status": "decided",
+            "wins": 3
+          },
+          {
+            "draws": 0,
+            "ga": 7,
+            "gf": 8,
+            "group": "I",
+            "losses": 1,
+            "played": 3,
+            "points": 6,
+            "team": "Norway",
+            "tiebreak_status": "decided",
+            "wins": 2
+          },
+          {
+            "draws": 0,
+            "ga": 6,
+            "gf": 8,
+            "group": "I",
+            "losses": 2,
+            "played": 3,
+            "points": 3,
+            "team": "Senegal",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 0,
+            "ga": 12,
+            "gf": 1,
+            "group": "I",
+            "losses": 3,
+            "played": 3,
+            "points": 0,
+            "team": "Iraq",
+            "tiebreak_status": "decided",
+            "wins": 0
+          }
+        ],
+        "J": [
+          {
+            "draws": 0,
+            "ga": 1,
+            "gf": 8,
+            "group": "J",
+            "losses": 0,
+            "played": 3,
+            "points": 9,
+            "team": "Argentina",
+            "tiebreak_status": "decided",
+            "wins": 3
+          },
+          {
+            "draws": 1,
+            "ga": 6,
+            "gf": 6,
+            "group": "J",
+            "losses": 1,
+            "played": 3,
+            "points": 4,
+            "team": "Austria",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 1,
+            "ga": 7,
+            "gf": 5,
+            "group": "J",
+            "losses": 1,
+            "played": 3,
+            "points": 4,
+            "team": "Algeria",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 0,
+            "ga": 8,
+            "gf": 3,
+            "group": "J",
+            "losses": 3,
+            "played": 3,
+            "points": 0,
+            "team": "Jordan",
+            "tiebreak_status": "decided",
+            "wins": 0
+          }
+        ],
+        "K": [
+          {
+            "draws": 1,
+            "ga": 1,
+            "gf": 4,
+            "group": "K",
+            "losses": 0,
+            "played": 3,
+            "points": 7,
+            "team": "Colombia",
+            "tiebreak_status": "decided",
+            "wins": 2
+          },
+          {
+            "draws": 2,
+            "ga": 1,
+            "gf": 6,
+            "group": "K",
+            "losses": 0,
+            "played": 3,
+            "points": 5,
+            "team": "Portugal",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 1,
+            "ga": 3,
+            "gf": 4,
+            "group": "K",
+            "losses": 1,
+            "played": 3,
+            "points": 4,
+            "team": "DR Congo",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 0,
+            "ga": 11,
+            "gf": 2,
+            "group": "K",
+            "losses": 3,
+            "played": 3,
+            "points": 0,
+            "team": "Uzbekistan",
+            "tiebreak_status": "decided",
+            "wins": 0
+          }
+        ],
+        "L": [
+          {
+            "draws": 1,
+            "ga": 2,
+            "gf": 6,
+            "group": "L",
+            "losses": 0,
+            "played": 3,
+            "points": 7,
+            "team": "England",
+            "tiebreak_status": "decided",
+            "wins": 2
+          },
+          {
+            "draws": 0,
+            "ga": 5,
+            "gf": 5,
+            "group": "L",
+            "losses": 1,
+            "played": 3,
+            "points": 6,
+            "team": "Croatia",
+            "tiebreak_status": "decided",
+            "wins": 2
+          },
+          {
+            "draws": 1,
+            "ga": 2,
+            "gf": 2,
+            "group": "L",
+            "losses": 1,
+            "played": 3,
+            "points": 4,
+            "team": "Ghana",
+            "tiebreak_status": "decided",
+            "wins": 1
+          },
+          {
+            "draws": 0,
+            "ga": 4,
+            "gf": 0,
+            "group": "L",
+            "losses": 3,
+            "played": 3,
+            "points": 0,
+            "team": "Panama",
+            "tiebreak_status": "decided",
+            "wins": 0
+          }
+        ]
+      },
+      "unresolved_tiebreaks": []
+    }
+  },
+  "source": "local",
+  "updated_at": "2026-07-20T10:03:30.054805+00:00"
+}

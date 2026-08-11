@@ -1,0 +1,10 @@
+[project]
+name = "wm-2026-kicktipp"
+version = "0.1.1"
+description = "Kostenloses WM-2026-Kicktipp-Dashboard mit News-, Kontext-, Quoten- und Modell-Signalen."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.wm_tipps]
+data_dir = "data"
+exports_dir = "exports"

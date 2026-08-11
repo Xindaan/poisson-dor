@@ -1,0 +1,664 @@
+{
+  "_meta": {
+    "in_window": 1,
+    "league": "fifa.world",
+    "note": "Bestaetigte XIs headless aus ESPN; key_absences = Pool-Schluesselspieler nicht in der Startelf.",
+    "source": "espn_site_api",
+    "teams_written": 2,
+    "updated_at": "2026-07-18T20:44:31.374515+00:00"
+  },
+  "lineups": {
+    "Argentina": [
+      "Emiliano Martínez",
+      "Cristian Romero",
+      "Lisandro Martínez",
+      "Facundo Medina",
+      "Nahuel Molina",
+      "Thiago Almada",
+      "Enzo Fernández",
+      "Alexis Mac Allister",
+      "Rodrigo De Paul",
+      "Lionel Messi",
+      "Lautaro Martínez"
+    ],
+    "Australia": [
+      "Patrick Beach",
+      "Harry Souttar",
+      "Cameron Burgess",
+      "Alessandro Circati",
+      "Jordan Bos",
+      "Jacob Italiano",
+      "Paul Okon-Engstler",
+      "Aiden O'Neill",
+      "Nishan Velupillay",
+      "Mathew Leckie",
+      "Mohamed Toure"
+    ],
+    "Austria": [
+      "Alexander Schlager",
+      "Konrad Laimer",
+      "David Alaba",
+      "Kevin Danso",
+      "Stefan Posch",
+      "Marcel Sabitzer",
+      "Paul Wanner",
+      "Nicolas Seiwald",
+      "Romano Schmid",
+      "Xaver Schlager",
+      "Michael Gregoritsch"
+    ],
+    "Belgium": [
+      "Thibaut Courtois",
+      "Nathan Ngoy",
+      "Maxim De Cuyper",
+      "Brandon Mechele",
+      "Thomas Meunier",
+      "Alexis Saelemaekers",
+      "Nicolas Raskin",
+      "Youri Tielemans",
+      "Kevin De Bruyne",
+      "Leandro Trossard",
+      "Romelu Lukaku"
+    ],
+    "Bosnia & Herzegovina": [
+      "Nikola Vasilj",
+      "Arjan Malic",
+      "Sead Kolasinac",
+      "Stjepan Radeljic",
+      "Nikola Katic",
+      "Kerim Alajbegovic",
+      "Ivan Sunjic",
+      "Esmir Bajraktarevic",
+      "Ivan Basic",
+      "Edin Dzeko",
+      "Ermedin Demirovic"
+    ],
+    "Brazil": [
+      "Alisson Becker",
+      "Gabriel Magalhães",
+      "Marquinhos",
+      "Douglas Santos",
+      "Danilo",
+      "Casemiro",
+      "Lucas Paquetá",
+      "Bruno Guimarães",
+      "Matheus Cunha",
+      "Vinícius Júnior",
+      "Rayan"
+    ],
+    "Canada": [
+      "Maxime Crépeau",
+      "Luc de Fougerolles",
+      "Alistair Johnston",
+      "Derek Cornelius",
+      "Richie Laryea",
+      "Nathan Saliba",
+      "Mathieu Choinière",
+      "Tajon Buchanan",
+      "Ali Ahmed",
+      "Cyle Larin",
+      "Jonathan David"
+    ],
+    "Cape Verde": [
+      "Vozinha",
+      "Diney Borges",
+      "Pico Lopes",
+      "Kevin Pina",
+      "Sidny Lopes Cabral",
+      "Steven Moreira",
+      "Jamiro Monteiro",
+      "Telmo Arcanjo",
+      "Garry Rodrigues",
+      "Ryan Mendes",
+      "Gilson Benchimol"
+    ],
+    "Croatia": [
+      "Dominik Livakovic",
+      "Marin Pongracic",
+      "Josip Sutalo",
+      "Ivan Perisic",
+      "Josip Stanisic",
+      "Petar Sucic",
+      "Mateo Kovacic",
+      "Luka Modric",
+      "Ante Budimir",
+      "Martin Baturina",
+      "Nikola Vlasic"
+    ],
+    "Curaçao": [
+      "Eloy Room",
+      "Armando Obispo",
+      "Deveron Fonville",
+      "Juriën Gaari",
+      "Sherel Floranus",
+      "Joshua Brenet",
+      "Leandro Bacuna",
+      "Livano Comenencia",
+      "Juninho Bacuna",
+      "Tahith Chong",
+      "Jürgen Locadia"
+    ],
+    "Czech Republic": [
+      "Matej Kovár",
+      "Ladislav Krejcí",
+      "Tomás Holes",
+      "Robin Hranác",
+      "Vladimír Darida",
+      "Michal Sadílek",
+      "Vladimír Coufal",
+      "Lukás Cerv",
+      "Alexandr Sojka",
+      "Adam Hlozek",
+      "Patrik Schick"
+    ],
+    "Ecuador": [
+      "Hernán Galíndez",
+      "Willian Pacho",
+      "Joel Ordóñez",
+      "Piero Hincapié",
+      "Alan Franco",
+      "Pedro Vite",
+      "Moisés Caicedo",
+      "Nilson Angulo",
+      "John Yeboah",
+      "Enner Valencia",
+      "Gonzalo Plata"
+    ],
+    "Egypt": [
+      "Mostafa Shoubir",
+      "Hamdy Fathy",
+      "Yasser Ibrahim",
+      "Ahmed Fatouh",
+      "Mohamed Hany",
+      "Emam Ashour",
+      "Marawan Attia",
+      "Mohanad Lashin",
+      "Omar Marmoush",
+      "Mostafa Zico",
+      "Mohamed Salah"
+    ],
+    "England": [
+      "Dean Henderson",
+      "Jarell Quansah",
+      "Djed Spence",
+      "Marc Guéhi",
+      "Ezri Konsa",
+      "Morgan Rogers",
+      "Marcus Rashford",
+      "Eberechi Eze",
+      "Bukayo Saka",
+      "Declan Rice",
+      "Ivan Toney"
+    ],
+    "France": [
+      "Mike Maignan",
+      "Ibrahima Konaté",
+      "Maxence Lacroix",
+      "Malo Gusto",
+      "Theo Hernández",
+      "Michael Olise",
+      "Adrien Rabiot",
+      "Warren Zaïre-Emery",
+      "Désiré Doué",
+      "Rayan Cherki",
+      "Kylian Mbappé"
+    ],
+    "Germany": [
+      "Manuel Neuer",
+      "Jonathan Tah",
+      "Antonio Rüdiger",
+      "David Raum",
+      "Joshua Kimmich",
+      "Jamal Musiala",
+      "Aleksandar Pavlovic",
+      "Felix Nmecha",
+      "Kai Havertz",
+      "Florian Wirtz",
+      "Leroy Sané"
+    ],
+    "Ghana": [
+      "Benjamin Asare",
+      "Derrick Luckassen",
+      "Jonas Adjetey",
+      "Gideon Mensah",
+      "Marvin Senaya",
+      "Elisha Owusu",
+      "Kwasi Sibo",
+      "Thomas Partey",
+      "Jordan Ayew",
+      "Antoine Semenyo",
+      "Kamaldeen Sulemana"
+    ],
+    "Haiti": [
+      "Johny Placide",
+      "Hannes Delcroix",
+      "Ricardo Adé",
+      "Martin Expérience",
+      "Jean-Kévin Duverne",
+      "Jean-Ricner Bellegarde",
+      "Danley Jean Jacques",
+      "Ruben Providence",
+      "Josué Casimir",
+      "Lenny Joseph",
+      "Wilson Isidor"
+    ],
+    "Iran": [
+      "Alireza Beiranvand",
+      "Ehsan Hajsafi",
+      "Hossein Kanani",
+      "Ali Nemati",
+      "Shoja Khalilzadeh",
+      "Saleh Hardani",
+      "Saeid Ezatolahi",
+      "Mohammad Mohebbi",
+      "Saman Ghoddos",
+      "Ramin Rezaeian",
+      "Mehdi Taremi"
+    ],
+    "Iraq": [
+      "Ahmed Basil",
+      "Rebin Sulaka",
+      "Frans Putros",
+      "Merchas Doski",
+      "Akam Hashim",
+      "Ali Jasim",
+      "Ahmed Qasim",
+      "Zidane Iqbal",
+      "Amir Al-Ammari",
+      "Ibrahim Bayesh",
+      "Ali Al-Hamadi"
+    ],
+    "Ivory Coast": [
+      "Yahia Fofana",
+      "Ousmane Diomande",
+      "Odilon Kossounou",
+      "Christopher Operi",
+      "Guela Doué",
+      "Franck Kessié",
+      "Ibrahim Sangaré",
+      "Yan Diomande",
+      "Amad Diallo",
+      "Ange-Yoan Bonny",
+      "Nicolas Pépé"
+    ],
+    "Japan": [
+      "Zion Suzuki",
+      "Kou Itakura",
+      "Hiroki Ito",
+      "Ayumu Seko",
+      "Daichi Kamada",
+      "Ao Tanaka",
+      "Keito Nakamura",
+      "Yukinari Sugawara",
+      "Ayase Ueda",
+      "Daizen Maeda",
+      "Ritsu Doan"
+    ],
+    "Jordan": [
+      "Yazeed Abulaila",
+      "Ehsan Haddad",
+      "Yazan Al-Arab",
+      "Mohammad Abualnadi",
+      "Mohannad Abu Taha",
+      "Abdallah Nasib",
+      "Nizar Al-Rashdan",
+      "Odeh Fakhoury",
+      "Mousa Al-Tamari",
+      "Noor Al-Rawabdeh",
+      "Ali Olwan"
+    ],
+    "Morocco": [
+      "Yassine Bounou",
+      "Chadi Riad",
+      "Redouane Halhal",
+      "Anass Salah-Eddine",
+      "Achraf Hakimi",
+      "Ismael Saibari",
+      "Neil El Aynaoui",
+      "Sofyan Amrabat",
+      "Ayoub El Kaabi",
+      "Bilal El Khannouss",
+      "Brahim Díaz"
+    ],
+    "Netherlands": [
+      "Bart Verbruggen",
+      "Virgil van Dijk",
+      "Jan Paul van Hecke",
+      "Nathan Aké",
+      "Denzel Dumfries",
+      "Frenkie de Jong",
+      "Tijjani Reijnders",
+      "Ryan Gravenberch",
+      "Brian Brobbey",
+      "Cody Gakpo",
+      "Donyell Malen"
+    ],
+    "Norway": [
+      "Egil Selvik",
+      "Henrik Falchener",
+      "Fredrik André Bjørkan",
+      "Fredrik Aursnes",
+      "Leo Østigard",
+      "Andreas Schjelderup",
+      "Kristian Thorstvedt",
+      "Patrick Berg",
+      "Thelo Aasgaard",
+      "Oscar Bobb",
+      "Jørgen Strand Larsen"
+    ],
+    "Panama": [
+      "Orlando Mosquera",
+      "José Córdoba",
+      "Andrés Andrade",
+      "Fidel Escobar",
+      "Jorge Gutiérrez",
+      "Amir Murillo",
+      "Carlos Harvey",
+      "Édgar Yoel Bárcenas",
+      "José Luis Rodríguez",
+      "Cristian Martínez",
+      "Tomás Rodríguez"
+    ],
+    "Qatar": [
+      "Mahmoud Abunada",
+      "Issa Laye",
+      "Boualem Khoukhi",
+      "Pedro Miguel",
+      "Sultan Al-Brake",
+      "Ahmed Fathy",
+      "Jassem Gaber",
+      "Karim Boudiaf",
+      "Hassan Al-Haydos",
+      "Akram Afif",
+      "Edmílson Junior"
+    ],
+    "Saudi Arabia": [
+      "Mohammed Al-Owais",
+      "Ali Lajami",
+      "Hassan Al-Tambakti",
+      "Abdulelah Al-Amri",
+      "Moteb Al-Harbi",
+      "Saud Abdulhamid",
+      "Nasser Al-Dawsari",
+      "Abdullah Al-Khaibari",
+      "Salem Al-Dawsari",
+      "Musab Al-Juwayr",
+      "Feras Al-Brikan"
+    ],
+    "Scotland": [
+      "Angus Gunn",
+      "Scott McKenna",
+      "Jack Hendry",
+      "Andy Robertson",
+      "Nathan Patterson",
+      "Scott McTominay",
+      "Kenny McLean",
+      "Lewis Ferguson",
+      "Lawrence Shankland",
+      "John McGinn",
+      "Ben Gannon-Doak"
+    ],
+    "Senegal": [
+      "Mory Diaw",
+      "Moussa Niakhaté",
+      "Krépin Diatta",
+      "Abdoulaye Seck",
+      "Ismail Jakobs",
+      "Habib Diarra",
+      "Sadio Mané",
+      "Ibrahim Mbaye",
+      "Lamine Camara",
+      "Idrissa Gueye",
+      "Ismaïla Sarr"
+    ],
+    "South Africa": [
+      "Ronwen Williams",
+      "Aubrey Modiba",
+      "Khuliso Mudau",
+      "Mbekezeli Mbokazi",
+      "Ime Okon",
+      "Thalente Mbatha",
+      "Teboho Mokoena",
+      "Jayden Adams",
+      "Iqraam Rayners",
+      "Oswin Appollis",
+      "Thapelo Maseko"
+    ],
+    "Spain": [
+      "Unai Simón",
+      "Aymeric Laporte",
+      "Pau Cubarsí",
+      "Marc Cucurella",
+      "Pedro Porro",
+      "Rodri ",
+      "Pedri ",
+      "Dani Olmo",
+      "Mikel Oyarzabal",
+      "Álex Baena",
+      "Lamine Yamal"
+    ],
+    "Sweden": [
+      "Jacob Widell Zetterström",
+      "Isak Hien",
+      "Elliot Stroud",
+      "Gustaf Lagerbielke",
+      "Yasin Ayari",
+      "Victor Lindelöf",
+      "Gabriel Gudmundsson",
+      "Alexander Bernhardsson",
+      "Viktor Gyökeres",
+      "Alexander Isak",
+      "Anthony Elanga"
+    ],
+    "Switzerland": [
+      "Gregor Kobel",
+      "Nico Elvedi",
+      "Manuel Akanji",
+      "Ricardo Rodríguez",
+      "Luca Jaquez",
+      "Granit Xhaka",
+      "Remo Freuler",
+      "Djibril Sow",
+      "Rubén Vargas",
+      "Johan Manzambi",
+      "Breel Embolo"
+    ],
+    "Tunisia": [
+      "Aymen Dahmen",
+      "Ellyes Skhiri",
+      "Mohamed Amine Ben Hamida",
+      "Montassar Talbi",
+      "Ali Abdi",
+      "Yan Valery",
+      "Rani Khedira",
+      "Ismaël Gharbi",
+      "Hannibal Mejbri",
+      "Anis Slimane",
+      "Hazem Mastouri"
+    ],
+    "USA": [
+      "Matt Freese",
+      "Tim Ream",
+      "Chris Richards",
+      "Antonee Robinson",
+      "Alex Freeman",
+      "Tyler Adams",
+      "Malik Tillman",
+      "Weston McKennie",
+      "Folarin Balogun",
+      "Ricardo Pepi",
+      "Sergiño Dest"
+    ],
+    "Uruguay": [
+      "Fernando Muslera",
+      "Mathías Olivera",
+      "Sebastián Cáceres",
+      "Juan Manuel Sanabria",
+      "Guillermo Varela",
+      "Federico Valverde",
+      "Manuel Ugarte",
+      "Rodrigo Bentancur",
+      "Federico Viñas",
+      "Maxi Araújo",
+      "Agustín Cano"
+    ]
+  },
+  "lineups_meta": {
+    "Argentina": {
+      "captured_at": "2026-06-22T16:49:22.051014+00:00",
+      "kickoff_utc": "2026-06-22T17:00:00+00:00",
+      "match": "Argentina - Austria",
+      "match_id": "gj-057"
+    },
+    "Austria": {
+      "captured_at": "2026-06-22T16:49:22.051014+00:00",
+      "kickoff_utc": "2026-06-22T17:00:00+00:00",
+      "match": "Argentina - Austria",
+      "match_id": "gj-057"
+    },
+    "Bosnia & Herzegovina": {
+      "captured_at": "2026-06-24T18:17:12.336960+00:00",
+      "kickoff_utc": "2026-06-24T19:00:00+00:00",
+      "match": "Bosnia & Herzegovina - Qatar",
+      "match_id": "gb-012"
+    },
+    "Brazil": {
+      "captured_at": "2026-06-24T22:11:03.383244+00:00",
+      "kickoff_utc": "2026-06-24T22:00:00+00:00",
+      "match": "Scotland - Brazil",
+      "match_id": "gc-017"
+    },
+    "Canada": {
+      "captured_at": "2026-06-24T18:17:12.336960+00:00",
+      "kickoff_utc": "2026-06-24T19:00:00+00:00",
+      "match": "Switzerland - Canada",
+      "match_id": "gb-011"
+    },
+    "Croatia": {
+      "captured_at": "2026-06-27T20:44:54.925054+00:00",
+      "kickoff_utc": "2026-06-27T21:00:00+00:00",
+      "match": "Croatia - Ghana",
+      "match_id": "gl-072"
+    },
+    "Curaçao": {
+      "captured_at": "2026-06-25T20:05:33.570063+00:00",
+      "kickoff_utc": "2026-06-25T20:00:00+00:00",
+      "match": "Curaçao - Ivory Coast",
+      "match_id": "ge-029"
+    },
+    "Ecuador": {
+      "captured_at": "2026-06-25T20:05:33.570063+00:00",
+      "kickoff_utc": "2026-06-25T20:00:00+00:00",
+      "match": "Ecuador - Germany",
+      "match_id": "ge-030"
+    },
+    "England": {
+      "captured_at": "2026-07-18T20:44:31.374515+00:00",
+      "kickoff_utc": "2026-07-18T21:00:00+00:00",
+      "match": "France - England",
+      "match_id": "ko-103"
+    },
+    "France": {
+      "captured_at": "2026-07-18T20:44:31.374515+00:00",
+      "kickoff_utc": "2026-07-18T21:00:00+00:00",
+      "match": "France - England",
+      "match_id": "ko-103"
+    },
+    "Germany": {
+      "captured_at": "2026-06-25T20:05:33.570063+00:00",
+      "kickoff_utc": "2026-06-25T20:00:00+00:00",
+      "match": "Ecuador - Germany",
+      "match_id": "ge-030"
+    },
+    "Ghana": {
+      "captured_at": "2026-06-27T20:44:54.925054+00:00",
+      "kickoff_utc": "2026-06-27T21:00:00+00:00",
+      "match": "Croatia - Ghana",
+      "match_id": "gl-072"
+    },
+    "Haiti": {
+      "captured_at": "2026-06-24T22:11:03.383244+00:00",
+      "kickoff_utc": "2026-06-24T22:00:00+00:00",
+      "match": "Morocco - Haiti",
+      "match_id": "gc-018"
+    },
+    "Iraq": {
+      "captured_at": "2026-06-26T18:33:04.001467+00:00",
+      "kickoff_utc": "2026-06-26T19:00:00+00:00",
+      "match": "Senegal - Iraq",
+      "match_id": "gi-054"
+    },
+    "Ivory Coast": {
+      "captured_at": "2026-06-25T20:05:33.570063+00:00",
+      "kickoff_utc": "2026-06-25T20:00:00+00:00",
+      "match": "Curaçao - Ivory Coast",
+      "match_id": "ge-029"
+    },
+    "Japan": {
+      "captured_at": "2026-06-25T23:05:41.367612+00:00",
+      "kickoff_utc": "2026-06-25T23:00:00+00:00",
+      "match": "Japan - Sweden",
+      "match_id": "gf-035"
+    },
+    "Morocco": {
+      "captured_at": "2026-06-24T22:11:03.383244+00:00",
+      "kickoff_utc": "2026-06-24T22:00:00+00:00",
+      "match": "Morocco - Haiti",
+      "match_id": "gc-018"
+    },
+    "Netherlands": {
+      "captured_at": "2026-06-25T23:05:41.367612+00:00",
+      "kickoff_utc": "2026-06-25T23:00:00+00:00",
+      "match": "Tunisia - Netherlands",
+      "match_id": "gf-036"
+    },
+    "Norway": {
+      "captured_at": "2026-06-26T18:33:04.001467+00:00",
+      "kickoff_utc": "2026-06-26T19:00:00+00:00",
+      "match": "Norway - France",
+      "match_id": "gi-053"
+    },
+    "Panama": {
+      "captured_at": "2026-06-27T20:44:54.925054+00:00",
+      "kickoff_utc": "2026-06-27T21:00:00+00:00",
+      "match": "Panama - England",
+      "match_id": "gl-071"
+    },
+    "Qatar": {
+      "captured_at": "2026-06-24T18:17:12.336960+00:00",
+      "kickoff_utc": "2026-06-24T19:00:00+00:00",
+      "match": "Bosnia & Herzegovina - Qatar",
+      "match_id": "gb-012"
+    },
+    "Scotland": {
+      "captured_at": "2026-06-24T22:11:03.383244+00:00",
+      "kickoff_utc": "2026-06-24T22:00:00+00:00",
+      "match": "Scotland - Brazil",
+      "match_id": "gc-017"
+    },
+    "Senegal": {
+      "captured_at": "2026-06-26T18:33:04.001467+00:00",
+      "kickoff_utc": "2026-06-26T19:00:00+00:00",
+      "match": "Senegal - Iraq",
+      "match_id": "gi-054"
+    },
+    "Sweden": {
+      "captured_at": "2026-06-25T23:05:41.367612+00:00",
+      "kickoff_utc": "2026-06-25T23:00:00+00:00",
+      "match": "Japan - Sweden",
+      "match_id": "gf-035"
+    },
+    "Switzerland": {
+      "captured_at": "2026-06-24T18:17:12.336960+00:00",
+      "kickoff_utc": "2026-06-24T19:00:00+00:00",
+      "match": "Switzerland - Canada",
+      "match_id": "gb-011"
+    },
+    "Tunisia": {
+      "captured_at": "2026-06-25T23:05:41.367612+00:00",
+      "kickoff_utc": "2026-06-25T23:00:00+00:00",
+      "match": "Tunisia - Netherlands",
+      "match_id": "gf-036"
+    }
+  }
+}

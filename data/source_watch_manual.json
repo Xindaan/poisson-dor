@@ -1,0 +1,53 @@
+{
+  "bwin_de_world_cup_2026": {
+    "event_market_count": 60,
+    "event_url": "https://www.bwin.de/de/sports/events/mexiko-s%C3%BCdafrika-2%3A7722030",
+    "exact_score_has_more": false,
+    "exact_score_imported_match_count": 24,
+    "exact_score_market_count": 24,
+    "exact_score_prices_count": 596,
+    "exact_score_sample": [
+      {
+        "decimal_odds": 10.0,
+        "selection": "0:0"
+      },
+      {
+        "decimal_odds": 6.25,
+        "selection": "1:0"
+      },
+      {
+        "decimal_odds": 8.0,
+        "selection": "1:1"
+      },
+      {
+        "decimal_odds": 13.5,
+        "selection": "0:1"
+      },
+      {
+        "decimal_odds": 6.75,
+        "selection": "2:0"
+      },
+      {
+        "decimal_odds": 8.5,
+        "selection": "2:1"
+      },
+      {
+        "decimal_odds": 19.0,
+        "selection": "2:2"
+      },
+      {
+        "decimal_odds": 18.5,
+        "selection": "1:2"
+      }
+    ],
+    "exact_score_status": "cds_imported_visible_events",
+    "exact_score_visible_event_count": 24,
+    "match_count": 24,
+    "note": "Bwin CDS fixture-view API was reachable with public access id, lang=de, country=DE. Imported regular-time exact-score markets for all 24 currently visible Bwin WM-2026 event URLs. Exact-score remains watch-only until historical calibration proves value.",
+    "observed_at": "2026-05-19T18:11:25.339504+00:00",
+    "overall_market_count": 21,
+    "source": "Bwin CDS fixture-view API via free public client config",
+    "special_market_count": 1,
+    "url": "https://www.bwin.de/de/sports/fu%C3%9Fball-4/wetten/welt-6/wm-2026-0%3A14"
+  }
+}

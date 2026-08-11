@@ -1,0 +1,1111 @@
+{
+  "_meta": {
+    "enrichment": {
+      "pre_elo": {
+        "method": "International Football World Elo snapshot before tournament opening.",
+        "snapshot_date": "2010-06-10",
+        "source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010"
+      }
+    },
+    "finals_source": "https://raw.githubusercontent.com/openfootball/worldcup/master/2010--south-africa/cup_finals.txt",
+    "generated_at": "2026-07-21T15:18:33.093698+00:00",
+    "group_matches": 48,
+    "knockout_matches": 15,
+    "knockout_note": "KO-Scoreline = Ergebnis nach Verlaengerung; Elfmeter entscheidet nur das Weiterkommen. KO-Elo = Pre-Turnier-Snapshot pro Team. pre_odds fuer KO offen (odds-Variante deckt nur die Gruppenphase).",
+    "matches": 63,
+    "missing_data": [
+      "pre_odds: braucht historische decimal odds fuer fehlende Spiele"
+    ],
+    "pre_elo_matches": 63,
+    "pre_odds_matches": 0,
+    "source": "https://raw.githubusercontent.com/openfootball/worldcup/master/2010--south-africa/cup.txt",
+    "stages_covered": [
+      "group",
+      "knockout"
+    ],
+    "tournament": "2010"
+  },
+  "results": [
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Mexico",
+      "group": "A",
+      "home": "South Africa",
+      "match": "South Africa - Mexico",
+      "pre_elo": {
+        "away": 1899.0,
+        "home": 1594.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Soccer City, Johannesburg"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "France",
+      "group": "A",
+      "home": "Uruguay",
+      "match": "Uruguay - France",
+      "pre_elo": {
+        "away": 1863.0,
+        "home": 1844.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Cape Town Stadium, Cape Town"
+    },
+    {
+      "actual": [
+        0,
+        3
+      ],
+      "away": "Uruguay",
+      "group": "A",
+      "home": "South Africa",
+      "match": "South Africa - Uruguay",
+      "pre_elo": {
+        "away": 1844.0,
+        "home": 1594.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Loftus Versfeld Stadium, Pretoria"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Mexico",
+      "group": "A",
+      "home": "France",
+      "match": "France - Mexico",
+      "pre_elo": {
+        "away": 1899.0,
+        "home": 1863.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Peter Mokaba Stadium, Polokwane"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Uruguay",
+      "group": "A",
+      "home": "Mexico",
+      "match": "Mexico - Uruguay",
+      "pre_elo": {
+        "away": 1844.0,
+        "home": 1899.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Royal Bafokeng Stadium, Rustenburg"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "South Africa",
+      "group": "A",
+      "home": "France",
+      "match": "France - South Africa",
+      "pre_elo": {
+        "away": 1594.0,
+        "home": 1863.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Free State Stadium, Bloemfontein"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Greece",
+      "group": "B",
+      "home": "South Korea",
+      "match": "South Korea - Greece",
+      "pre_elo": {
+        "away": 1736.0,
+        "home": 1765.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Nelson Mandela Bay Stadium, Port Elizabeth"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Nigeria",
+      "group": "B",
+      "home": "Argentina",
+      "match": "Argentina - Nigeria",
+      "pre_elo": {
+        "away": 1716.0,
+        "home": 1921.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Ellis Park Stadium, Johannesburg"
+    },
+    {
+      "actual": [
+        4,
+        1
+      ],
+      "away": "South Korea",
+      "group": "B",
+      "home": "Argentina",
+      "match": "Argentina - South Korea",
+      "pre_elo": {
+        "away": 1765.0,
+        "home": 1921.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Soccer City, Johannesburg"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Nigeria",
+      "group": "B",
+      "home": "Greece",
+      "match": "Greece - Nigeria",
+      "pre_elo": {
+        "away": 1716.0,
+        "home": 1736.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Free State Stadium, Bloemfontein"
+    },
+    {
+      "actual": [
+        2,
+        2
+      ],
+      "away": "South Korea",
+      "group": "B",
+      "home": "Nigeria",
+      "match": "Nigeria - South Korea",
+      "pre_elo": {
+        "away": 1765.0,
+        "home": 1716.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Moses Mabhida Stadium, Durban"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Argentina",
+      "group": "B",
+      "home": "Greece",
+      "match": "Greece - Argentina",
+      "pre_elo": {
+        "away": 1921.0,
+        "home": 1736.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Peter Mokaba Stadium, Polokwane"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "USA",
+      "group": "C",
+      "home": "England",
+      "match": "England - USA",
+      "pre_elo": {
+        "away": 1786.0,
+        "home": 2001.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Royal Bafokeng Stadium, Rustenburg"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Slovenia",
+      "group": "C",
+      "home": "Algeria",
+      "match": "Algeria - Slovenia",
+      "pre_elo": {
+        "away": 1687.0,
+        "home": 1542.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Peter Mokaba Stadium, Polokwane"
+    },
+    {
+      "actual": [
+        2,
+        2
+      ],
+      "away": "USA",
+      "group": "C",
+      "home": "Slovenia",
+      "match": "Slovenia - USA",
+      "pre_elo": {
+        "away": 1786.0,
+        "home": 1687.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Ellis Park Stadium, Johannesburg"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Algeria",
+      "group": "C",
+      "home": "England",
+      "match": "England - Algeria",
+      "pre_elo": {
+        "away": 1542.0,
+        "home": 2001.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Cape Town Stadium, Cape Town"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Algeria",
+      "group": "C",
+      "home": "USA",
+      "match": "USA - Algeria",
+      "pre_elo": {
+        "away": 1542.0,
+        "home": 1786.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Loftus Versfeld Stadium, Pretoria"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "England",
+      "group": "C",
+      "home": "Slovenia",
+      "match": "Slovenia - England",
+      "pre_elo": {
+        "away": 2001.0,
+        "home": 1687.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Nelson Mandela Bay Stadium, Port Elizabeth"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Ghana",
+      "group": "D",
+      "home": "Serbia",
+      "match": "Serbia - Ghana",
+      "pre_elo": {
+        "away": 1689.0,
+        "home": 1841.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Loftus Versfeld Stadium, Pretoria"
+    },
+    {
+      "actual": [
+        4,
+        0
+      ],
+      "away": "Australia",
+      "group": "D",
+      "home": "Germany",
+      "match": "Germany - Australia",
+      "pre_elo": {
+        "away": 1776.0,
+        "home": 1958.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Moses Mabhida Stadium, Durban"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Serbia",
+      "group": "D",
+      "home": "Germany",
+      "match": "Germany - Serbia",
+      "pre_elo": {
+        "away": 1841.0,
+        "home": 1958.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Nelson Mandela Bay Stadium, Port Elizabeth"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Australia",
+      "group": "D",
+      "home": "Ghana",
+      "match": "Ghana - Australia",
+      "pre_elo": {
+        "away": 1776.0,
+        "home": 1689.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Royal Bafokeng Stadium, Rustenburg"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Serbia",
+      "group": "D",
+      "home": "Australia",
+      "match": "Australia - Serbia",
+      "pre_elo": {
+        "away": 1841.0,
+        "home": 1776.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Mbombela Stadium, Nelspruit"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Germany",
+      "group": "D",
+      "home": "Ghana",
+      "match": "Ghana - Germany",
+      "pre_elo": {
+        "away": 1958.0,
+        "home": 1689.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Soccer City, Johannesburg"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Denmark",
+      "group": "E",
+      "home": "Netherlands",
+      "match": "Netherlands - Denmark",
+      "pre_elo": {
+        "away": 1778.0,
+        "home": 2045.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Soccer City, Johannesburg"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Cameroon",
+      "group": "E",
+      "home": "Japan",
+      "match": "Japan - Cameroon",
+      "pre_elo": {
+        "away": 1695.0,
+        "home": 1681.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Free State Stadium, Bloemfontein"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Japan",
+      "group": "E",
+      "home": "Netherlands",
+      "match": "Netherlands - Japan",
+      "pre_elo": {
+        "away": 1681.0,
+        "home": 2045.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Moses Mabhida Stadium, Durban"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Denmark",
+      "group": "E",
+      "home": "Cameroon",
+      "match": "Cameroon - Denmark",
+      "pre_elo": {
+        "away": 1778.0,
+        "home": 1695.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Loftus Versfeld Stadium, Pretoria"
+    },
+    {
+      "actual": [
+        1,
+        3
+      ],
+      "away": "Japan",
+      "group": "E",
+      "home": "Denmark",
+      "match": "Denmark - Japan",
+      "pre_elo": {
+        "away": 1681.0,
+        "home": 1778.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Royal Bafokeng Stadium, Rustenburg"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Netherlands",
+      "group": "E",
+      "home": "Cameroon",
+      "match": "Cameroon - Netherlands",
+      "pre_elo": {
+        "away": 2045.0,
+        "home": 1695.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Cape Town Stadium, Cape Town"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Paraguay",
+      "group": "F",
+      "home": "Italy",
+      "match": "Italy - Paraguay",
+      "pre_elo": {
+        "away": 1765.0,
+        "home": 1937.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Cape Town Stadium, Cape Town"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Slovakia",
+      "group": "F",
+      "home": "New Zealand",
+      "match": "New Zealand - Slovakia",
+      "pre_elo": {
+        "away": 1671.0,
+        "home": 1529.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Royal Bafokeng Stadium, Rustenburg"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Paraguay",
+      "group": "F",
+      "home": "Slovakia",
+      "match": "Slovakia - Paraguay",
+      "pre_elo": {
+        "away": 1765.0,
+        "home": 1671.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Free State Stadium, Bloemfontein"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "New Zealand",
+      "group": "F",
+      "home": "Italy",
+      "match": "Italy - New Zealand",
+      "pre_elo": {
+        "away": 1529.0,
+        "home": 1937.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Mbombela Stadium, Nelspruit"
+    },
+    {
+      "actual": [
+        3,
+        2
+      ],
+      "away": "Italy",
+      "group": "F",
+      "home": "Slovakia",
+      "match": "Slovakia - Italy",
+      "pre_elo": {
+        "away": 1937.0,
+        "home": 1671.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Ellis Park Stadium, Johannesburg"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "New Zealand",
+      "group": "F",
+      "home": "Paraguay",
+      "match": "Paraguay - New Zealand",
+      "pre_elo": {
+        "away": 1529.0,
+        "home": 1765.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Peter Mokaba Stadium, Polokwane"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Portugal",
+      "group": "G",
+      "home": "Côte d'Ivoire",
+      "match": "Côte d'Ivoire - Portugal",
+      "pre_elo": {
+        "away": 1876.0,
+        "home": 1741.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Nelson Mandela Bay Stadium, Port Elizabeth"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "North Korea",
+      "group": "G",
+      "home": "Brazil",
+      "match": "Brazil - North Korea",
+      "pre_elo": {
+        "away": 1538.0,
+        "home": 2110.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Ellis Park Stadium, Johannesburg"
+    },
+    {
+      "actual": [
+        3,
+        1
+      ],
+      "away": "Côte d'Ivoire",
+      "group": "G",
+      "home": "Brazil",
+      "match": "Brazil - Côte d'Ivoire",
+      "pre_elo": {
+        "away": 1741.0,
+        "home": 2110.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Soccer City, Johannesburg"
+    },
+    {
+      "actual": [
+        7,
+        0
+      ],
+      "away": "North Korea",
+      "group": "G",
+      "home": "Portugal",
+      "match": "Portugal - North Korea",
+      "pre_elo": {
+        "away": 1538.0,
+        "home": 1876.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Cape Town Stadium, Cape Town"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Brazil",
+      "group": "G",
+      "home": "Portugal",
+      "match": "Portugal - Brazil",
+      "pre_elo": {
+        "away": 2110.0,
+        "home": 1876.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Moses Mabhida Stadium, Durban"
+    },
+    {
+      "actual": [
+        0,
+        3
+      ],
+      "away": "Côte d'Ivoire",
+      "group": "G",
+      "home": "North Korea",
+      "match": "North Korea - Côte d'Ivoire",
+      "pre_elo": {
+        "away": 1741.0,
+        "home": 1538.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Mbombela Stadium, Nelspruit"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Chile",
+      "group": "H",
+      "home": "Honduras",
+      "match": "Honduras - Chile",
+      "pre_elo": {
+        "away": 1887.0,
+        "home": 1715.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Mbombela Stadium, Nelspruit"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Switzerland",
+      "group": "H",
+      "home": "Spain",
+      "match": "Spain - Switzerland",
+      "pre_elo": {
+        "away": 1762.0,
+        "home": 2112.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Moses Mabhida Stadium, Durban"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Switzerland",
+      "group": "H",
+      "home": "Chile",
+      "match": "Chile - Switzerland",
+      "pre_elo": {
+        "away": 1762.0,
+        "home": 1887.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Nelson Mandela Bay Stadium, Port Elizabeth"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Honduras",
+      "group": "H",
+      "home": "Spain",
+      "match": "Spain - Honduras",
+      "pre_elo": {
+        "away": 1715.0,
+        "home": 2112.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Ellis Park Stadium, Johannesburg"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Spain",
+      "group": "H",
+      "home": "Chile",
+      "match": "Chile - Spain",
+      "pre_elo": {
+        "away": 2112.0,
+        "home": 1887.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Loftus Versfeld Stadium, Pretoria"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Honduras",
+      "group": "H",
+      "home": "Switzerland",
+      "match": "Switzerland - Honduras",
+      "pre_elo": {
+        "away": 1715.0,
+        "home": 1762.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "group",
+      "venue": "Free State Stadium, Bloemfontein"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "South Korea",
+      "group": null,
+      "home": "Uruguay",
+      "match": "Uruguay - South Korea",
+      "pre_elo": {
+        "away": 1765.0,
+        "home": 1844.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Nelson Mandela Bay Stadium, Port Elizabeth"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Ghana",
+      "group": null,
+      "home": "USA",
+      "match": "USA - Ghana",
+      "pre_elo": {
+        "away": 1689.0,
+        "home": 1786.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Royal Bafokeng Stadium, Rustenburg"
+    },
+    {
+      "actual": [
+        4,
+        1
+      ],
+      "away": "England",
+      "group": null,
+      "home": "Germany",
+      "match": "Germany - England",
+      "pre_elo": {
+        "away": 2001.0,
+        "home": 1958.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Free State Stadium, Bloemfontein"
+    },
+    {
+      "actual": [
+        3,
+        1
+      ],
+      "away": "Mexico",
+      "group": null,
+      "home": "Argentina",
+      "match": "Argentina - Mexico",
+      "pre_elo": {
+        "away": 1899.0,
+        "home": 1921.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Soccer City, Johannesburg"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Slovakia",
+      "group": null,
+      "home": "Netherlands",
+      "match": "Netherlands - Slovakia",
+      "pre_elo": {
+        "away": 1671.0,
+        "home": 2045.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Moses Mabhida Stadium, Durban"
+    },
+    {
+      "actual": [
+        3,
+        0
+      ],
+      "away": "Chile",
+      "group": null,
+      "home": "Brazil",
+      "match": "Brazil - Chile",
+      "pre_elo": {
+        "away": 1887.0,
+        "home": 2110.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Ellis Park Stadium, Johannesburg"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Japan",
+      "group": null,
+      "home": "Paraguay",
+      "match": "Paraguay - Japan",
+      "penalty_winner": "home",
+      "pre_elo": {
+        "away": 1681.0,
+        "home": 1765.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "shootout": [
+        5,
+        3
+      ],
+      "stage": "knockout",
+      "venue": "Loftus Versfeld Stadium, Pretoria"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Portugal",
+      "group": null,
+      "home": "Spain",
+      "match": "Spain - Portugal",
+      "pre_elo": {
+        "away": 1876.0,
+        "home": 2112.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Cape Town Stadium, Cape Town"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Brazil",
+      "group": null,
+      "home": "Netherlands",
+      "match": "Netherlands - Brazil",
+      "pre_elo": {
+        "away": 2110.0,
+        "home": 2045.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Nelson Mandela Bay Stadium, Port Elizabeth"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Ghana",
+      "group": null,
+      "home": "Uruguay",
+      "match": "Uruguay - Ghana",
+      "penalty_winner": "home",
+      "pre_elo": {
+        "away": 1689.0,
+        "home": 1844.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "shootout": [
+        4,
+        2
+      ],
+      "stage": "knockout",
+      "venue": "Soccer City, Johannesburg"
+    },
+    {
+      "actual": [
+        0,
+        4
+      ],
+      "away": "Germany",
+      "group": null,
+      "home": "Argentina",
+      "match": "Argentina - Germany",
+      "pre_elo": {
+        "away": 1958.0,
+        "home": 1921.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Cape Town Stadium, Cape Town"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Spain",
+      "group": null,
+      "home": "Paraguay",
+      "match": "Paraguay - Spain",
+      "pre_elo": {
+        "away": 2112.0,
+        "home": 1765.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Ellis Park Stadium, Johannesburg"
+    },
+    {
+      "actual": [
+        2,
+        3
+      ],
+      "away": "Netherlands",
+      "group": null,
+      "home": "Uruguay",
+      "match": "Uruguay - Netherlands",
+      "pre_elo": {
+        "away": 2045.0,
+        "home": 1844.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Cape Town Stadium, Cape Town"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Spain",
+      "group": null,
+      "home": "Germany",
+      "match": "Germany - Spain",
+      "pre_elo": {
+        "away": 2112.0,
+        "home": 1958.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Moses Mabhida Stadium, Durban"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Spain",
+      "group": null,
+      "home": "Netherlands",
+      "match": "Netherlands - Spain",
+      "pre_elo": {
+        "away": 2112.0,
+        "home": 2045.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2010",
+      "stage": "knockout",
+      "venue": "Soccer City, Johannesburg"
+    }
+  ]
+}

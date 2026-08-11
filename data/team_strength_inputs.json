@@ -1,0 +1,498 @@
+{
+  "_meta": {
+    "description": "Free-source team-strength inputs for the WM 2026 Kicktipp model. Values are intentionally source-level inputs; data/team_strength.json is generated from these.",
+    "updated_at": "2026-05-10",
+    "fifa_rank_source": "FIFA/Coca-Cola Men's World Ranking, official update 2026-04-01; full rank positions cross-checked against freely readable rank summaries.",
+    "world_elo_source": "eloratings.net World football Elo ratings as on 2026-05-10, ueber Claude-in-Chrome live abgerufen.",
+    "form_adjustment_scale": "Small model-point nudges from the latest FIFA ranking movement and qualification momentum; 0 means no explicit adjustment.",
+    "attack_adjustment_scale": "Coarse attack/top-scorer-team nudge until a player-level goals model exists.",
+    "sources": [
+      "https://inside.fifa.com/fifa-world-ranking/men",
+      "https://ipt.fifa.com/fifa-world-ranking/men/news/france-1st-fifa-coca-cola-world-ranking-april-2026",
+      "https://www.eloratings.net/",
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/final-draw-results"
+    ]
+  },
+  "teams": {
+    "Algeria": {
+      "attack_adjustment": 0.04,
+      "confederation": "CAF",
+      "fifa_rank": 28,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1743,
+      "world_elo_rank": 35
+    },
+    "Argentina": {
+      "attack_adjustment": 0.08,
+      "confederation": "CONMEBOL",
+      "fifa_rank": 3,
+      "form_adjustment": -1,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 2113,
+      "world_elo_rank": 2
+    },
+    "Australia": {
+      "attack_adjustment": 0,
+      "confederation": "AFC",
+      "fifa_rank": 27,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1783,
+      "world_elo_rank": 26
+    },
+    "Austria": {
+      "attack_adjustment": 0.02,
+      "confederation": "UEFA",
+      "fifa_rank": 24,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1827,
+      "world_elo_rank": 23
+    },
+    "Belgium": {
+      "attack_adjustment": 0.05,
+      "confederation": "UEFA",
+      "fifa_rank": 9,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1866,
+      "world_elo_rank": 19
+    },
+    "Bosnia & Herzegovina": {
+      "attack_adjustment": 0,
+      "confederation": "UEFA",
+      "fifa_rank": 65,
+      "form_adjustment": 5,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "playoff_winner",
+      "world_elo": 1594,
+      "world_elo_rank": 66
+    },
+    "Brazil": {
+      "attack_adjustment": 0.12,
+      "confederation": "CONMEBOL",
+      "fifa_rank": 6,
+      "form_adjustment": -3,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1984,
+      "world_elo_rank": 5
+    },
+    "Canada": {
+      "attack_adjustment": 0.06,
+      "confederation": "CONCACAF",
+      "fifa_rank": 30,
+      "form_adjustment": -2,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "host",
+      "world_elo": 1784,
+      "world_elo_rank": 25
+    },
+    "Cape Verde": {
+      "attack_adjustment": 0,
+      "confederation": "CAF",
+      "fifa_rank": 69,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified_debutant",
+      "world_elo": 1549,
+      "world_elo_rank": 72
+    },
+    "Colombia": {
+      "attack_adjustment": 0.06,
+      "confederation": "CONMEBOL",
+      "fifa_rank": 13,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1975,
+      "world_elo_rank": 7
+    },
+    "Croatia": {
+      "attack_adjustment": 0.02,
+      "confederation": "UEFA",
+      "fifa_rank": 11,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1930,
+      "world_elo_rank": 10
+    },
+    "Curaçao": {
+      "attack_adjustment": 0,
+      "confederation": "CONCACAF",
+      "fifa_rank": 82,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified_debutant",
+      "world_elo": 1436,
+      "world_elo_rank": 90
+    },
+    "Czech Republic": {
+      "attack_adjustment": 0.01,
+      "confederation": "UEFA",
+      "fifa_rank": 41,
+      "form_adjustment": 2,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "playoff_winner",
+      "world_elo": 1726,
+      "world_elo_rank": 40
+    },
+    "DR Congo": {
+      "attack_adjustment": 0,
+      "confederation": "CAF",
+      "fifa_rank": 46,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1655,
+      "world_elo_rank": 54
+    },
+    "Ecuador": {
+      "attack_adjustment": 0.02,
+      "confederation": "CONMEBOL",
+      "fifa_rank": 23,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1933,
+      "world_elo_rank": 9
+    },
+    "Egypt": {
+      "attack_adjustment": 0.12,
+      "confederation": "CAF",
+      "fifa_rank": 29,
+      "form_adjustment": 2,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1689,
+      "world_elo_rank": 51
+    },
+    "England": {
+      "attack_adjustment": 0.1,
+      "confederation": "UEFA",
+      "fifa_rank": 4,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 2020,
+      "world_elo_rank": 4
+    },
+    "France": {
+      "attack_adjustment": 0.14,
+      "confederation": "UEFA",
+      "fifa_rank": 1,
+      "form_adjustment": 6,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 2082,
+      "world_elo_rank": 3
+    },
+    "Germany": {
+      "attack_adjustment": 0.07,
+      "confederation": "UEFA",
+      "fifa_rank": 10,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1923,
+      "world_elo_rank": 11
+    },
+    "Ghana": {
+      "attack_adjustment": 0.03,
+      "confederation": "CAF",
+      "fifa_rank": 74,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1505,
+      "world_elo_rank": 82
+    },
+    "Haiti": {
+      "attack_adjustment": 0,
+      "confederation": "CONCACAF",
+      "fifa_rank": 83,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1532,
+      "world_elo_rank": 77
+    },
+    "Iran": {
+      "attack_adjustment": 0,
+      "confederation": "AFC",
+      "fifa_rank": 21,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1760,
+      "world_elo_rank": 31
+    },
+    "Iraq": {
+      "attack_adjustment": 0,
+      "confederation": "AFC",
+      "fifa_rank": 57,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1607,
+      "world_elo_rank": 63
+    },
+    "Ivory Coast": {
+      "attack_adjustment": 0.03,
+      "confederation": "CAF",
+      "fifa_rank": 34,
+      "form_adjustment": 4,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1676,
+      "world_elo_rank": 52
+    },
+    "Japan": {
+      "attack_adjustment": 0.04,
+      "confederation": "AFC",
+      "fifa_rank": 18,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1904,
+      "world_elo_rank": 13
+    },
+    "Jordan": {
+      "attack_adjustment": 0,
+      "confederation": "AFC",
+      "fifa_rank": 63,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified_debutant",
+      "world_elo": 1690,
+      "world_elo_rank": 50
+    },
+    "Mexico": {
+      "attack_adjustment": 0.02,
+      "confederation": "CONCACAF",
+      "fifa_rank": 15,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "host",
+      "world_elo": 1858,
+      "world_elo_rank": 20
+    },
+    "Morocco": {
+      "attack_adjustment": 0.02,
+      "confederation": "CAF",
+      "fifa_rank": 8,
+      "form_adjustment": 5,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1821,
+      "world_elo_rank": 24
+    },
+    "Netherlands": {
+      "attack_adjustment": 0.06,
+      "confederation": "UEFA",
+      "fifa_rank": 7,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1961,
+      "world_elo_rank": 8
+    },
+    "New Zealand": {
+      "attack_adjustment": 0,
+      "confederation": "OFC",
+      "fifa_rank": 85,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1585,
+      "world_elo_rank": 68
+    },
+    "Norway": {
+      "attack_adjustment": 0.2,
+      "confederation": "UEFA",
+      "fifa_rank": 31,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1912,
+      "world_elo_rank": 12
+    },
+    "Panama": {
+      "attack_adjustment": 0,
+      "confederation": "CONCACAF",
+      "fifa_rank": 33,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1737,
+      "world_elo_rank": 36
+    },
+    "Paraguay": {
+      "attack_adjustment": 0,
+      "confederation": "CONMEBOL",
+      "fifa_rank": 40,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1833,
+      "world_elo_rank": 22
+    },
+    "Portugal": {
+      "attack_adjustment": 0.12,
+      "confederation": "UEFA",
+      "fifa_rank": 5,
+      "form_adjustment": 3,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1984,
+      "world_elo_rank": 5
+    },
+    "Qatar": {
+      "attack_adjustment": 0,
+      "confederation": "AFC",
+      "fifa_rank": 55,
+      "form_adjustment": 1,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1425,
+      "world_elo_rank": 95
+    },
+    "Saudi Arabia": {
+      "attack_adjustment": 0,
+      "confederation": "AFC",
+      "fifa_rank": 61,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1568,
+      "world_elo_rank": 71
+    },
+    "Scotland": {
+      "attack_adjustment": 0,
+      "confederation": "UEFA",
+      "fifa_rank": 43,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1767,
+      "world_elo_rank": 29
+    },
+    "Senegal": {
+      "attack_adjustment": 0.03,
+      "confederation": "CAF",
+      "fifa_rank": 14,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1878,
+      "world_elo_rank": 17
+    },
+    "South Africa": {
+      "attack_adjustment": 0,
+      "confederation": "CAF",
+      "fifa_rank": 60,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1524,
+      "world_elo_rank": 79
+    },
+    "South Korea": {
+      "attack_adjustment": 0.08,
+      "confederation": "AFC",
+      "fifa_rank": 25,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1752,
+      "world_elo_rank": 32
+    },
+    "Spain": {
+      "attack_adjustment": 0.08,
+      "confederation": "UEFA",
+      "fifa_rank": 2,
+      "form_adjustment": -2,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 2165,
+      "world_elo_rank": 1
+    },
+    "Sweden": {
+      "attack_adjustment": 0.04,
+      "confederation": "UEFA",
+      "fifa_rank": 38,
+      "form_adjustment": 5,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "playoff_winner",
+      "world_elo": 1719,
+      "world_elo_rank": 43
+    },
+    "Switzerland": {
+      "attack_adjustment": 0.02,
+      "confederation": "UEFA",
+      "fifa_rank": 19,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1889,
+      "world_elo_rank": 16
+    },
+    "Tunisia": {
+      "attack_adjustment": 0,
+      "confederation": "CAF",
+      "fifa_rank": 44,
+      "form_adjustment": 3,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1636,
+      "world_elo_rank": 58
+    },
+    "Turkey": {
+      "attack_adjustment": 0.05,
+      "confederation": "UEFA",
+      "fifa_rank": 22,
+      "form_adjustment": 5,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "playoff_winner",
+      "world_elo": 1903,
+      "world_elo_rank": 14
+    },
+    "USA": {
+      "attack_adjustment": 0.04,
+      "confederation": "CONCACAF",
+      "fifa_rank": 16,
+      "form_adjustment": -2,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "host",
+      "world_elo": 1721,
+      "world_elo_rank": 41
+    },
+    "Uruguay": {
+      "attack_adjustment": 0.05,
+      "confederation": "CONMEBOL",
+      "fifa_rank": 17,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified",
+      "world_elo": 1892,
+      "world_elo_rank": 15
+    },
+    "Uzbekistan": {
+      "attack_adjustment": 0,
+      "confederation": "AFC",
+      "fifa_rank": 50,
+      "form_adjustment": 0,
+      "qualifier_adjustment": 0,
+      "qualifier_status": "qualified_debutant",
+      "world_elo": 1727,
+      "world_elo_rank": 38
+    }
+  }
+}

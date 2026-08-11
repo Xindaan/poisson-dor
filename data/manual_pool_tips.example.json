@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "coverage_note": "Fehlende match_ids je Spieler sind erlaubt (unvollstaendige Erfassung); die Auswertung rechnet nur mit dem, was da ist.",
+    "description": "BEISPIELDATEN -- frei erfunden. Kopiere die Datei nach data/manual_pool_tips.json und ersetze sie durch die Tipps deiner eigenen Runde. Namen, Tipps und Ergebnisse hier sind fiktiv.",
+    "round_ids": "Muessen zu deiner Rundenkonfiguration passen (neutrale Defaults: 'classic', 'escalating'; eigene Runden via src/wm_tipps/rounds_local.py -- siehe rounds_local.example.py).",
+    "source": "handgepflegt (in der Praxis: Screenshots der Tippabgabe-Seite)",
+    "structure": "players[round_id][spieler][match_id] = scoreline (\"h:a\"). actuals[match_id] = echtes Ergebnis, entweder [h, a] oder \"h:a\". K.o.-Spiele mit Elfmeterentscheidung: actuals[match_id] = {\"regulation\": [h, a], \"penalty\": [h, a]} -- Runden mit result_scope 'nach Verlaengerung' werten 'regulation', Runden 'inkl. Elfmeter' werten 'penalty'."
+  },
+  "actuals": {
+    "ga-001": [
+      2,
+      0
+    ],
+    "ga-002": [
+      1,
+      1
+    ],
+    "gb-003": [
+      0,
+      1
+    ],
+    "gb-004": [
+      3,
+      1
+    ],
+    "ko-089": [
+      2,
+      1
+    ],
+    "ko-097": {
+      "penalty": [
+        4,
+        3
+      ],
+      "regulation": [
+        1,
+        1
+      ]
+    }
+  },
+  "players": {
+    "classic": {
+      "Chaser-B": {
+        "ga-001": "3:1",
+        "ga-002": "2:1",
+        "gb-003": "0:2",
+        "gb-004": "3:0",
+        "ko-089": "1:0",
+        "ko-097": "2:1"
+      },
+      "Favoritenjaeger": {
+        "ga-001": "1:0",
+        "ga-002": "0:0",
+        "gb-003": "1:1",
+        "gb-004": "2:0",
+        "ko-089": "3:2",
+        "ko-097": "0:1"
+      },
+      "Tipper-A": {
+        "ga-001": "2:0",
+        "ga-002": "1:1",
+        "gb-003": "1:2",
+        "gb-004": "2:1",
+        "ko-089": "2:1",
+        "ko-097": "1:1"
+      }
+    },
+    "escalating": {
+      "Chaser-B": {
+        "ga-001": "3:1",
+        "ga-002": "2:1",
+        "gb-003": "0:2",
+        "gb-004": "3:0",
+        "ko-089": "1:0",
+        "ko-097": "2:1"
+      },
+      "Favoritenjaeger": {
+        "ga-001": "1:0",
+        "ga-002": "0:0",
+        "gb-003": "1:1",
+        "gb-004": "2:0",
+        "ko-089": "3:2",
+        "ko-097": "0:1"
+      },
+      "Tipper-A": {
+        "ga-001": "2:0",
+        "ga-002": "1:1",
+        "gb-003": "1:2",
+        "gb-004": "2:1",
+        "ko-089": "2:1",
+        "ko-097": "1:1"
+      }
+    }
+  }
+}

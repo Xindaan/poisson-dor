@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "note": "Statische Turnier-Fakten (Auszeichnungen, Rekorde) fuer das oeffentliche Dashboard. Nicht aus fixtures/results ableitbar -> manuell gepflegt. Wird von analysis/wm_journey.py optional gelesen; fehlt die Datei, entfallen die Kacheln.",
+    "tournament": "FIFA World Cup 2026",
+    "captured_at": "2026-07-20",
+    "sources": [
+      "NBC Sports: 2026 World Cup award winners (Golden Boot/Ball/Glove)",
+      "ESPN: Rodri wins World Cup Golden Ball as Spain dominate awards",
+      "Yahoo Sports: World Cup Golden Boot - Mbappe wins",
+      "inside.fifa.com: Records - World Cup 2026 group stage sets new benchmark",
+      "FOX Sports: All 215 World Cup group stage goals"
+    ]
+  },
+  "awards": [
+    {
+      "title": "Goldener Schuh",
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "value": "10 Tore",
+      "note": "Erster Spieler, der den Goldenen Schuh zweimal gewinnt (2022 und 2026)"
+    },
+    {
+      "title": "Goldener Ball",
+      "player": "Rodri",
+      "team": "Spain",
+      "value": "Bester Spieler",
+      "note": "Spaniens Mittelfeldzentrum als Fundament des Titels"
+    },
+    {
+      "title": "Goldener Handschuh",
+      "player": "Unai Simón",
+      "team": "Spain",
+      "value": "7 Spiele zu Null",
+      "note": "Bester Torhueter des Turniers"
+    }
+  ],
+  "records": {
+    "attendance_total": 6730303,
+    "attendance_note": "Allzeitrekord — vorher 3,5 Mio. bei der WM 1994",
+    "goals_note": "Höchstscorende WM aller Zeiten (Katar 2022: 172 Tore in 64 Spielen)",
+    "group_goals_note": "Rekord-Vorrunde: 215 Tore, ⌀ 2,99 pro Spiel"
+  }
+}

@@ -1,0 +1,3825 @@
+{
+  "_meta": {
+    "api_base_url": "https://row2-cds-api.itsfogo.com/bettingoffer/fixture-view",
+    "cost": "free",
+    "note": "Bwin.de CDS exact-score snapshot. Regular-time exact-score prices are display/watch signals only until historical calibration allows blending.",
+    "source": "bwin_de_exact_score_regular_time",
+    "updated_at": "2026-07-20T10:02:40.973628+00:00"
+  },
+  "items": [
+    {
+      "away_team": "South Africa",
+      "bwin_fixture_id": "2:7722030",
+      "event_url": "https://www.bwin.de/de/sports/events/mexiko-s%C3%BCdafrika-2%3A7722030",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Mexico",
+      "market": "exact_score_regular_time",
+      "market_id": 191541145,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "ga-001",
+      "observed_at": "2026-06-11T16:44:42.866847+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 16.5,
+      "overround_explicit": 1.3136,
+      "prices": [
+        {
+          "decimal_odds": 10.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 5.25,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 13.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 5.5,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 8.75,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 8.75,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 14.5,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 36.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 16.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 201.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Czech Republic",
+      "bwin_fixture_id": "2:7780273",
+      "event_url": "https://www.bwin.de/de/sports/events/s%C3%BCdkorea-tschechien-2%3A7780273",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "South Korea",
+      "market": "exact_score_regular_time",
+      "market_id": 196550697,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "ga-002",
+      "observed_at": "2026-06-11T16:44:42.866847+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 36.0,
+      "overround_explicit": 1.3771,
+      "prices": [
+        {
+          "decimal_odds": 8.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 7.5,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 5.5,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 8.0,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 10.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 14.5,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 10.5,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 13.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 21.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Bosnia & Herzegovina",
+      "bwin_fixture_id": "2:7780276",
+      "event_url": "https://www.bwin.de/de/sports/events/kanada-bosnien-herzegowina-2%3A7780276",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Switzerland",
+      "market": "exact_score_regular_time",
+      "market_id": 196549313,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gb-007",
+      "observed_at": "2026-06-12T13:05:01.716329+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 26.0,
+      "overround_explicit": 1.3572,
+      "prices": [
+        {
+          "decimal_odds": 8.25,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 5.75,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 6.25,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 10.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 7.75,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 8.5,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 17.5,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 15.5,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 21.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 13.5,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 16.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 201.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Qatar",
+      "bwin_fixture_id": "2:7722037",
+      "event_url": "https://www.bwin.de/de/sports/events/katar-schweiz-2%3A7722037",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Canada",
+      "market": "exact_score_regular_time",
+      "market_id": 191541267,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gb-008",
+      "observed_at": "2026-06-12T13:05:01.716329+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 7.75,
+      "overround_explicit": 1.2429,
+      "prices": [
+        {
+          "decimal_odds": 14.5,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 10.5,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 6.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 9.5,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 5.75,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 6.75,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 201.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 201.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 19.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 10.5,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Haiti",
+      "bwin_fixture_id": "2:7722038",
+      "event_url": "https://www.bwin.de/de/sports/events/brasilien-marokko-2%3A7722038",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Brazil",
+      "market": "exact_score_regular_time",
+      "market_id": 191541311,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gc-013",
+      "observed_at": "2026-06-13T20:22:42.738175+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 20.0,
+      "overround_explicit": 1.362,
+      "prices": [
+        {
+          "decimal_odds": 9.75,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 6.0,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 6.75,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 11.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 7.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 18.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 16.5,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 11.5,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 14.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 21.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 201.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Brazil",
+      "bwin_fixture_id": "2:7722039",
+      "event_url": "https://www.bwin.de/de/sports/events/haiti-schottland-2%3A7722039",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Scotland",
+      "market": "exact_score_regular_time",
+      "market_id": 191541359,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gc-014",
+      "observed_at": "2026-06-13T20:22:42.738175+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 11.5,
+      "overround_explicit": 1.3323,
+      "prices": [
+        {
+          "decimal_odds": 15.5,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 16.0,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 7.75,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 8.0,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 16.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 14.5,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 8.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 7.75,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 36.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 21.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 11.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 19.5,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 17.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 98
+    },
+    {
+      "away_team": "Australia",
+      "bwin_fixture_id": "2:7722031",
+      "event_url": "https://www.bwin.de/de/sports/events/usa-paraguay-2%3A7722031",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "USA",
+      "market": "exact_score_regular_time",
+      "market_id": 191541248,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gd-019",
+      "observed_at": "2026-06-12T13:05:01.716329+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 34.0,
+      "overround_explicit": 1.3655,
+      "prices": [
+        {
+          "decimal_odds": 7.5,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 5.75,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 6.0,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 8.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 8.5,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 9.25,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 18.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 13.5,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 16.5,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 17.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 18.5,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 36.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Australia",
+      "bwin_fixture_id": "2:7780277",
+      "event_url": "https://www.bwin.de/de/sports/events/australien-t%C3%BCrkei-2%3A7780277",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Paraguay",
+      "market": "exact_score_regular_time",
+      "market_id": 196549400,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gd-020",
+      "observed_at": "2026-06-13T20:22:42.738175+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 18.5,
+      "overround_explicit": 1.3517,
+      "prices": [
+        {
+          "decimal_odds": 10.5,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 6.75,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 6.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 15.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 15.5,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 7.5,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 36.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 14.5,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 11.5,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Curaçao",
+      "bwin_fixture_id": "2:7722040",
+      "event_url": "https://www.bwin.de/de/sports/events/deutschland-cura%C3%A7ao-2%3A7722040",
+      "expanded": true,
+      "explicit_score_count": 21,
+      "has_other_selection": true,
+      "home_team": "Germany",
+      "market": "exact_score_regular_time",
+      "market_id": 197410409,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "ge-025",
+      "observed_at": "2026-06-14T16:51:36.559864+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 2.35,
+      "overround_explicit": 0.8692,
+      "prices": [
+        {
+          "decimal_odds": 34.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 7.75,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 18.5,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 6.25,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 16.5,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 276.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 6.75,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 18.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 276.0,
+          "score": "2:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 103
+    },
+    {
+      "away_team": "Ecuador",
+      "bwin_fixture_id": "2:7722041",
+      "event_url": "https://www.bwin.de/de/sports/events/elfenbeink%C3%BCste-ecuador-2%3A7722041",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Ivory Coast",
+      "market": "exact_score_regular_time",
+      "market_id": 191541431,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "ge-026",
+      "observed_at": "2026-06-14T18:07:56.625801+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 51.0,
+      "overround_explicit": 1.3546,
+      "prices": [
+        {
+          "decimal_odds": 6.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 7.0,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 5.75,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 5.75,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 13.5,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 13.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 19.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 11.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 10.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 201.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Japan",
+      "bwin_fixture_id": "2:7722042",
+      "event_url": "https://www.bwin.de/de/sports/events/niederlande-japan-2%3A7722042",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Netherlands",
+      "market": "exact_score_regular_time",
+      "market_id": 191541529,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gf-031",
+      "observed_at": "2026-06-14T18:07:56.625801+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 23.0,
+      "overround_explicit": 1.3678,
+      "prices": [
+        {
+          "decimal_odds": 10.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 7.0,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 6.25,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 9.75,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 9.25,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 8.5,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 15.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 16.5,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 16.5,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 15.5,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 36.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Tunisia",
+      "bwin_fixture_id": "2:7780278",
+      "event_url": "https://www.bwin.de/de/sports/events/schweden-tunesien-2%3A7780278",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Sweden",
+      "market": "exact_score_regular_time",
+      "market_id": 196549486,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gf-032",
+      "observed_at": "2026-06-14T18:07:56.625801+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 23.0,
+      "overround_explicit": 1.3644,
+      "prices": [
+        {
+          "decimal_odds": 9.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 6.5,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 6.25,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 10.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 8.5,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 15.5,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 13.5,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 18.5,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 15.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 15.5,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 36.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 201.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Egypt",
+      "bwin_fixture_id": "2:7722043",
+      "event_url": "https://www.bwin.de/de/sports/events/belgien-%C3%A4gypten-2%3A7722043",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Belgium",
+      "market": "exact_score_regular_time",
+      "market_id": 191541584,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gg-037",
+      "observed_at": "2026-06-15T18:02:53.761136+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 16.5,
+      "overround_explicit": 1.3368,
+      "prices": [
+        {
+          "decimal_odds": 11.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 6.25,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 7.5,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 13.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 6.75,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 18.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 17.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 10.5,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 13.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 18.5,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "New Zealand",
+      "bwin_fixture_id": "2:7722044",
+      "event_url": "https://www.bwin.de/de/sports/events/iran-neuseeland-2%3A7722044",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Iran",
+      "market": "exact_score_regular_time",
+      "market_id": 191541606,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gg-038",
+      "observed_at": "2026-06-15T19:25:21.908759+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 26.0,
+      "overround_explicit": 1.3544,
+      "prices": [
+        {
+          "decimal_odds": 7.75,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 5.5,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 6.25,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 10.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 7.25,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 8.75,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 18.5,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 16.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 21.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 13.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 16.5,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 36.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 201.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Iran",
+      "bwin_fixture_id": "2:7812218",
+      "event_url": "https://www.bwin.de/de/sports/events/belgien-iran-2%3A7812218",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Belgium",
+      "market": "exact_score_regular_time",
+      "market_id": 199613544,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gg-039",
+      "observed_at": "2026-06-21T18:15:28.411967+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 12.0,
+      "overround_explicit": 1.3129,
+      "prices": [
+        {
+          "decimal_odds": 13.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 6.75,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 8.5,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 15.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 6.5,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 8.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 19.5,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 20.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 9.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 15.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 21.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 98
+    },
+    {
+      "away_team": "Egypt",
+      "bwin_fixture_id": "2:7812219",
+      "event_url": "https://www.bwin.de/de/sports/events/neuseeland-%C3%A4gypten-2%3A7812219",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "New Zealand",
+      "market": "exact_score_regular_time",
+      "market_id": 199613648,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gg-040",
+      "observed_at": "2026-06-21T18:15:28.411967+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 17.5,
+      "overround_explicit": 1.3348,
+      "prices": [
+        {
+          "decimal_odds": 10.5,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 13.0,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 7.25,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 6.25,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 17.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 17.5,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 6.75,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 14.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 10.5,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 20.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Cape Verde",
+      "bwin_fixture_id": "2:7722046",
+      "event_url": "https://www.bwin.de/de/sports/events/spanien-kap-verde-2%3A7722046",
+      "expanded": true,
+      "explicit_score_count": 23,
+      "has_other_selection": true,
+      "home_team": "Spain",
+      "market": "exact_score_regular_time",
+      "market_id": 191541627,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gh-043",
+      "observed_at": "2026-06-15T12:45:39.469046+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 3.4,
+      "overround_explicit": 1.0347,
+      "prices": [
+        {
+          "decimal_odds": 26.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 9.5,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 18.5,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 6.75,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 13.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 6.25,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 13.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 7.5,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 15.5,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 276.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 251.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 276.0,
+          "score": "1:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 100
+    },
+    {
+      "away_team": "Uruguay",
+      "bwin_fixture_id": "2:7722047",
+      "event_url": "https://www.bwin.de/de/sports/events/saudi-arabien-uruguay-2%3A7722047",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Saudi Arabia",
+      "market": "exact_score_regular_time",
+      "market_id": 191541690,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gh-044",
+      "observed_at": "2026-06-15T19:25:21.908759+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 15.0,
+      "overround_explicit": 1.3105,
+      "prices": [
+        {
+          "decimal_odds": 9.75,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 15.0,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 8.0,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 5.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 9.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 5.75,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 14.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 8.5,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 16.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Saudi Arabia",
+      "bwin_fixture_id": "2:7812220",
+      "event_url": "https://www.bwin.de/de/sports/events/spanien-saudi-arabien-2%3A7812220",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Spain",
+      "market": "exact_score_regular_time",
+      "market_id": 199613805,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gh-045",
+      "observed_at": "2026-06-21T12:38:48.988297+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 3.7,
+      "overround_explicit": 1.0646,
+      "prices": [
+        {
+          "decimal_odds": 29.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 9.25,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 20.0,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 36.0,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 6.25,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 12.5,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 6.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 13.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 7.5,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 16.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 301.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 276.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 99
+    },
+    {
+      "away_team": "Cape Verde",
+      "bwin_fixture_id": "2:7812221",
+      "event_url": "https://www.bwin.de/de/sports/events/uruguay-kap-verde-2%3A7812221",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Uruguay",
+      "market": "exact_score_regular_time",
+      "market_id": 199613891,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gh-046",
+      "observed_at": "2026-06-21T18:15:28.411967+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 17.5,
+      "overround_explicit": 1.3134,
+      "prices": [
+        {
+          "decimal_odds": 8.5,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 4.8,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 14.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 5.5,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 9.25,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 8.75,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 15.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 16.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 251.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 201.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Senegal",
+      "bwin_fixture_id": "2:7722048",
+      "event_url": "https://www.bwin.de/de/sports/events/frankreich-senegal-2%3A7722048",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "France",
+      "market": "exact_score_regular_time",
+      "market_id": 191541737,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gi-049",
+      "observed_at": "2026-06-16T18:02:20.763367+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 12.0,
+      "overround_explicit": 1.3131,
+      "prices": [
+        {
+          "decimal_odds": 14.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 7.25,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 15.0,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 7.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 8.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 17.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 18.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 9.75,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 16.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 20.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 98
+    },
+    {
+      "away_team": "Norway",
+      "bwin_fixture_id": "2:7780279",
+      "event_url": "https://www.bwin.de/de/sports/events/irak-norwegen-2%3A7780279",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Iraq",
+      "market": "exact_score_regular_time",
+      "market_id": 196549572,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gi-050",
+      "observed_at": "2026-06-16T18:02:20.763367+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 6.75,
+      "overround_explicit": 1.2248,
+      "prices": [
+        {
+          "decimal_odds": 17.5,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 11.5,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 7.0,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 9.75,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 5.75,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 6.75,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 201.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 17.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 10.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 98
+    },
+    {
+      "away_team": "Algeria",
+      "bwin_fixture_id": "2:7722049",
+      "event_url": "https://www.bwin.de/de/sports/events/argentinien-algerien-2%3A7722049",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Argentina",
+      "market": "exact_score_regular_time",
+      "market_id": 191542005,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gj-055",
+      "observed_at": "2026-06-16T18:02:20.763367+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 14.0,
+      "overround_explicit": 1.3162,
+      "prices": [
+        {
+          "decimal_odds": 12.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 6.0,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 14.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 6.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 8.5,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 21.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 20.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 8.75,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 13.5,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 15.5,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Jordan",
+      "bwin_fixture_id": "2:7722050",
+      "event_url": "https://www.bwin.de/de/sports/events/%C3%B6sterreich-jordanien-2%3A7722050",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Austria",
+      "market": "exact_score_regular_time",
+      "market_id": 191541882,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gj-056",
+      "observed_at": "2026-06-16T18:02:20.763367+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 11.0,
+      "overround_explicit": 1.3024,
+      "prices": [
+        {
+          "decimal_odds": 13.5,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 6.5,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 9.0,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 16.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 6.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 21.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 13.5,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 20.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 98
+    },
+    {
+      "away_team": "DR Congo",
+      "bwin_fixture_id": "2:7780280",
+      "event_url": "https://www.bwin.de/de/sports/events/portugal-dr-kongo-2%3A7780280",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Portugal",
+      "market": "exact_score_regular_time",
+      "market_id": 196549665,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gk-061",
+      "observed_at": "2026-06-17T16:46:32.866398+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 9.5,
+      "overround_explicit": 1.2708,
+      "prices": [
+        {
+          "decimal_odds": 13.5,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 6.25,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 10.0,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 19.0,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 5.75,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 9.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 7.25,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 12.5,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 19.5,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 251.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 201.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 99
+    },
+    {
+      "away_team": "Colombia",
+      "bwin_fixture_id": "2:7722051",
+      "event_url": "https://www.bwin.de/de/sports/events/usbekistan-kolumbien-2%3A7722051",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Uzbekistan",
+      "market": "exact_score_regular_time",
+      "market_id": 191542099,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gk-062",
+      "observed_at": "2026-06-17T18:08:05.985601+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 12.0,
+      "overround_explicit": 1.2996,
+      "prices": [
+        {
+          "decimal_odds": 11.5,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 17.0,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 8.5,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 6.0,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 21.0,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 21.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 8.75,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 6.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 31.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 12.5,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 151.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 226.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 14.5,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Croatia",
+      "bwin_fixture_id": "2:7722052",
+      "event_url": "https://www.bwin.de/de/sports/events/england-kroatien-2%3A7722052",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "England",
+      "market": "exact_score_regular_time",
+      "market_id": 191542049,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gl-067",
+      "observed_at": "2026-06-17T18:08:05.985601+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 20.0,
+      "overround_explicit": 1.3507,
+      "prices": [
+        {
+          "decimal_odds": 10.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 6.25,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 6.75,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 11.5,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 7.25,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 17.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 15.5,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 14.0,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 23.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 26.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 51.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 91.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    },
+    {
+      "away_team": "Panama",
+      "bwin_fixture_id": "2:7722053",
+      "event_url": "https://www.bwin.de/de/sports/events/ghana-panama-2%3A7722053",
+      "expanded": true,
+      "explicit_score_count": 25,
+      "has_other_selection": true,
+      "home_team": "Ghana",
+      "market": "exact_score_regular_time",
+      "market_id": 191542069,
+      "market_name": "Genaues Ergebnis - reguläre Spielzeit",
+      "match_id": "gl-068",
+      "observed_at": "2026-06-17T18:08:05.985601+00:00",
+      "other_selection_name": "Jedes andere Ergebnis",
+      "other_selection_odds": 34.0,
+      "overround_explicit": 1.3686,
+      "prices": [
+        {
+          "decimal_odds": 8.0,
+          "score": "0:0"
+        },
+        {
+          "decimal_odds": 6.5,
+          "score": "1:0"
+        },
+        {
+          "decimal_odds": 5.75,
+          "score": "1:1"
+        },
+        {
+          "decimal_odds": 8.25,
+          "score": "0:1"
+        },
+        {
+          "decimal_odds": 10.0,
+          "score": "2:0"
+        },
+        {
+          "decimal_odds": 9.25,
+          "score": "2:1"
+        },
+        {
+          "decimal_odds": 16.0,
+          "score": "2:2"
+        },
+        {
+          "decimal_odds": 12.0,
+          "score": "1:2"
+        },
+        {
+          "decimal_odds": 14.0,
+          "score": "0:2"
+        },
+        {
+          "decimal_odds": 20.0,
+          "score": "3:0"
+        },
+        {
+          "decimal_odds": 19.5,
+          "score": "3:1"
+        },
+        {
+          "decimal_odds": 34.0,
+          "score": "3:2"
+        },
+        {
+          "decimal_odds": 61.0,
+          "score": "3:3"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "2:3"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "1:3"
+        },
+        {
+          "decimal_odds": 29.0,
+          "score": "0:3"
+        },
+        {
+          "decimal_odds": 41.0,
+          "score": "4:0"
+        },
+        {
+          "decimal_odds": 46.0,
+          "score": "4:1"
+        },
+        {
+          "decimal_odds": 67.0,
+          "score": "4:2"
+        },
+        {
+          "decimal_odds": 101.0,
+          "score": "4:3"
+        },
+        {
+          "decimal_odds": 176.0,
+          "score": "4:4"
+        },
+        {
+          "decimal_odds": 126.0,
+          "score": "3:4"
+        },
+        {
+          "decimal_odds": 81.0,
+          "score": "2:4"
+        },
+        {
+          "decimal_odds": 56.0,
+          "score": "1:4"
+        },
+        {
+          "decimal_odds": 71.0,
+          "score": "0:4"
+        }
+      ],
+      "quality": {
+        "reasons": [
+          "display_only_until_backtested",
+          "other_score_bucket_not_modelled",
+          "regular_time_market"
+        ],
+        "status": "watch_only"
+      },
+      "regular_time_only": true,
+      "source": "bwin_de",
+      "source_type": "bookmaker_exact_score",
+      "total_bwin_market_count": 97
+    }
+  ],
+  "visible_events": [
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/mexiko-s%C3%BCdafrika-2%3A7722030",
+      "match": "Mexico - South Africa",
+      "match_id": "ga-001",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/s%C3%BCdkorea-tschechien-2%3A7780273",
+      "match": "South Korea - Czech Republic",
+      "match_id": "ga-002",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/kanada-bosnien-herzegowina-2%3A7780276",
+      "match": "Canada - Bosnia & Herzegovina",
+      "match_id": "gb-007",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/usa-paraguay-2%3A7722031",
+      "match": "USA - Paraguay",
+      "match_id": "gd-019",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/katar-schweiz-2%3A7722037",
+      "match": "Qatar - Switzerland",
+      "match_id": "gb-008",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/brasilien-marokko-2%3A7722038",
+      "match": "Brazil - Morocco",
+      "match_id": "gc-013",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/haiti-schottland-2%3A7722039",
+      "match": "Haiti - Scotland",
+      "match_id": "gc-014",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/australien-t%C3%BCrkei-2%3A7780277",
+      "match": "Australia - Turkey",
+      "match_id": "gd-020",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/deutschland-cura%C3%A7ao-2%3A7722040",
+      "match": "Germany - Curaçao",
+      "match_id": "ge-025",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/niederlande-japan-2%3A7722042",
+      "match": "Netherlands - Japan",
+      "match_id": "gf-031",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/elfenbeink%C3%BCste-ecuador-2%3A7722041",
+      "match": "Ivory Coast - Ecuador",
+      "match_id": "ge-026",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/schweden-tunesien-2%3A7780278",
+      "match": "Sweden - Tunisia",
+      "match_id": "gf-032",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/spanien-kap-verde-2%3A7722046",
+      "match": "Spain - Cape Verde",
+      "match_id": "gh-043",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/belgien-%C3%A4gypten-2%3A7722043",
+      "match": "Belgium - Egypt",
+      "match_id": "gg-037",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/saudi-arabien-uruguay-2%3A7722047",
+      "match": "Saudi Arabia - Uruguay",
+      "match_id": "gh-044",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/iran-neuseeland-2%3A7722044",
+      "match": "Iran - New Zealand",
+      "match_id": "gg-038",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/frankreich-senegal-2%3A7722048",
+      "match": "France - Senegal",
+      "match_id": "gi-049",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/irak-norwegen-2%3A7780279",
+      "match": "Iraq - Norway",
+      "match_id": "gi-050",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/argentinien-algerien-2%3A7722049",
+      "match": "Argentina - Algeria",
+      "match_id": "gj-055",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/%C3%B6sterreich-jordanien-2%3A7722050",
+      "match": "Austria - Jordan",
+      "match_id": "gj-056",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/portugal-dr-kongo-2%3A7780280",
+      "match": "Portugal - DR Congo",
+      "match_id": "gk-061",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/england-kroatien-2%3A7722052",
+      "match": "England - Croatia",
+      "match_id": "gl-067",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/ghana-panama-2%3A7722053",
+      "match": "Ghana - Panama",
+      "match_id": "gl-068",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/usbekistan-kolumbien-2%3A7722051",
+      "match": "Uzbekistan - Colombia",
+      "match_id": "gk-062",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/belgien-iran-2%3A7812218",
+      "match": "Belgium - Iran",
+      "match_id": "gg-039",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/neuseeland-%C3%A4gypten-2%3A7812219",
+      "match": "New Zealand - Egypt",
+      "match_id": "gg-040",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/spanien-saudi-arabien-2%3A7812220",
+      "match": "Spain - Saudi Arabia",
+      "match_id": "gh-045",
+      "status": "imported_exact_score"
+    },
+    {
+      "event_url": "https://www.bwin.de/de/sports/events/uruguay-kap-verde-2%3A7812221",
+      "match": "Uruguay - Cape Verde",
+      "match_id": "gh-046",
+      "status": "imported_exact_score"
+    }
+  ]
+}

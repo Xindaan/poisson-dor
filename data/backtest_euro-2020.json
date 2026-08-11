@@ -1,0 +1,1280 @@
+{
+  "_meta": {
+    "enrichment": {
+      "pre_elo": {
+        "method": "International Football World Elo snapshot before tournament opening.",
+        "snapshot_date": "2021-06-10",
+        "source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021"
+      },
+      "pre_odds": {
+        "date_range": [
+          "2021-06-11",
+          "2021-07-11"
+        ],
+        "method": "TipsterArea daily Euro pages; decimal 1X2 averages (pre-match).",
+        "source": "https://tipsterarea.com/matches/date-DD-MM-2021"
+      }
+    },
+    "finals_source": "https://raw.githubusercontent.com/openfootball/euro/master/2021--europe/euro.txt",
+    "generated_at": "2026-07-21T15:18:33.105943+00:00",
+    "group_matches": 36,
+    "knockout_matches": 15,
+    "knockout_note": "KO-Scoreline = Ergebnis nach Verlaengerung; Elfmeter entscheidet nur das Weiterkommen. KO-Elo = Pre-Turnier-Snapshot pro Team. KO hat pre_odds (odds-Variante deckt auch die KO-Phase).",
+    "matches": 51,
+    "missing_data": [],
+    "pre_elo_matches": 51,
+    "pre_odds_matches": 51,
+    "source": "https://raw.githubusercontent.com/openfootball/euro/master/2021--europe/euro.txt",
+    "stages_covered": [
+      "group",
+      "knockout"
+    ],
+    "tournament": "euro-2020"
+  },
+  "results": [
+    {
+      "actual": [
+        0,
+        3
+      ],
+      "away": "Italy",
+      "group": "A",
+      "home": "Turkey",
+      "match": "Turkey - Italy",
+      "pre_elo": {
+        "away": 2013.0,
+        "home": 1801.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.57,
+        "draw": 3.75,
+        "home": 7.21
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Rome"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Switzerland",
+      "group": "A",
+      "home": "Wales",
+      "match": "Wales - Switzerland",
+      "pre_elo": {
+        "away": 1890.0,
+        "home": 1833.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 2.23,
+        "draw": 3.0,
+        "home": 3.85
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Baku"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Wales",
+      "group": "A",
+      "home": "Turkey",
+      "match": "Turkey - Wales",
+      "pre_elo": {
+        "away": 1833.0,
+        "home": 1801.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 3.38,
+        "draw": 3.07,
+        "home": 2.38
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Baku"
+    },
+    {
+      "actual": [
+        3,
+        0
+      ],
+      "away": "Switzerland",
+      "group": "A",
+      "home": "Italy",
+      "match": "Italy - Switzerland",
+      "pre_elo": {
+        "away": 1890.0,
+        "home": 2013.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 5.78,
+        "draw": 3.81,
+        "home": 1.65
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Rome"
+    },
+    {
+      "actual": [
+        3,
+        1
+      ],
+      "away": "Turkey",
+      "group": "A",
+      "home": "Switzerland",
+      "match": "Switzerland - Turkey",
+      "pre_elo": {
+        "away": 1801.0,
+        "home": 1890.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 4.74,
+        "draw": 3.9,
+        "home": 1.73
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Baku"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Wales",
+      "group": "A",
+      "home": "Italy",
+      "match": "Italy - Wales",
+      "pre_elo": {
+        "away": 1833.0,
+        "home": 2013.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 8.4,
+        "draw": 3.96,
+        "home": 1.48
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Rome"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Finland",
+      "group": "B",
+      "home": "Denmark",
+      "match": "Denmark - Finland",
+      "pre_elo": {
+        "away": 1684.0,
+        "home": 1973.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 8.33,
+        "draw": 4.16,
+        "home": 1.47
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Copenhagen"
+    },
+    {
+      "actual": [
+        3,
+        0
+      ],
+      "away": "Russia",
+      "group": "B",
+      "home": "Belgium",
+      "match": "Belgium - Russia",
+      "pre_elo": {
+        "away": 1744.0,
+        "home": 2100.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 5.49,
+        "draw": 3.71,
+        "home": 1.71
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Saint Petersburg"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Russia",
+      "group": "B",
+      "home": "Finland",
+      "match": "Finland - Russia",
+      "pre_elo": {
+        "away": 1744.0,
+        "home": 1684.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.68,
+        "draw": 3.76,
+        "home": 5.49
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Saint Petersburg"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Belgium",
+      "group": "B",
+      "home": "Denmark",
+      "match": "Denmark - Belgium",
+      "pre_elo": {
+        "away": 2100.0,
+        "home": 1973.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 2.03,
+        "draw": 3.26,
+        "home": 4.15
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Copenhagen"
+    },
+    {
+      "actual": [
+        1,
+        4
+      ],
+      "away": "Denmark",
+      "group": "B",
+      "home": "Russia",
+      "match": "Russia - Denmark",
+      "pre_elo": {
+        "away": 1973.0,
+        "home": 1744.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.62,
+        "draw": 4.36,
+        "home": 5.07
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Copenhagen"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Belgium",
+      "group": "B",
+      "home": "Finland",
+      "match": "Finland - Belgium",
+      "pre_elo": {
+        "away": 2100.0,
+        "home": 1684.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.31,
+        "draw": 5.15,
+        "home": 10.85
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Saint Petersburg"
+    },
+    {
+      "actual": [
+        3,
+        1
+      ],
+      "away": "North Macedonia",
+      "group": "C",
+      "home": "Austria",
+      "match": "Austria - North Macedonia",
+      "pre_elo": {
+        "away": 1603.0,
+        "home": 1747.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 6.12,
+        "draw": 3.6,
+        "home": 1.67
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Bucharest"
+    },
+    {
+      "actual": [
+        3,
+        2
+      ],
+      "away": "Ukraine",
+      "group": "C",
+      "home": "Netherlands",
+      "match": "Netherlands - Ukraine",
+      "pre_elo": {
+        "away": 1814.0,
+        "home": 1950.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 5.94,
+        "draw": 3.7,
+        "home": 1.67
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Amsterdam"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "North Macedonia",
+      "group": "C",
+      "home": "Ukraine",
+      "match": "Ukraine - North Macedonia",
+      "pre_elo": {
+        "away": 1603.0,
+        "home": 1814.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 6.36,
+        "draw": 3.66,
+        "home": 1.63
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Bucharest"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Austria",
+      "group": "C",
+      "home": "Netherlands",
+      "match": "Netherlands - Austria",
+      "pre_elo": {
+        "away": 1747.0,
+        "home": 1950.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 5.99,
+        "draw": 3.99,
+        "home": 1.6
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Amsterdam"
+    },
+    {
+      "actual": [
+        0,
+        3
+      ],
+      "away": "Netherlands",
+      "group": "C",
+      "home": "North Macedonia",
+      "match": "North Macedonia - Netherlands",
+      "pre_elo": {
+        "away": 1950.0,
+        "home": 1603.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.28,
+        "draw": 5.39,
+        "home": 12.85
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Amsterdam"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Austria",
+      "group": "C",
+      "home": "Ukraine",
+      "match": "Ukraine - Austria",
+      "pre_elo": {
+        "away": 1747.0,
+        "home": 1814.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 3.62,
+        "draw": 2.09,
+        "home": 3.48
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Bucharest"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Croatia",
+      "group": "D",
+      "home": "England",
+      "match": "England - Croatia",
+      "pre_elo": {
+        "away": 1825.0,
+        "home": 1982.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 5.46,
+        "draw": 3.7,
+        "home": 1.71
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "London"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Czech Republic",
+      "group": "D",
+      "home": "Scotland",
+      "match": "Scotland - Czech Republic",
+      "pre_elo": {
+        "away": 1768.0,
+        "home": 1678.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 2.74,
+        "draw": 2.98,
+        "home": 2.95
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Glasgow"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Czech Republic",
+      "group": "D",
+      "home": "Croatia",
+      "match": "Croatia - Czech Republic",
+      "pre_elo": {
+        "away": 1768.0,
+        "home": 1825.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 3.55,
+        "draw": 3.35,
+        "home": 2.18
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Glasgow"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Scotland",
+      "group": "D",
+      "home": "England",
+      "match": "England - Scotland",
+      "pre_elo": {
+        "away": 1678.0,
+        "home": 1982.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 10.26,
+        "draw": 5.03,
+        "home": 1.35
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "London"
+    },
+    {
+      "actual": [
+        3,
+        1
+      ],
+      "away": "Scotland",
+      "group": "D",
+      "home": "Croatia",
+      "match": "Croatia - Scotland",
+      "pre_elo": {
+        "away": 1678.0,
+        "home": 1825.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 3.01,
+        "draw": 3.68,
+        "home": 2.27
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Glasgow"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "England",
+      "group": "D",
+      "home": "Czech Republic",
+      "match": "Czech Republic - England",
+      "pre_elo": {
+        "away": 1982.0,
+        "home": 1768.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.64,
+        "draw": 3.67,
+        "home": 6.49
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "London"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Slovakia",
+      "group": "E",
+      "home": "Poland",
+      "match": "Poland - Slovakia",
+      "pre_elo": {
+        "away": 1656.0,
+        "home": 1796.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 5.19,
+        "draw": 3.29,
+        "home": 1.84
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Saint Petersburg"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Sweden",
+      "group": "E",
+      "home": "Spain",
+      "match": "Spain - Sweden",
+      "pre_elo": {
+        "away": 1849.0,
+        "home": 2034.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 8.24,
+        "draw": 4.38,
+        "home": 1.45
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Seville"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Slovakia",
+      "group": "E",
+      "home": "Sweden",
+      "match": "Sweden - Slovakia",
+      "pre_elo": {
+        "away": 1656.0,
+        "home": 1849.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 5.01,
+        "draw": 3.4,
+        "home": 1.81
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Saint Petersburg"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Poland",
+      "group": "E",
+      "home": "Spain",
+      "match": "Spain - Poland",
+      "pre_elo": {
+        "away": 1796.0,
+        "home": 2034.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 8.77,
+        "draw": 5.05,
+        "home": 1.38
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Seville"
+    },
+    {
+      "actual": [
+        0,
+        5
+      ],
+      "away": "Spain",
+      "group": "E",
+      "home": "Slovakia",
+      "match": "Slovakia - Spain",
+      "pre_elo": {
+        "away": 2034.0,
+        "home": 1656.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.23,
+        "draw": 6.39,
+        "home": 14.5
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Seville"
+    },
+    {
+      "actual": [
+        3,
+        2
+      ],
+      "away": "Poland",
+      "group": "E",
+      "home": "Sweden",
+      "match": "Sweden - Poland",
+      "pre_elo": {
+        "away": 1796.0,
+        "home": 1849.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 2.84,
+        "draw": 3.38,
+        "home": 2.54
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Saint Petersburg"
+    },
+    {
+      "actual": [
+        0,
+        3
+      ],
+      "away": "Portugal",
+      "group": "F",
+      "home": "Hungary",
+      "match": "Hungary - Portugal",
+      "pre_elo": {
+        "away": 2039.0,
+        "home": 1741.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.5,
+        "draw": 4.29,
+        "home": 7.28
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Budapest"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Germany",
+      "group": "F",
+      "home": "France",
+      "match": "France - Germany",
+      "pre_elo": {
+        "away": 1936.0,
+        "home": 2087.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 2.84,
+        "draw": 3.16,
+        "home": 2.69
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Munich"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "France",
+      "group": "F",
+      "home": "Hungary",
+      "match": "Hungary - France",
+      "pre_elo": {
+        "away": 2087.0,
+        "home": 1741.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.33,
+        "draw": 5.19,
+        "home": 10.25
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Budapest"
+    },
+    {
+      "actual": [
+        2,
+        4
+      ],
+      "away": "Germany",
+      "group": "F",
+      "home": "Portugal",
+      "match": "Portugal - Germany",
+      "pre_elo": {
+        "away": 1936.0,
+        "home": 2039.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 2.33,
+        "draw": 3.33,
+        "home": 3.17
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Munich"
+    },
+    {
+      "actual": [
+        2,
+        2
+      ],
+      "away": "France",
+      "group": "F",
+      "home": "Portugal",
+      "match": "Portugal - France",
+      "pre_elo": {
+        "away": 2087.0,
+        "home": 2039.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 2.23,
+        "draw": 2.86,
+        "home": 4.12
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Budapest"
+    },
+    {
+      "actual": [
+        2,
+        2
+      ],
+      "away": "Hungary",
+      "group": "F",
+      "home": "Germany",
+      "match": "Germany - Hungary",
+      "pre_elo": {
+        "away": 1741.0,
+        "home": 1936.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 15.4,
+        "draw": 7.37,
+        "home": 1.19
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "group",
+      "venue": "Munich"
+    },
+    {
+      "actual": [
+        0,
+        4
+      ],
+      "away": "Denmark",
+      "group": null,
+      "home": "Wales",
+      "match": "Wales - Denmark",
+      "pre_elo": {
+        "away": 1973.0,
+        "home": 1833.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.86,
+        "draw": 3.22,
+        "home": 5.09
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "knockout",
+      "venue": "Amsterdam"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Austria",
+      "group": null,
+      "home": "Italy",
+      "match": "Italy - Austria",
+      "pre_elo": {
+        "away": 1747.0,
+        "home": 2013.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 7.03,
+        "draw": 3.96,
+        "home": 1.54
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "knockout",
+      "venue": "London"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Czech Republic",
+      "group": null,
+      "home": "Netherlands",
+      "match": "Netherlands - Czech Republic",
+      "pre_elo": {
+        "away": 1768.0,
+        "home": 1950.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 5.21,
+        "draw": 3.81,
+        "home": 1.69
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "knockout",
+      "venue": "Budapest"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Portugal",
+      "group": null,
+      "home": "Belgium",
+      "match": "Belgium - Portugal",
+      "pre_elo": {
+        "away": 2039.0,
+        "home": 2100.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 3.12,
+        "draw": 3.14,
+        "home": 2.48
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "knockout",
+      "venue": "Seville"
+    },
+    {
+      "actual": [
+        3,
+        5
+      ],
+      "away": "Spain",
+      "group": null,
+      "home": "Croatia",
+      "match": "Croatia - Spain",
+      "pre_elo": {
+        "away": 2034.0,
+        "home": 1825.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.63,
+        "draw": 3.75,
+        "home": 6.44
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "knockout",
+      "venue": "Copenhagen"
+    },
+    {
+      "actual": [
+        3,
+        3
+      ],
+      "away": "Switzerland",
+      "group": null,
+      "home": "France",
+      "match": "France - Switzerland",
+      "penalty_winner": "away",
+      "pre_elo": {
+        "away": 1890.0,
+        "home": 2087.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 7.17,
+        "draw": 4.01,
+        "home": 1.54
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "shootout": [
+        4,
+        5
+      ],
+      "stage": "knockout",
+      "venue": "Bucharest"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Germany",
+      "group": null,
+      "home": "England",
+      "match": "England - Germany",
+      "pre_elo": {
+        "away": 1936.0,
+        "home": 1982.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 2.95,
+        "draw": 3.29,
+        "home": 2.56
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "knockout",
+      "venue": "London"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Ukraine",
+      "group": null,
+      "home": "Sweden",
+      "match": "Sweden - Ukraine",
+      "pre_elo": {
+        "away": 1814.0,
+        "home": 1849.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 3.34,
+        "draw": 3.16,
+        "home": 2.38
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "knockout",
+      "venue": "Glasgow"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Spain",
+      "group": null,
+      "home": "Switzerland",
+      "match": "Switzerland - Spain",
+      "penalty_winner": "away",
+      "pre_elo": {
+        "away": 2034.0,
+        "home": 1890.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.73,
+        "draw": 3.66,
+        "home": 5.28
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "shootout": [
+        1,
+        3
+      ],
+      "stage": "knockout",
+      "venue": "Saint Petersburg"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Italy",
+      "group": null,
+      "home": "Belgium",
+      "match": "Belgium - Italy",
+      "pre_elo": {
+        "away": 2013.0,
+        "home": 2100.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 2.31,
+        "draw": 3.18,
+        "home": 3.42
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "knockout",
+      "venue": "Munich"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Denmark",
+      "group": null,
+      "home": "Czech Republic",
+      "match": "Czech Republic - Denmark",
+      "pre_elo": {
+        "away": 1973.0,
+        "home": 1768.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 2.09,
+        "draw": 3.27,
+        "home": 3.88
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "knockout",
+      "venue": "Baku"
+    },
+    {
+      "actual": [
+        0,
+        4
+      ],
+      "away": "England",
+      "group": null,
+      "home": "Ukraine",
+      "match": "Ukraine - England",
+      "pre_elo": {
+        "away": 1982.0,
+        "home": 1814.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 1.44,
+        "draw": 4.4,
+        "home": 8.27
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "knockout",
+      "venue": "Rome"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Spain",
+      "group": null,
+      "home": "Italy",
+      "match": "Italy - Spain",
+      "penalty_winner": "home",
+      "pre_elo": {
+        "away": 2034.0,
+        "home": 2013.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 3.02,
+        "draw": 3.16,
+        "home": 2.58
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "shootout": [
+        4,
+        2
+      ],
+      "stage": "knockout",
+      "venue": "London"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Denmark",
+      "group": null,
+      "home": "England",
+      "match": "England - Denmark",
+      "pre_elo": {
+        "away": 1973.0,
+        "home": 1982.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 5.3,
+        "draw": 3.74,
+        "home": 1.73
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "stage": "knockout",
+      "venue": "London"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "England",
+      "group": null,
+      "home": "Italy",
+      "match": "Italy - England",
+      "penalty_winner": "home",
+      "pre_elo": {
+        "away": 1982.0,
+        "home": 2013.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=10&month=06&year=2021",
+      "pre_odds": {
+        "away": 2.68,
+        "draw": 3.13,
+        "home": 2.92
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2021",
+      "shootout": [
+        3,
+        2
+      ],
+      "stage": "knockout",
+      "venue": "London"
+    }
+  ]
+}

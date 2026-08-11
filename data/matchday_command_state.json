@@ -1,0 +1,7 @@
+{
+  "_meta": {
+    "note": "Optional manual overlay. Example check key: ga-001:travel_context with status geprueft/offen/kritisch/warte_auf_lineup plus note."
+  },
+  "checks": {},
+  "matches": {}
+}

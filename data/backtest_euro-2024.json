@@ -1,0 +1,1275 @@
+{
+  "_meta": {
+    "enrichment": {
+      "pre_elo": {
+        "method": "International Football World Elo snapshot before tournament opening.",
+        "snapshot_date": "2024-06-13",
+        "source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024"
+      },
+      "pre_odds": {
+        "date_range": [
+          "2024-06-14",
+          "2024-07-14"
+        ],
+        "method": "TipsterArea daily Euro pages; decimal 1X2 averages (pre-match).",
+        "source": "https://tipsterarea.com/matches/date-DD-MM-2024"
+      }
+    },
+    "finals_source": "https://raw.githubusercontent.com/openfootball/euro/master/2024--germany/euro.txt",
+    "generated_at": "2026-07-21T15:18:33.108198+00:00",
+    "group_matches": 36,
+    "knockout_matches": 15,
+    "knockout_note": "KO-Scoreline = Ergebnis nach Verlaengerung; Elfmeter entscheidet nur das Weiterkommen. KO-Elo = Pre-Turnier-Snapshot pro Team. KO hat pre_odds (odds-Variante deckt auch die KO-Phase).",
+    "matches": 51,
+    "missing_data": [],
+    "pre_elo_matches": 51,
+    "pre_odds_matches": 51,
+    "source": "https://raw.githubusercontent.com/openfootball/euro/master/2024--germany/euro.txt",
+    "stages_covered": [
+      "group",
+      "knockout"
+    ],
+    "tournament": "euro-2024"
+  },
+  "results": [
+    {
+      "actual": [
+        5,
+        1
+      ],
+      "away": "Scotland",
+      "group": "A",
+      "home": "Germany",
+      "match": "Germany - Scotland",
+      "pre_elo": {
+        "away": 1770.0,
+        "home": 1920.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 10.91,
+        "draw": 6.01,
+        "home": 1.29
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "München"
+    },
+    {
+      "actual": [
+        1,
+        3
+      ],
+      "away": "Switzerland",
+      "group": "A",
+      "home": "Hungary",
+      "match": "Hungary - Switzerland",
+      "pre_elo": {
+        "away": 1805.0,
+        "home": 1832.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 2.19,
+        "draw": 3.16,
+        "home": 3.74
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Köln"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Hungary",
+      "group": "A",
+      "home": "Germany",
+      "match": "Germany - Hungary",
+      "pre_elo": {
+        "away": 1832.0,
+        "home": 1920.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 11.58,
+        "draw": 6.31,
+        "home": 1.26
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Stuttgart"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Switzerland",
+      "group": "A",
+      "home": "Scotland",
+      "match": "Scotland - Switzerland",
+      "pre_elo": {
+        "away": 1805.0,
+        "home": 1770.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.86,
+        "draw": 3.52,
+        "home": 4.57
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Köln"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Germany",
+      "group": "A",
+      "home": "Switzerland",
+      "match": "Switzerland - Germany",
+      "pre_elo": {
+        "away": 1920.0,
+        "home": 1805.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.71,
+        "draw": 3.78,
+        "home": 5.37
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Frankfurt"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Hungary",
+      "group": "A",
+      "home": "Scotland",
+      "match": "Scotland - Hungary",
+      "pre_elo": {
+        "away": 1832.0,
+        "home": 1770.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 2.54,
+        "draw": 3.74,
+        "home": 2.63
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Stuttgart"
+    },
+    {
+      "actual": [
+        3,
+        0
+      ],
+      "away": "Croatia",
+      "group": "B",
+      "home": "Spain",
+      "match": "Spain - Croatia",
+      "pre_elo": {
+        "away": 1969.0,
+        "home": 2020.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 4.29,
+        "draw": 3.46,
+        "home": 1.93
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Berlin"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Albania",
+      "group": "B",
+      "home": "Italy",
+      "match": "Italy - Albania",
+      "pre_elo": {
+        "away": 1623.0,
+        "home": 1949.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 10.63,
+        "draw": 5.11,
+        "home": 1.34
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Dortmund"
+    },
+    {
+      "actual": [
+        2,
+        2
+      ],
+      "away": "Albania",
+      "group": "B",
+      "home": "Croatia",
+      "match": "Croatia - Albania",
+      "pre_elo": {
+        "away": 1623.0,
+        "home": 1969.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 7.69,
+        "draw": 4.54,
+        "home": 1.45
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Hamburg"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Italy",
+      "group": "B",
+      "home": "Spain",
+      "match": "Spain - Italy",
+      "pre_elo": {
+        "away": 1949.0,
+        "home": 2020.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 3.6,
+        "draw": 3.06,
+        "home": 2.3
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Gelsenkirchen"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Spain",
+      "group": "B",
+      "home": "Albania",
+      "match": "Albania - Spain",
+      "pre_elo": {
+        "away": 2020.0,
+        "home": 1623.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.47,
+        "draw": 4.54,
+        "home": 7.23
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Düsseldorf"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Italy",
+      "group": "B",
+      "home": "Croatia",
+      "match": "Croatia - Italy",
+      "pre_elo": {
+        "away": 1949.0,
+        "home": 1969.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 2.47,
+        "draw": 3.12,
+        "home": 3.17
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Leipzig"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Denmark",
+      "group": "C",
+      "home": "Slovenia",
+      "match": "Slovenia - Denmark",
+      "pre_elo": {
+        "away": 1834.0,
+        "home": 1733.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.71,
+        "draw": 3.66,
+        "home": 5.56
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Stuttgart"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "England",
+      "group": "C",
+      "home": "Serbia",
+      "match": "Serbia - England",
+      "pre_elo": {
+        "away": 1981.0,
+        "home": 1801.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.49,
+        "draw": 4.44,
+        "home": 6.97
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Gelsenkirchen"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Serbia",
+      "group": "C",
+      "home": "Slovenia",
+      "match": "Slovenia - Serbia",
+      "pre_elo": {
+        "away": 1801.0,
+        "home": 1733.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.79,
+        "draw": 3.6,
+        "home": 4.93
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "München"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "England",
+      "group": "C",
+      "home": "Denmark",
+      "match": "Denmark - England",
+      "pre_elo": {
+        "away": 1981.0,
+        "home": 1834.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.69,
+        "draw": 3.63,
+        "home": 5.78
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Frankfurt"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Slovenia",
+      "group": "C",
+      "home": "England",
+      "match": "England - Slovenia",
+      "pre_elo": {
+        "away": 1733.0,
+        "home": 1981.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 11.17,
+        "draw": 5.28,
+        "home": 1.31
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Köln"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Serbia",
+      "group": "C",
+      "home": "Denmark",
+      "match": "Denmark - Serbia",
+      "pre_elo": {
+        "away": 1801.0,
+        "home": 1834.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 3.28,
+        "draw": 3.16,
+        "home": 2.4
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "München"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Netherlands",
+      "group": "D",
+      "home": "Poland",
+      "match": "Poland - Netherlands",
+      "pre_elo": {
+        "away": 1975.0,
+        "home": 1746.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.54,
+        "draw": 4.28,
+        "home": 6.5
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Hamburg"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "France",
+      "group": "D",
+      "home": "Austria",
+      "match": "Austria - France",
+      "pre_elo": {
+        "away": 2077.0,
+        "home": 1863.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.61,
+        "draw": 4.18,
+        "home": 5.85
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Düsseldorf"
+    },
+    {
+      "actual": [
+        1,
+        3
+      ],
+      "away": "Austria",
+      "group": "D",
+      "home": "Poland",
+      "match": "Poland - Austria",
+      "pre_elo": {
+        "away": 1863.0,
+        "home": 1746.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 2.06,
+        "draw": 3.45,
+        "home": 3.83
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Berlin"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "France",
+      "group": "D",
+      "home": "Netherlands",
+      "match": "Netherlands - France",
+      "pre_elo": {
+        "away": 2077.0,
+        "home": 1975.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 2.32,
+        "draw": 3.21,
+        "home": 3.36
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Leipzig"
+    },
+    {
+      "actual": [
+        2,
+        3
+      ],
+      "away": "Austria",
+      "group": "D",
+      "home": "Netherlands",
+      "match": "Netherlands - Austria",
+      "pre_elo": {
+        "away": 1863.0,
+        "home": 1975.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 4.1,
+        "draw": 3.09,
+        "home": 2.11
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Berlin"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Poland",
+      "group": "D",
+      "home": "France",
+      "match": "France - Poland",
+      "pre_elo": {
+        "away": 1746.0,
+        "home": 2077.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 12.86,
+        "draw": 6.24,
+        "home": 1.25
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Dortmund"
+    },
+    {
+      "actual": [
+        3,
+        0
+      ],
+      "away": "Ukraine",
+      "group": "E",
+      "home": "Romania",
+      "match": "Romania - Ukraine",
+      "pre_elo": {
+        "away": 1853.0,
+        "home": 1647.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.9,
+        "draw": 3.5,
+        "home": 4.43
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "München"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Slovakia",
+      "group": "E",
+      "home": "Belgium",
+      "match": "Belgium - Slovakia",
+      "pre_elo": {
+        "away": 1671.0,
+        "home": 1988.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 6.9,
+        "draw": 4.47,
+        "home": 1.49
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Frankfurt"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Ukraine",
+      "group": "E",
+      "home": "Slovakia",
+      "match": "Slovakia - Ukraine",
+      "pre_elo": {
+        "away": 1853.0,
+        "home": 1671.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 2.23,
+        "draw": 3.33,
+        "home": 3.44
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Düsseldorf"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Romania",
+      "group": "E",
+      "home": "Belgium",
+      "match": "Belgium - Romania",
+      "pre_elo": {
+        "away": 1647.0,
+        "home": 1988.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 6.92,
+        "draw": 4.52,
+        "home": 1.48
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Köln"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Romania",
+      "group": "E",
+      "home": "Slovakia",
+      "match": "Slovakia - Romania",
+      "pre_elo": {
+        "away": 1647.0,
+        "home": 1671.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 3.95,
+        "draw": 2.12,
+        "home": 3.14
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Frankfurt"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Belgium",
+      "group": "E",
+      "home": "Ukraine",
+      "match": "Ukraine - Belgium",
+      "pre_elo": {
+        "away": 1988.0,
+        "home": 1853.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.64,
+        "draw": 4.11,
+        "home": 5.46
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Stuttgart"
+    },
+    {
+      "actual": [
+        3,
+        1
+      ],
+      "away": "Georgia",
+      "group": "F",
+      "home": "Turkey",
+      "match": "Turkey - Georgia",
+      "pre_elo": {
+        "away": 1666.0,
+        "home": 1749.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 5.1,
+        "draw": 3.88,
+        "home": 1.7
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Dortmund"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Czech Republic",
+      "group": "F",
+      "home": "Portugal",
+      "match": "Portugal - Czech Republic",
+      "pre_elo": {
+        "away": 1777.0,
+        "home": 2002.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 6.63,
+        "draw": 4.38,
+        "home": 1.51
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Leipzig"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Czech Republic",
+      "group": "F",
+      "home": "Georgia",
+      "match": "Georgia - Czech Republic",
+      "pre_elo": {
+        "away": 1777.0,
+        "home": 1666.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.78,
+        "draw": 3.8,
+        "home": 4.65
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Hamburg"
+    },
+    {
+      "actual": [
+        0,
+        3
+      ],
+      "away": "Portugal",
+      "group": "F",
+      "home": "Turkey",
+      "match": "Turkey - Portugal",
+      "pre_elo": {
+        "away": 2002.0,
+        "home": 1749.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.63,
+        "draw": 4.17,
+        "home": 5.49
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Dortmund"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Portugal",
+      "group": "F",
+      "home": "Georgia",
+      "match": "Georgia - Portugal",
+      "pre_elo": {
+        "away": 2002.0,
+        "home": 1666.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.38,
+        "draw": 5.03,
+        "home": 8.32
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Gelsenkirchen"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Turkey",
+      "group": "F",
+      "home": "Czech Republic",
+      "match": "Czech Republic - Turkey",
+      "pre_elo": {
+        "away": 1749.0,
+        "home": 1777.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 2.7,
+        "draw": 3.32,
+        "home": 2.71
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "group",
+      "venue": "Hamburg"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Italy",
+      "group": null,
+      "home": "Switzerland",
+      "match": "Switzerland - Italy",
+      "pre_elo": {
+        "away": 1949.0,
+        "home": 1805.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 2.53,
+        "draw": 2.91,
+        "home": 3.39
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "knockout",
+      "venue": "Berlin # Runner-up Group A - Runner-up Group B"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Denmark",
+      "group": null,
+      "home": "Germany",
+      "match": "Germany - Denmark",
+      "pre_elo": {
+        "away": 1834.0,
+        "home": 1920.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 5.92,
+        "draw": 3.94,
+        "home": 1.63
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "knockout",
+      "venue": "Dortmund # Winner Group A - Runner-up Group C"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Slovakia",
+      "group": null,
+      "home": "England",
+      "match": "England - Slovakia",
+      "pre_elo": {
+        "away": 1671.0,
+        "home": 1981.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 9.43,
+        "draw": 4.23,
+        "home": 1.43
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "knockout",
+      "venue": "Gelsenkirchen # Winner Group C - 3rd Group D/E/F"
+    },
+    {
+      "actual": [
+        4,
+        1
+      ],
+      "away": "Georgia",
+      "group": null,
+      "home": "Spain",
+      "match": "Spain - Georgia",
+      "pre_elo": {
+        "away": 1666.0,
+        "home": 2020.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 15.0,
+        "draw": 6.98,
+        "home": 1.21
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "knockout",
+      "venue": "Köln # Winner Group B - 3rd Group A/D/E/F"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Belgium",
+      "group": null,
+      "home": "France",
+      "match": "France - Belgium",
+      "pre_elo": {
+        "away": 1988.0,
+        "home": 2077.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 4.7,
+        "draw": 3.24,
+        "home": 1.93
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "knockout",
+      "venue": "Düsseldorf # Runner-up Group D - Runner-up Group E"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Slovenia",
+      "group": null,
+      "home": "Portugal",
+      "match": "Portugal - Slovenia",
+      "penalty_winner": "home",
+      "pre_elo": {
+        "away": 1733.0,
+        "home": 2002.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 10.32,
+        "draw": 5.05,
+        "home": 1.35
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "shootout": [
+        3,
+        0
+      ],
+      "stage": "knockout",
+      "venue": "Frankfurt # Winner Group F - 3rd Group A/B/C"
+    },
+    {
+      "actual": [
+        0,
+        3
+      ],
+      "away": "Netherlands",
+      "group": null,
+      "home": "Romania",
+      "match": "Romania - Netherlands",
+      "pre_elo": {
+        "away": 1975.0,
+        "home": 1647.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 1.42,
+        "draw": 4.67,
+        "home": 8.14
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "knockout",
+      "venue": "München # Winner Group E - 3rd Group A/B/C/D"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Turkey",
+      "group": null,
+      "home": "Austria",
+      "match": "Austria - Turkey",
+      "pre_elo": {
+        "away": 1749.0,
+        "home": 1863.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 4.42,
+        "draw": 3.39,
+        "home": 1.95
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "knockout",
+      "venue": "Leipzig # Winner Group D - Runner-up Group F"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Germany",
+      "group": null,
+      "home": "Spain",
+      "match": "Spain - Germany",
+      "pre_elo": {
+        "away": 1920.0,
+        "home": 2020.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 2.83,
+        "draw": 3.17,
+        "home": 2.75
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "knockout",
+      "venue": "Stuttgart # Winner Match 39 - Winner Match 37"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "France",
+      "group": null,
+      "home": "Portugal",
+      "match": "Portugal - France",
+      "penalty_winner": "away",
+      "pre_elo": {
+        "away": 2077.0,
+        "home": 2002.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 2.41,
+        "draw": 2.97,
+        "home": 3.45
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "shootout": [
+        3,
+        5
+      ],
+      "stage": "knockout",
+      "venue": "Hamburg # Winner Match 41 - Winner Match 42"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Switzerland",
+      "group": null,
+      "home": "England",
+      "match": "England - Switzerland",
+      "penalty_winner": "home",
+      "pre_elo": {
+        "away": 1805.0,
+        "home": 1981.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 3.88,
+        "draw": 2.98,
+        "home": 2.26
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "shootout": [
+        5,
+        3
+      ],
+      "stage": "knockout",
+      "venue": "Düsseldorf # Winner Match 40 - Winner Match 38"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Turkey",
+      "group": null,
+      "home": "Netherlands",
+      "match": "Netherlands - Turkey",
+      "pre_elo": {
+        "away": 1749.0,
+        "home": 1975.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 6.09,
+        "draw": 4.07,
+        "home": 1.59
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "knockout",
+      "venue": "Berlin # Winner Match 43 - Winner Match 44"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "France",
+      "group": null,
+      "home": "Spain",
+      "match": "Spain - France",
+      "pre_elo": {
+        "away": 2077.0,
+        "home": 2020.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 3.13,
+        "draw": 2.82,
+        "home": 2.75
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "knockout",
+      "venue": "München # Winner Match 45 - Winner Match 46"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "England",
+      "group": null,
+      "home": "Netherlands",
+      "match": "Netherlands - England",
+      "pre_elo": {
+        "away": 1981.0,
+        "home": 1975.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 2.74,
+        "draw": 2.83,
+        "home": 3.12
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "knockout",
+      "venue": "Dortmund # Winner Match 47 - Winner Match 48"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "England",
+      "group": null,
+      "home": "Spain",
+      "match": "Spain - England",
+      "pre_elo": {
+        "away": 1981.0,
+        "home": 2020.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?day=13&month=06&year=2024",
+      "pre_odds": {
+        "away": 3.52,
+        "draw": 2.87,
+        "home": 2.49
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-DD-MM-2024",
+      "stage": "knockout",
+      "venue": "Berlin # Winner Match 49 - Winner Match 50"
+    }
+  ]
+}

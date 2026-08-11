@@ -1,0 +1,1578 @@
+{
+  "_meta": {
+    "enrichment": {
+      "fetched_at": "2026-05-10T21:01:00.858897+00:00",
+      "pre_elo": {
+        "method": "International Football World Elo snapshot before tournament opening.",
+        "snapshot_date": "2022-11-19",
+        "source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022"
+      },
+      "pre_odds": {
+        "date_range": [
+          "2022-11-20",
+          "2022-12-02"
+        ],
+        "method": "TipsterArea daily World Championship pages; decimal odds are labelled as pre-match bookmaker averages.",
+        "source": "https://tipsterarea.com/matches/date-DD-MM-YYYY"
+      },
+      "pre_odds_knockout": {
+        "method": "TipsterArea daily World Championship pages; decimal 1X2 averages (pre-match).",
+        "source": "https://tipsterarea.com/matches/date-DD-MM-YYYY"
+      }
+    },
+    "finals_source": "https://raw.githubusercontent.com/openfootball/worldcup/master/2022--qatar/cup_finals.txt",
+    "generated_at": "2026-07-21T15:18:33.100970+00:00",
+    "group_matches": 48,
+    "knockout_matches": 15,
+    "knockout_note": "KO-Scoreline = Ergebnis nach Verlaengerung; Elfmeter entscheidet nur das Weiterkommen. KO-Elo = Pre-Turnier-Snapshot pro Team. KO hat pre_odds (odds-Variante deckt auch die KO-Phase).",
+    "matches": 63,
+    "missing_data": [],
+    "pre_elo_matches": 63,
+    "pre_odds_matches": 63,
+    "source": "https://raw.githubusercontent.com/openfootball/worldcup/master/2022--qatar/cup.txt",
+    "stages_covered": [
+      "group",
+      "knockout"
+    ],
+    "tournament": "2022"
+  },
+  "results": [
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Ecuador",
+      "group": "A",
+      "home": "Qatar",
+      "match": "Qatar - Ecuador",
+      "pre_elo": {
+        "away": 1833.0,
+        "home": 1680.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 2.26,
+        "draw": 3.07,
+        "home": 3.69
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-20-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/qatar-ecuador-world-championship-group-stage-740005",
+      "stage": "group",
+      "venue": "Al Bayt Stadium, Al Khor"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Netherlands",
+      "group": "A",
+      "home": "Senegal",
+      "match": "Senegal - Netherlands",
+      "pre_elo": {
+        "away": 2041.0,
+        "home": 1687.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.64,
+        "draw": 3.68,
+        "home": 6.14
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-21-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/senegal-netherlands-world-championship-group-stage-740009",
+      "stage": "group",
+      "venue": "Al Thumama Stadium, Doha"
+    },
+    {
+      "actual": [
+        1,
+        3
+      ],
+      "away": "Senegal",
+      "group": "A",
+      "home": "Qatar",
+      "match": "Qatar - Senegal",
+      "pre_elo": {
+        "away": 1687.0,
+        "home": 1680.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.68,
+        "draw": 3.66,
+        "home": 5.81
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-25-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/qatar-senegal-world-championship-group-stage-740214",
+      "stage": "group",
+      "venue": "Al Thumama Stadium, Doha"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Ecuador",
+      "group": "A",
+      "home": "Netherlands",
+      "match": "Netherlands - Ecuador",
+      "pre_elo": {
+        "away": 1833.0,
+        "home": 2041.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 4.81,
+        "draw": 3.58,
+        "home": 1.79
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-25-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/netherlands-ecuador-world-championship-group-stage-740215",
+      "stage": "group",
+      "venue": "Khalifa International Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Senegal",
+      "group": "A",
+      "home": "Ecuador",
+      "match": "Ecuador - Senegal",
+      "pre_elo": {
+        "away": 1687.0,
+        "home": 1833.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 3.21,
+        "draw": 3.2,
+        "home": 2.42
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-29-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/ecuador-senegal-world-championship-group-stage-740694",
+      "stage": "group",
+      "venue": "Khalifa International Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Qatar",
+      "group": "A",
+      "home": "Netherlands",
+      "match": "Netherlands - Qatar",
+      "pre_elo": {
+        "away": 1680.0,
+        "home": 2041.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 13.95,
+        "draw": 6.61,
+        "home": 1.23
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-29-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/netherlands-qatar-world-championship-group-stage-740695",
+      "stage": "group",
+      "venue": "Al Bayt Stadium, Al Khor"
+    },
+    {
+      "actual": [
+        6,
+        2
+      ],
+      "away": "Iran",
+      "group": "B",
+      "home": "England",
+      "match": "England - Iran",
+      "pre_elo": {
+        "away": 1797.0,
+        "home": 1920.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 10.4,
+        "draw": 4.75,
+        "home": 1.35
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-21-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/england-iran-world-championship-group-stage-740010",
+      "stage": "group",
+      "venue": "Khalifa International Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Wales",
+      "group": "B",
+      "home": "USA",
+      "match": "USA - Wales",
+      "pre_elo": {
+        "away": 1790.0,
+        "home": 1798.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 3.31,
+        "draw": 3.1,
+        "home": 2.39
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-21-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/usa-wales-world-championship-group-stage-740011",
+      "stage": "group",
+      "venue": "Ahmad bin Ali Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Iran",
+      "group": "B",
+      "home": "Wales",
+      "match": "Wales - Iran",
+      "pre_elo": {
+        "away": 1797.0,
+        "home": 1790.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 3.84,
+        "draw": 3.16,
+        "home": 2.16
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-25-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/wales-iran-world-championship-group-stage-740216",
+      "stage": "group",
+      "venue": "Ahmad bin Ali Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "USA",
+      "group": "B",
+      "home": "England",
+      "match": "England - USA",
+      "pre_elo": {
+        "away": 1798.0,
+        "home": 1920.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 7.12,
+        "draw": 4.32,
+        "home": 1.51
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-25-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/england-usa-world-championship-group-stage-740217",
+      "stage": "group",
+      "venue": "Al Bayt Stadium, Al Khor"
+    },
+    {
+      "actual": [
+        0,
+        3
+      ],
+      "away": "England",
+      "group": "B",
+      "home": "Wales",
+      "match": "Wales - England",
+      "pre_elo": {
+        "away": 1920.0,
+        "home": 1790.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.49,
+        "draw": 4.27,
+        "home": 7.53
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-29-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/wales-england-world-championship-group-stage-740693",
+      "stage": "group",
+      "venue": "Ahmad bin Ali Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "USA",
+      "group": "B",
+      "home": "Iran",
+      "match": "Iran - USA",
+      "pre_elo": {
+        "away": 1798.0,
+        "home": 1797.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 2.02,
+        "draw": 3.43,
+        "home": 4.0
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-29-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/iran-usa-world-championship-group-stage-740692",
+      "stage": "group",
+      "venue": "Al Thumama Stadium, Doha"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Saudi Arabia",
+      "group": "C",
+      "home": "Argentina",
+      "match": "Argentina - Saudi Arabia",
+      "pre_elo": {
+        "away": 1635.0,
+        "home": 2143.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 24.0,
+        "draw": 8.38,
+        "home": 1.14
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-22-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/argentina-saudi-arabia-world-championship-group-stage-740117",
+      "stage": "group",
+      "venue": "Lusail Iconic Stadium, Lusail"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Poland",
+      "group": "C",
+      "home": "Mexico",
+      "match": "Mexico - Poland",
+      "pre_elo": {
+        "away": 1814.0,
+        "home": 1809.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 3.28,
+        "draw": 3.09,
+        "home": 2.46
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-22-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/mexico-poland-world-championship-group-stage-740118",
+      "stage": "group",
+      "venue": "Stadium 974, Doha"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Saudi Arabia",
+      "group": "C",
+      "home": "Poland",
+      "match": "Poland - Saudi Arabia",
+      "pre_elo": {
+        "away": 1635.0,
+        "home": 1814.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 4.83,
+        "draw": 3.39,
+        "home": 1.85
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-26-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/poland-saudi-arabia-world-championship-group-stage-740264",
+      "stage": "group",
+      "venue": "Education City Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Mexico",
+      "group": "C",
+      "home": "Argentina",
+      "match": "Argentina - Mexico",
+      "pre_elo": {
+        "away": 1809.0,
+        "home": 2143.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 7.44,
+        "draw": 4.03,
+        "home": 1.52
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-26-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/argentina-mexico-world-championship-group-stage-740265",
+      "stage": "group",
+      "venue": "Lusail Iconic Stadium, Lusail"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Argentina",
+      "group": "C",
+      "home": "Poland",
+      "match": "Poland - Argentina",
+      "pre_elo": {
+        "away": 2143.0,
+        "home": 1814.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.43,
+        "draw": 4.5,
+        "home": 8.68
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-30-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/poland-argentina-world-championship-group-stage-740753",
+      "stage": "group",
+      "venue": "Stadium 974, Doha"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Mexico",
+      "group": "C",
+      "home": "Saudi Arabia",
+      "match": "Saudi Arabia - Mexico",
+      "pre_elo": {
+        "away": 1809.0,
+        "home": 1635.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.67,
+        "draw": 4.14,
+        "home": 5.08
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-30-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/saudi-arabia-mexico-world-championship-group-stage-740754",
+      "stage": "group",
+      "venue": "Lusail Iconic Stadium, Lusail"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Tunisia",
+      "group": "D",
+      "home": "Denmark",
+      "match": "Denmark - Tunisia",
+      "pre_elo": {
+        "away": 1707.0,
+        "home": 1971.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 6.49,
+        "draw": 3.81,
+        "home": 1.6
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-22-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/denmark-tunisia-world-championship-group-stage-740119",
+      "stage": "group",
+      "venue": "Education City Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        4,
+        1
+      ],
+      "away": "Australia",
+      "group": "D",
+      "home": "France",
+      "match": "France - Australia",
+      "pre_elo": {
+        "away": 1719.0,
+        "home": 2005.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 12.65,
+        "draw": 5.88,
+        "home": 1.26
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-22-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/france-australia-world-championship-group-stage-740120",
+      "stage": "group",
+      "venue": "Al Janoub Stadium, Al Wakrah"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Australia",
+      "group": "D",
+      "home": "Tunisia",
+      "match": "Tunisia - Australia",
+      "pre_elo": {
+        "away": 1719.0,
+        "home": 1707.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 3.73,
+        "draw": 3.24,
+        "home": 2.15
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-26-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/tunisia-australia-world-championship-group-stage-740266",
+      "stage": "group",
+      "venue": "Al Janoub Stadium, Al Wakrah"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Denmark",
+      "group": "D",
+      "home": "France",
+      "match": "France - Denmark",
+      "pre_elo": {
+        "away": 1971.0,
+        "home": 2005.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 4.76,
+        "draw": 3.52,
+        "home": 1.85
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-26-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/france-denmark-world-championship-group-stage-740267",
+      "stage": "group",
+      "venue": "Stadium 974, Doha"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Denmark",
+      "group": "D",
+      "home": "Australia",
+      "match": "Australia - Denmark",
+      "pre_elo": {
+        "away": 1971.0,
+        "home": 1719.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.5,
+        "draw": 4.36,
+        "home": 7.03
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-30-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/australia-denmark-world-championship-group-stage-740755",
+      "stage": "group",
+      "venue": "Al Janoub Stadium, Al Wakrah"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "France",
+      "group": "D",
+      "home": "Tunisia",
+      "match": "Tunisia - France",
+      "pre_elo": {
+        "away": 2005.0,
+        "home": 1707.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.4,
+        "draw": 4.86,
+        "home": 8.68
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-30-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/tunisia-france-world-championship-group-stage-740756",
+      "stage": "group",
+      "venue": "Education City Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Japan",
+      "group": "E",
+      "home": "Germany",
+      "match": "Germany - Japan",
+      "pre_elo": {
+        "away": 1787.0,
+        "home": 1963.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 7.14,
+        "draw": 4.82,
+        "home": 1.46
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-23-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/germany-japan-world-championship-group-stage-740123",
+      "stage": "group",
+      "venue": "Khalifa International Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        7,
+        0
+      ],
+      "away": "Costa Rica",
+      "group": "E",
+      "home": "Spain",
+      "match": "Spain - Costa Rica",
+      "pre_elo": {
+        "away": 1744.0,
+        "home": 2048.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 16.8,
+        "draw": 7.36,
+        "home": 1.18
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-23-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/spain-costa-rica-world-championship-group-stage-740124",
+      "stage": "group",
+      "venue": "Al Thumama Stadium, Doha"
+    },
+    {
+      "actual": [
+        0,
+        1
+      ],
+      "away": "Costa Rica",
+      "group": "E",
+      "home": "Japan",
+      "match": "Japan - Costa Rica",
+      "pre_elo": {
+        "away": 1744.0,
+        "home": 1787.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 8.31,
+        "draw": 4.33,
+        "home": 1.45
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-27-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/japan-costa-rica-world-championship-group-stage-740460",
+      "stage": "group",
+      "venue": "Ahmad bin Ali Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Germany",
+      "group": "E",
+      "home": "Spain",
+      "match": "Spain - Germany",
+      "pre_elo": {
+        "away": 1963.0,
+        "home": 2048.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 3.02,
+        "draw": 3.48,
+        "home": 2.4
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-27-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/spain-germany-world-championship-group-stage-740461",
+      "stage": "group",
+      "venue": "Al Bayt Stadium, Al Khor"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Spain",
+      "group": "E",
+      "home": "Japan",
+      "match": "Japan - Spain",
+      "pre_elo": {
+        "away": 2048.0,
+        "home": 1787.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.43,
+        "draw": 4.71,
+        "home": 8.17
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-01-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/japan-spain-world-championship-group-stage-740816",
+      "stage": "group",
+      "venue": "Khalifa International Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        2,
+        4
+      ],
+      "away": "Germany",
+      "group": "E",
+      "home": "Costa Rica",
+      "match": "Costa Rica - Germany",
+      "pre_elo": {
+        "away": 1963.0,
+        "home": 1744.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.1,
+        "draw": 11.45,
+        "home": 24.8
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-01-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/costa-rica-germany-world-championship-group-stage-740815",
+      "stage": "group",
+      "venue": "Al Bayt Stadium, Al Khor"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Croatia",
+      "group": "F",
+      "home": "Morocco",
+      "match": "Morocco - Croatia",
+      "pre_elo": {
+        "away": 1927.0,
+        "home": 1766.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 2.16,
+        "draw": 3.23,
+        "home": 3.69
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-23-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/morocco-croatia-world-championship-group-stage-740125",
+      "stage": "group",
+      "venue": "Al Bayt Stadium, Al Khor"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Canada",
+      "group": "F",
+      "home": "Belgium",
+      "match": "Belgium - Canada",
+      "pre_elo": {
+        "away": 1776.0,
+        "home": 2007.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 6.12,
+        "draw": 4.37,
+        "home": 1.54
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-23-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/belgium-canada-world-championship-group-stage-740126",
+      "stage": "group",
+      "venue": "Ahmad bin Ali Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Morocco",
+      "group": "F",
+      "home": "Belgium",
+      "match": "Belgium - Morocco",
+      "pre_elo": {
+        "away": 1766.0,
+        "home": 2007.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 4.54,
+        "draw": 3.5,
+        "home": 1.87
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-27-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/belgium-morocco-world-championship-group-stage-740462",
+      "stage": "group",
+      "venue": "Al Thumama Stadium, Doha"
+    },
+    {
+      "actual": [
+        4,
+        1
+      ],
+      "away": "Canada",
+      "group": "F",
+      "home": "Croatia",
+      "match": "Croatia - Canada",
+      "pre_elo": {
+        "away": 1776.0,
+        "home": 1927.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 3.33,
+        "draw": 3.3,
+        "home": 2.28
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-27-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/croatia-canada-world-championship-group-stage-740463",
+      "stage": "group",
+      "venue": "Khalifa International Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Belgium",
+      "group": "F",
+      "home": "Croatia",
+      "match": "Croatia - Belgium",
+      "pre_elo": {
+        "away": 2007.0,
+        "home": 1927.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 2.73,
+        "draw": 3.36,
+        "home": 2.68
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-01-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/croatia-belgium-world-championship-group-stage-740818",
+      "stage": "group",
+      "venue": "Ahmad bin Ali Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "Morocco",
+      "group": "F",
+      "home": "Canada",
+      "match": "Canada - Morocco",
+      "pre_elo": {
+        "away": 1766.0,
+        "home": 1776.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.89,
+        "draw": 3.53,
+        "home": 4.48
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-01-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/canada-morocco-world-championship-group-stage-740817",
+      "stage": "group",
+      "venue": "Al Thumama Stadium, Doha"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Cameroon",
+      "group": "G",
+      "home": "Switzerland",
+      "match": "Switzerland - Cameroon",
+      "pre_elo": {
+        "away": 1610.0,
+        "home": 1902.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 5.16,
+        "draw": 3.6,
+        "home": 1.75
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-24-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/switzerland-cameroon-world-championship-group-stage-740178",
+      "stage": "group",
+      "venue": "Al Janoub Stadium, Al Wakrah"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Serbia",
+      "group": "G",
+      "home": "Brazil",
+      "match": "Brazil - Serbia",
+      "pre_elo": {
+        "away": 1898.0,
+        "home": 2169.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 7.16,
+        "draw": 4.66,
+        "home": 1.47
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-24-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/brazil-serbia-world-championship-group-stage-740179",
+      "stage": "group",
+      "venue": "Lusail Iconic Stadium, Lusail"
+    },
+    {
+      "actual": [
+        3,
+        3
+      ],
+      "away": "Serbia",
+      "group": "G",
+      "home": "Cameroon",
+      "match": "Cameroon - Serbia",
+      "pre_elo": {
+        "away": 1898.0,
+        "home": 1610.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.75,
+        "draw": 3.61,
+        "home": 5.14
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-28-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/cameroon-serbia-world-championship-group-stage-740650",
+      "stage": "group",
+      "venue": "Al Janoub Stadium, Al Wakrah"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Switzerland",
+      "group": "G",
+      "home": "Brazil",
+      "match": "Brazil - Switzerland",
+      "pre_elo": {
+        "away": 1902.0,
+        "home": 2169.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 7.47,
+        "draw": 4.43,
+        "home": 1.48
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-28-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/brazil-switzerland-world-championship-group-stage-740651",
+      "stage": "group",
+      "venue": "Stadium 974, Doha"
+    },
+    {
+      "actual": [
+        2,
+        3
+      ],
+      "away": "Switzerland",
+      "group": "G",
+      "home": "Serbia",
+      "match": "Serbia - Switzerland",
+      "pre_elo": {
+        "away": 1902.0,
+        "home": 1898.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 2.77,
+        "draw": 3.42,
+        "home": 2.63
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-02-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/serbia-switzerland-world-championship-group-stage-740871",
+      "stage": "group",
+      "venue": "Stadium 974, Doha"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Brazil",
+      "group": "G",
+      "home": "Cameroon",
+      "match": "Cameroon - Brazil",
+      "pre_elo": {
+        "away": 2169.0,
+        "home": 1610.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.38,
+        "draw": 5.07,
+        "home": 8.82
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-02-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/cameroon-brazil-world-championship-group-stage-740870",
+      "stage": "group",
+      "venue": "Lusail Iconic Stadium, Lusail"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "South Korea",
+      "group": "H",
+      "home": "Uruguay",
+      "match": "Uruguay - South Korea",
+      "pre_elo": {
+        "away": 1786.0,
+        "home": 1936.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 5.43,
+        "draw": 3.6,
+        "home": 1.72
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-24-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/uruguay-south-korea-world-championship-group-stage-740180",
+      "stage": "group",
+      "venue": "Education City Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        3,
+        2
+      ],
+      "away": "Ghana",
+      "group": "H",
+      "home": "Portugal",
+      "match": "Portugal - Ghana",
+      "pre_elo": {
+        "away": 1567.0,
+        "home": 2005.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 8.66,
+        "draw": 4.95,
+        "home": 1.38
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-24-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/portugal-ghana-world-championship-group-stage-740181",
+      "stage": "group",
+      "venue": "Stadium 974, Doha"
+    },
+    {
+      "actual": [
+        2,
+        3
+      ],
+      "away": "Ghana",
+      "group": "H",
+      "home": "South Korea",
+      "match": "South Korea - Ghana",
+      "pre_elo": {
+        "away": 1567.0,
+        "home": 1786.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 2.96,
+        "draw": 3.1,
+        "home": 2.62
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-28-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/south-korea-ghana-world-championship-group-stage-740648",
+      "stage": "group",
+      "venue": "Education City Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Uruguay",
+      "group": "H",
+      "home": "Portugal",
+      "match": "Portugal - Uruguay",
+      "pre_elo": {
+        "away": 1936.0,
+        "home": 2005.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 4.15,
+        "draw": 3.39,
+        "home": 2.0
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-28-11-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/portugal-uruguay-world-championship-group-stage-740649",
+      "stage": "group",
+      "venue": "Lusail Iconic Stadium, Lusail"
+    },
+    {
+      "actual": [
+        0,
+        2
+      ],
+      "away": "Uruguay",
+      "group": "H",
+      "home": "Ghana",
+      "match": "Ghana - Uruguay",
+      "pre_elo": {
+        "away": 1936.0,
+        "home": 1567.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.91,
+        "draw": 3.62,
+        "home": 4.21
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-02-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/ghana-uruguay-world-championship-group-stage-740872",
+      "stage": "group",
+      "venue": "Al Janoub Stadium, Al Wakrah"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Portugal",
+      "group": "H",
+      "home": "South Korea",
+      "match": "South Korea - Portugal",
+      "pre_elo": {
+        "away": 2005.0,
+        "home": 1786.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.92,
+        "draw": 3.79,
+        "home": 3.95
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-02-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/match/south-korea-portugal-world-championship-group-stage-740873",
+      "stage": "group",
+      "venue": "Lusail Iconic Stadium, Lusail"
+    },
+    {
+      "actual": [
+        3,
+        1
+      ],
+      "away": "USA",
+      "group": null,
+      "home": "Netherlands",
+      "match": "Netherlands - USA",
+      "pre_elo": {
+        "away": 1798.0,
+        "home": 2041.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 4.26,
+        "draw": 3.28,
+        "home": 2.01
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-03-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-03-12-2022",
+      "stage": "knockout",
+      "venue": "Khalifa International Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        2,
+        1
+      ],
+      "away": "Australia",
+      "group": null,
+      "home": "Argentina",
+      "match": "Argentina - Australia",
+      "pre_elo": {
+        "away": 1719.0,
+        "home": 2143.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 13.6,
+        "draw": 6.18,
+        "home": 1.25
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-03-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-03-12-2022",
+      "stage": "knockout",
+      "venue": "Ahmad bin Ali Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        3,
+        1
+      ],
+      "away": "Poland",
+      "group": null,
+      "home": "France",
+      "match": "France - Poland",
+      "pre_elo": {
+        "away": 1814.0,
+        "home": 2005.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 10.11,
+        "draw": 5.21,
+        "home": 1.34
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-04-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-04-12-2022",
+      "stage": "knockout",
+      "venue": "Al Thumama Stadium, Doha"
+    },
+    {
+      "actual": [
+        3,
+        0
+      ],
+      "away": "Senegal",
+      "group": null,
+      "home": "England",
+      "match": "England - Senegal",
+      "pre_elo": {
+        "away": 1687.0,
+        "home": 1920.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 7.33,
+        "draw": 4.03,
+        "home": 1.53
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-04-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-04-12-2022",
+      "stage": "knockout",
+      "venue": "Al Bayt Stadium, Al Khor"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Croatia",
+      "group": null,
+      "home": "Japan",
+      "match": "Japan - Croatia",
+      "penalty_winner": "away",
+      "pre_elo": {
+        "away": 1927.0,
+        "home": 1787.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 2.06,
+        "draw": 3.33,
+        "home": 4.01
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-05-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-05-12-2022",
+      "shootout": [
+        1,
+        3
+      ],
+      "stage": "knockout",
+      "venue": "Al Janoub Stadium, Al Wakrah"
+    },
+    {
+      "actual": [
+        4,
+        1
+      ],
+      "away": "South Korea",
+      "group": null,
+      "home": "Brazil",
+      "match": "Brazil - South Korea",
+      "pre_elo": {
+        "away": 1786.0,
+        "home": 2169.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 13.1,
+        "draw": 5.98,
+        "home": 1.26
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-05-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-05-12-2022",
+      "stage": "knockout",
+      "venue": "Stadium 974, Doha"
+    },
+    {
+      "actual": [
+        0,
+        0
+      ],
+      "away": "Spain",
+      "group": null,
+      "home": "Morocco",
+      "match": "Morocco - Spain",
+      "penalty_winner": "home",
+      "pre_elo": {
+        "away": 2048.0,
+        "home": 1766.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.52,
+        "draw": 4.18,
+        "home": 7.19
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-06-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-06-12-2022",
+      "shootout": [
+        3,
+        0
+      ],
+      "stage": "knockout",
+      "venue": "Education City Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        6,
+        1
+      ],
+      "away": "Switzerland",
+      "group": null,
+      "home": "Portugal",
+      "match": "Portugal - Switzerland",
+      "pre_elo": {
+        "away": 1902.0,
+        "home": 2005.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 4.65,
+        "draw": 3.46,
+        "home": 1.88
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-06-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-06-12-2022",
+      "stage": "knockout",
+      "venue": "Lusail Iconic Stadium, Lusail"
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "away": "Brazil",
+      "group": null,
+      "home": "Croatia",
+      "match": "Croatia - Brazil",
+      "penalty_winner": "home",
+      "pre_elo": {
+        "away": 2169.0,
+        "home": 1927.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.38,
+        "draw": 5.03,
+        "home": 8.85
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-09-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-09-12-2022",
+      "shootout": [
+        4,
+        2
+      ],
+      "stage": "knockout",
+      "venue": "Education City Stadium, Al Rayyan"
+    },
+    {
+      "actual": [
+        2,
+        2
+      ],
+      "away": "Argentina",
+      "group": null,
+      "home": "Netherlands",
+      "match": "Netherlands - Argentina",
+      "penalty_winner": "away",
+      "pre_elo": {
+        "away": 2143.0,
+        "home": 2041.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 2.21,
+        "draw": 3.18,
+        "home": 3.73
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-09-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-09-12-2022",
+      "shootout": [
+        3,
+        4
+      ],
+      "stage": "knockout",
+      "venue": "Lusail Iconic Stadium, Lusail"
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "away": "Portugal",
+      "group": null,
+      "home": "Morocco",
+      "match": "Morocco - Portugal",
+      "pre_elo": {
+        "away": 2005.0,
+        "home": 1766.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 1.73,
+        "draw": 3.58,
+        "home": 5.54
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-10-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-10-12-2022",
+      "stage": "knockout",
+      "venue": "Al Thumama Stadium, Doha"
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "away": "France",
+      "group": null,
+      "home": "England",
+      "match": "England - France",
+      "pre_elo": {
+        "away": 2005.0,
+        "home": 1920.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 2.6,
+        "draw": 3.11,
+        "home": 3.03
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-10-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-10-12-2022",
+      "stage": "knockout",
+      "venue": "Al Bayt Stadium, Al Khor"
+    },
+    {
+      "actual": [
+        3,
+        0
+      ],
+      "away": "Croatia",
+      "group": null,
+      "home": "Argentina",
+      "match": "Argentina - Croatia",
+      "pre_elo": {
+        "away": 1927.0,
+        "home": 2143.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 4.81,
+        "draw": 3.36,
+        "home": 1.893
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-13-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-13-12-2022",
+      "stage": "knockout",
+      "venue": "Lusail Iconic Stadium, Lusail"
+    },
+    {
+      "actual": [
+        2,
+        0
+      ],
+      "away": "Morocco",
+      "group": null,
+      "home": "France",
+      "match": "France - Morocco",
+      "pre_elo": {
+        "away": 1766.0,
+        "home": 2005.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 7.08,
+        "draw": 3.97,
+        "home": 1.56
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-14-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-14-12-2022",
+      "stage": "knockout",
+      "venue": "Al Bayt Stadium, Al Khor"
+    },
+    {
+      "actual": [
+        3,
+        3
+      ],
+      "away": "France",
+      "group": null,
+      "home": "Argentina",
+      "match": "Argentina - France",
+      "penalty_winner": "home",
+      "pre_elo": {
+        "away": 2005.0,
+        "home": 2143.0
+      },
+      "pre_elo_source": "https://www.international-football.net/elo-ratings-table?confed=&day=19&month=11&prev-day=16&prev-month=12&prev-year=&year=2022",
+      "pre_odds": {
+        "away": 2.87,
+        "draw": 3.14,
+        "home": 2.72
+      },
+      "pre_odds_date_source": "https://tipsterarea.com/matches/date-18-12-2022",
+      "pre_odds_source": "https://tipsterarea.com/matches/date-18-12-2022",
+      "shootout": [
+        4,
+        2
+      ],
+      "stage": "knockout",
+      "venue": "Lusail Iconic Stadium, Lusail"
+    }
+  ]
+}

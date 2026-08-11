@@ -1,0 +1,136 @@
+/* ==========================================================================
+   Spieler-Impact-Board -- helle Fassung auf den Dashboard-Tokens.
+
+   Gescopt unter `.player-board`, und das ist wie beim Rival-Lab kein
+   Schoenheitsgrund: das Board benutzt `.grid`, `.bar` und `.meta` --
+   alle drei gibt es in assets/styles.css bereits mit anderer Bedeutung.
+
+   Vorher war die Palette warmes Off-White mit Terracotta-Akzent und einem
+   systemfremden Violett -- also die 2026-06-21 verworfene Editorial-Linie.
+   Alle Werte kommen jetzt aus assets/tokens.css (T-0165). Die alten
+   Hex-Werte sind hier bewusst nicht zitiert, sonst schlagen die
+   Farb-Waechter in tests/test_dashboard_ui.py auf einen Kommentar an.
+   ========================================================================== */
+
+.player-board { color: var(--ink); }
+
+.player-board .pb-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: var(--s4);
+}
+
+.player-board .cd {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  padding: var(--s5);
+  box-shadow: var(--sh-sm);
+}
+
+.player-board .ct {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: var(--track-tight);
+  margin: 0 0 2px;
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+}
+
+.player-board .cs {
+  font-size: 12.5px;
+  color: var(--muted);
+  margin: 0 0 var(--s3);
+}
+
+.player-board .r {
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line2);
+}
+
+.player-board .r:last-child { border-bottom: 0; }
+
+.player-board .rt {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--s2);
+}
+
+.player-board .nm { font-size: 14.5px; font-weight: 600; }
+
+.player-board .tm {
+  font-size: 12px;
+  color: var(--muted);
+  margin-left: 7px;
+  font-weight: 400;
+}
+
+.player-board .v {
+  font-size: 14.5px;
+  font-weight: 700;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.player-board .su { font-size: 11.5px; color: var(--muted); font-weight: 400; }
+
+.player-board .pb-bar {
+  height: 5px;
+  background: var(--bg2);
+  border-radius: 3px;
+  margin-top: 7px;
+  overflow: hidden;
+}
+
+.player-board .pb-bar i { display: block; height: 100%; border-radius: 3px; }
+
+.player-board .pb-meta {
+  font-size: 11.5px;
+  color: var(--muted);
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.player-board .pill {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 9px;
+  border-radius: var(--r-pill);
+  white-space: nowrap;
+}
+
+.player-board .pill--gedeckt { background: var(--acc-soft); color: var(--acc-d); }
+.player-board .pill--heiss { background: var(--red-soft); color: var(--red-d); }
+.player-board .pill--kalt { background: var(--blue-soft); color: var(--blue-d); }
+
+.player-board .mis {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  padding: var(--s4) var(--s5);
+  margin-top: var(--s4);
+  box-shadow: var(--sh-sm);
+}
+
+.player-board .mp {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  background: var(--red-soft);
+  color: var(--red-d);
+  border-radius: var(--r1);
+  padding: 4px 11px;
+  margin: var(--s1) 5px 0 0;
+}
+
+.player-board .foot {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: var(--s6);
+  line-height: 1.6;
+}

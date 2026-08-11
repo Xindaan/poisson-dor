@@ -1,0 +1,22 @@
+# Netlify-Deploy fuer das WM-2026-Turnier-Dashboard.
+# Statische Single-Page-Seite, kein Build noetig -- Netlify serviert nur den Ordner.
+# Erzeugt von analysis/wm_journey.py (-> analysis/site/index.html).
+# Nach neuen Ergebnissen: `python3 analysis/wm_journey.py`, dann committen+pushen
+# -> Netlify deployt automatisch (sobald das Repo einmal verbunden ist).
+
+[build]
+  publish = "analysis/site"
+  command = ""
+  # Netlify baut NUR, wenn sich der Seiten-Output (oder diese Konfig) seit dem letzten
+  # Deploy geaendert hat. So loesen normale Code-/Pipeline-Pushes KEINEN Build aus
+  # (kostenfrei); deployt wird erst, wenn ein neu generiertes analysis/site/ gepusht wird.
+  # ignore: exit 0 = Build ueberspringen, exit !=0 = bauen.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- analysis/site netlify.toml"
+
+# index.html nicht hart cachen: nach jedem Ergebnis-Deploy soll die frische Seite kommen,
+# sonst zeigt z. B. iOS Safari die alte gecachte Version. ETag-Revalidierung ist billig
+# (Netlify antwortet mit 304, wenn unveraendert).
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

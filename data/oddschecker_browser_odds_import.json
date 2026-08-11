@@ -1,0 +1,139 @@
+{
+  "source": "oddschecker_us_world_cup_2026",
+  "source_url": "https://www.oddschecker.com/us/soccer/world-cup",
+  "observed_at": "2026-07-04T11:05:00.367532+00:00",
+  "odds_format": "american",
+  "conversion": "positive: 1 + american/100; negative: 1 + 100/abs(american)",
+  "note": "Free Oddschecker World Cup page read on 2026-07-04; visible R16 best-odds rows lines Canada-Morocco through Switzerland-Colombia. Imported as best-odds comparison source, not single-bookmaker consensus.",
+  "matches": [
+    {
+      "match_id": "ko-090",
+      "match": "Canada - Morocco",
+      "kickoff_local": "2026-07-04T19:00:00+02:00",
+      "event_url": "https://www.oddschecker.com/us/soccer/world-cup/canada-v-morocco",
+      "american_odds": {
+        "home": 440,
+        "draw": 245,
+        "away": -125
+      },
+      "decimal_odds": {
+        "home": 5.4,
+        "draw": 3.45,
+        "away": 1.8
+      }
+    },
+    {
+      "match_id": "ko-089",
+      "match": "Paraguay - France",
+      "kickoff_local": "2026-07-04T23:00:00+02:00",
+      "event_url": "https://www.oddschecker.com/us/soccer/world-cup/paraguay-v-france",
+      "american_odds": {
+        "home": 1800,
+        "draw": 600,
+        "away": -475
+      },
+      "decimal_odds": {
+        "home": 19.0,
+        "draw": 7.0,
+        "away": 1.2105
+      }
+    },
+    {
+      "match_id": "ko-091",
+      "match": "Brazil - Norway",
+      "kickoff_local": "2026-07-05T22:00:00+02:00",
+      "event_url": "https://www.oddschecker.com/us/soccer/world-cup/brazil-v-norway",
+      "american_odds": {
+        "home": -120,
+        "draw": 285,
+        "away": 360
+      },
+      "decimal_odds": {
+        "home": 1.8333,
+        "draw": 3.85,
+        "away": 4.6
+      }
+    },
+    {
+      "match_id": "ko-092",
+      "match": "Mexico - England",
+      "kickoff_local": "2026-07-06T02:00:00+02:00",
+      "event_url": "https://www.oddschecker.com/us/soccer/world-cup/mexico-v-england",
+      "american_odds": {
+        "home": 215,
+        "draw": 220,
+        "away": 145
+      },
+      "decimal_odds": {
+        "home": 3.15,
+        "draw": 3.2,
+        "away": 2.45
+      }
+    },
+    {
+      "match_id": "ko-093",
+      "match": "Portugal - Spain",
+      "kickoff_local": "2026-07-06T21:00:00+02:00",
+      "event_url": "https://www.oddschecker.com/us/soccer/world-cup/portugal-v-spain",
+      "american_odds": {
+        "home": 330,
+        "draw": 265,
+        "away": -111
+      },
+      "decimal_odds": {
+        "home": 4.3,
+        "draw": 3.65,
+        "away": 1.9009
+      }
+    },
+    {
+      "match_id": "ko-094",
+      "match": "USA - Belgium",
+      "kickoff_local": "2026-07-07T02:00:00+02:00",
+      "event_url": "https://www.oddschecker.com/us/soccer/world-cup/usa-v-belgium",
+      "american_odds": {
+        "home": 180,
+        "draw": 240,
+        "away": 165
+      },
+      "decimal_odds": {
+        "home": 2.8,
+        "draw": 3.4,
+        "away": 2.65
+      }
+    },
+    {
+      "match_id": "ko-095",
+      "match": "Argentina - Egypt",
+      "kickoff_local": "2026-07-07T18:00:00+02:00",
+      "event_url": "https://www.oddschecker.com/us/soccer/world-cup/argentina-v-egypt",
+      "american_odds": {
+        "home": -275,
+        "draw": 400,
+        "away": 900
+      },
+      "decimal_odds": {
+        "home": 1.3636,
+        "draw": 5.0,
+        "away": 10.0
+      }
+    },
+    {
+      "match_id": "ko-096",
+      "match": "Switzerland - Colombia",
+      "kickoff_local": "2026-07-07T22:00:00+02:00",
+      "event_url": "https://www.oddschecker.com/us/soccer/world-cup/switzerland-v-colombia",
+      "american_odds": {
+        "home": 260,
+        "draw": 230,
+        "away": 128
+      },
+      "decimal_odds": {
+        "home": 3.6,
+        "draw": 3.3,
+        "away": 2.28
+      }
+    }
+  ],
+  "unimported": []
+}

@@ -1,0 +1,9 @@
+[
+  {"match": "Qatar - Ecuador", "stage": "group", "actual": [0, 2], "favorite_tip": [0, 1], "model_tip": [0, 2]},
+  {"match": "Argentina - Saudi Arabia", "stage": "group", "actual": [1, 2], "favorite_tip": [2, 0], "model_tip": [2, 0]},
+  {"match": "Germany - Japan", "stage": "group", "actual": [1, 2], "favorite_tip": [2, 1], "model_tip": [1, 1]},
+  {"match": "Spain - Costa Rica", "stage": "group", "actual": [7, 0], "favorite_tip": [2, 0], "model_tip": [3, 0]},
+  {"match": "France - Australia", "stage": "group", "actual": [4, 1], "favorite_tip": [2, 0], "model_tip": [3, 1]},
+  {"match": "Brazil - Serbia", "stage": "group", "actual": [2, 0], "favorite_tip": [2, 0], "model_tip": [2, 0]},
+  {"match": "Argentina - France", "stage": "knockout", "actual": [3, 3], "favorite_tip": [1, 1], "model_tip": [2, 2]}
+]

@@ -1,0 +1,251 @@
+{
+  "fixtures": [
+    {
+      "name": "openfootball World Cup 2026",
+      "url": "https://raw.githubusercontent.com/openfootball/worldcup/master/2026--usa/cup.txt",
+      "cost": "free",
+      "use": "fixture seed and group schedule"
+    }
+  ],
+  "bracket": [
+    {
+      "name": "FIFA World Cup 2026 Regulations",
+      "url": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+      "cost": "free",
+      "use": "official 2026 knockout match numbering and bracket path"
+    },
+    {
+      "name": "FIFA World Cup 26 knockout stage fixtures and bracket",
+      "url": "https://www.fifa.com/en/articles/knockout-stage-match-schedule-bracket",
+      "cost": "free",
+      "use": "official public bracket reference and best-third group pools"
+    },
+    {
+      "name": "Torneo de Futbol World Cup 2026 rules mirror",
+      "url": "https://www.torneodefutbol.com.mx/quiniela-mundial/2026/reglas",
+      "cost": "free",
+      "use": "machine-readable mirror of the 495 best-third assignment combinations"
+    }
+  ],
+  "context": [
+    {
+      "name": "SportRxiv environmental stress preprint",
+      "url": "https://sportrxiv.org/index.php/server/preprint/view/848",
+      "cost": "free",
+      "use": "group-stage WBGT, altitude and nation-specific environmental stress reference for heat/context model"
+    },
+    {
+      "name": "World Weather Attribution / FIFPRO heat-stress reporting",
+      "url": "https://www.euronews.com/2026/05/14/hazardous-heat-could-put-world-cup-players-health-and-performance-at-risk-report-warns",
+      "cost": "free",
+      "use": "public WBGT threshold context: 26C cooling-break risk, 28C postponement-watch reference and venue risk corroboration"
+    },
+    {
+      "name": "NPR historical WBGT match analysis",
+      "url": "https://www.gpb.org/news/2026/06/04/more-1-in-3-world-cup-matches-face-dangerous-heat-risk-npr-analysis-finds",
+      "cost": "free",
+      "use": "historical fixture-time heat-risk corroboration and kickoff-time risk framing"
+    }
+  ],
+  "team_strength": [
+    {
+      "name": "FIFA/Coca-Cola Men's World Ranking",
+      "url": "https://inside.fifa.com/fifa-world-ranking/men",
+      "cost": "free",
+      "use": "ranking anchor for team-strength builder"
+    },
+    {
+      "name": "World football Elo ratings",
+      "url": "https://www.international-football.net/elo-ratings-table?day=24&month=04&year=2026",
+      "cost": "free",
+      "use": "primary rating anchor for team-strength builder"
+    },
+    {
+      "name": "team_strength_inputs.json",
+      "url": "data/team_strength_inputs.json",
+      "cost": "free",
+      "use": "manual transparent form, qualifier and attack adjustments"
+    }
+  ],
+  "news": [
+    {
+      "name": "GDELT DOC 2.0",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+      "cost": "free",
+      "use": "broad news discovery"
+    },
+    {
+      "name": "manual_news.json",
+      "url": "data/manual_news.json",
+      "cost": "free",
+      "use": "manual high-signal notes, official team posts, expected lineups"
+    },
+    {
+      "name": "Canada Soccer official RSS",
+      "url": "https://canadasoccer.com/feed/",
+      "cost": "free",
+      "use": "official federation feed for Canada squad, roster, injury and match context"
+    },
+    {
+      "name": "Inside World Football RSS",
+      "url": "https://www.insideworldfootball.com/feed/",
+      "cost": "free",
+      "use": "free RSS feed for World Cup, federation, travel, governance and team-context monitoring"
+    },
+    {
+      "name": "World Soccer RSS",
+      "url": "https://www.worldsoccer.com/feed",
+      "cost": "free",
+      "use": "free RSS feed for global team features, World Cup guide content and squad/player context"
+    },
+    {
+      "name": "We Global Football RSS",
+      "url": "https://www.weglobalfootball.com/feed/",
+      "cost": "free",
+      "use": "watch-only national-team analysis archive; not in the default live refresh because the feed is currently stale"
+    },
+    {
+      "name": "FIFA World Cup 2026 news page",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/news",
+      "cost": "free",
+      "use": "official tournament news and host/context watch target; no stable RSS endpoint found"
+    },
+    {
+      "name": "team_intel_sources.json",
+      "url": "data/team_intel_sources.json",
+      "cost": "free",
+      "use": "structured watch catalog for official federation pages, matchday lineup sources, weather, host-city and pitch context"
+    }
+  ],
+  "markets": [
+    {
+      "name": "manual_odds.csv",
+      "url": "data/manual_odds.csv",
+      "cost": "free",
+      "use": "Bwin/Bet&Win, odds comparison or other copied decimal odds"
+    },
+    {
+      "name": "Betano 2026 World Cup match odds",
+      "url": "https://www.betano.co.uk/en-gb/pages/football/fifa-world-cup",
+      "cost": "free",
+      "use": "manual bootstrap odds for early 2026 group matches copied as fractional odds and converted to decimal odds"
+    },
+    {
+      "name": "bet365 2026 World Cup match odds",
+      "url": "https://www.bet365.com/hub/en-us/football/football-competitions/world-cup",
+      "cost": "free",
+      "use": "free readable early 2026 match odds; American odds converted to decimal odds"
+    },
+    {
+      "name": "Bwin 2026 World Cup match odds",
+      "url": "https://www.bwin.de/de/sports/fu%C3%9Fball-4/wetten/welt-6/wm-2026-0%3A14",
+      "cost": "free",
+      "use": "free readable German WM 2026 page when not geoblocked; observed 2026-05-19 with 24 match odds, 21 overall bets and 1 special market; exact-score visibility remains on source-watch"
+    },
+    {
+      "name": "manual_exact_score_odds.json",
+      "url": "data/manual_exact_score_odds.json",
+      "cost": "free",
+      "use": "manual Browser snapshot for Bwin.de exact-score prices; display/watch signal until backtest calibration decides whether it can influence tips"
+    },
+    {
+      "name": "Bwin.de 2026 World Cup overall bets",
+      "url": "https://www.bwin.de/de/sports/events/wm-2026-sieger-2%3A4512439",
+      "cost": "free",
+      "use": "free bookmaker futures for bonus questions; world champion and semifinalist odds copied into manual_markets.json"
+    },
+    {
+      "name": "PokerStars Sports 2026 World Cup match odds",
+      "url": "https://www.pokerstars.es/en/sports/soccer/1/fifa-world-cup/12469077/",
+      "cost": "free",
+      "use": "free readable match odds list; extends coverage beyond the first 24 scheduled fixtures where prices are visible"
+    },
+    {
+      "name": "SportyTrader 2026 World Cup odds comparison",
+      "url": "https://www.sportytrader.com/en/odds/football/world/world-cup-1811/",
+      "cost": "free",
+      "use": "free best-odds comparison for all 72 group matches; underround can occur because outcomes may come from different bookmakers"
+    },
+    {
+      "name": "WinComparator 2026 World Cup predictions and best odds",
+      "url": "https://www.wincomparator.com/predictions/football/world/world-cup-1811/",
+      "cost": "free",
+      "use": "free best-odds comparison for currently visible 2026 World Cup match markets; imported to corroborate previously SportyTrader-only late group matches"
+    },
+    {
+      "name": "Oddschecker US 2026 World Cup odds comparison",
+      "url": "https://www.oddschecker.com/us/soccer/world-cup",
+      "cost": "free",
+      "use": "free best-odds comparison for currently visible 2026 World Cup match markets; American odds converted to decimal odds and underround allowed for mixed best prices"
+    },
+    {
+      "name": "Bettors.Club 2026 World Cup live odds comparison",
+      "url": "https://www.bettors.club/live-soccer-scores-results/worldcup/world-cup/1056/",
+      "cost": "free",
+      "use": "free multi-bookmaker 1X2 comparison with current, five-minute and opening prices; median current prices are imported as a corroborating consensus source"
+    },
+    {
+      "name": "Matchen.nu 2026 World Cup odds comparison",
+      "url": "https://matchen.nu/ligor/world-cup/2026/",
+      "cost": "free",
+      "use": "free timestamped bookmaker comparison used as an additional current consensus source when other comparison pages lack a directly readable match page"
+    },
+    {
+      "name": "Odds.School FIFA World Cup odds analysis",
+      "url": "https://odds.school/soccer_fifa_world_cup",
+      "cost": "free",
+      "use": "free odds analysis and best-odds comparison for currently visible FIFA World Cup match markets; imported only to corroborate previously single-source games, with underround allowed for mixed best prices"
+    },
+    {
+      "name": "BetVictor 2026 World Cup match odds",
+      "url": "https://www.betvictor.com/en-gb/pages/football/world-cup-2026-odds",
+      "cost": "free",
+      "use": "second free bookmaker source for early 2026 group-match odds consensus"
+    },
+    {
+      "name": "talkSPORT BET 2026 World Cup match odds",
+      "url": "https://www.talksportbet.com/en-gb/pages/fifa-world-cup",
+      "cost": "free",
+      "use": "third free bookmaker source for corroborated early group-match odds; uncorroborated or outlier prices are not mixed into consensus"
+    },
+    {
+      "name": "TipsterArea historical match odds",
+      "url": "https://tipsterarea.com/matches/date-DD-MM-YYYY",
+      "cost": "free",
+      "use": "historical pre-match average decimal odds for WM 2018/2022 backtests"
+    },
+    {
+      "name": "manual_markets.json",
+      "url": "data/manual_markets.json",
+      "cost": "free",
+      "use": "futures or prediction-market signals when available and relevant"
+    }
+  ],
+  "players": [
+    {
+      "name": "martj42 international_results goalscorers.csv",
+      "url": "https://raw.githubusercontent.com/martj42/international_results/master/goalscorers.csv",
+      "license": "CC0 1.0 Universal",
+      "cost": "free",
+      "use": "national-team scorer pool for top-scorer-team bonus model"
+    },
+    {
+      "name": "player_pool.json",
+      "url": "data/player_pool.json",
+      "cost": "free",
+      "use": "local transformed Top-3 scorer shares per 2026 fixture team"
+    },
+    {
+      "name": "FIFA confirmed 2026 squad lists",
+      "url": "https://inside.fifa.com/media-releases/world-cup-2026-48-squads-confirmed",
+      "cost": "free",
+      "use": "official 48-team squad confirmation and player-list anchor for player intelligence"
+    },
+    {
+      "name": "Guardian World Cup 2026 player guide",
+      "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/world-cup-2026-complete-player-guide",
+      "cost": "free",
+      "use": "manual role, depth, key-player and squad-context verification for quantitative player intelligence; do not copy long profile text"
+    }
+  ]
+}

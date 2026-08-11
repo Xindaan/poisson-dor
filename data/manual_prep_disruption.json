@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "example": {
+      "ga-001": {
+        "observed_at": "2026-06-09",
+        "reason": "Nur Matchday-Einreise erlaubt, <48h trotz FIFA-48h-Regel",
+        "severity": "strong",
+        "source": "https://example.org/report",
+        "team": "Iran"
+      }
+    },
+    "format": {
+      "disruptions": {
+        "<match_id>": {
+          "observed_at": "ISO-Datum",
+          "reason": "kurze Begruendung",
+          "severity": "mild | strong (optional, wenn kein xg_delta gesetzt)",
+          "source": "URL/Quelle",
+          "team": "<eines der beiden Teams genau dieses Spiels>",
+          "xg_delta": "optional float <= 0; sonst aus severity (mild -0.04, strong -0.08); Deckel -0.10"
+        }
+      }
+    },
+    "note": "Effekt erscheint als eigene Breakdown-Zeile (prep_disruption_effect) im Match-Drilldown -- nie still im Tipp.",
+    "policy": "Nur bei konkretem, belegtem Report eintragen (nichts erfinden). Quelle + observed_at pflegen. Manuell schlaegt das automatische News-Sub-Signal.",
+    "purpose": "Manueller Per-Match-Override fuer Einreise-/Vorbereitungs-Stoerungen (T-0066): kleiner, geclampter xG-Malus fuer ein Team in genau einem Spiel."
+  },
+  "disruptions": {
+    "gk-061": {
+      "observed_at": "2026-06-17",
+      "reason": "DR Congo: 21 Tage Ebola-Isolation in Belgien als US-Einreisebedingung erzwungen; Trainingslager in Kinshasa abgesagt, Warm-up gegen Chile nach Frankreich verlegt (hinter verschlossenen Tueren); Einreise USA erst 12.06. (Basislager Houston). Team-weit gestoerte Vorbereitung.",
+      "severity": "mild",
+      "source": "https://www.aljazeera.com/sports/2026/6/12/dr-congo-arrive-in-the-us-for-the-world-cup-after-ebola-quarantine ; https://www.semafor.com/article/06/12/2026/drc-minister-us-ebola-travel-rules-disrupt-world-cup-return",
+      "team": "DR Congo"
+    },
+    "gg-038": {
+      "observed_at": "2026-06-09",
+      "reason": "Iran reist erst 1 Tag vor dem Auftaktspiel (LA) in die USA ein (<48h statt FIFA-48h); mehrere Staff-/Funktionaersmitglieder ohne US-Visum; Basislager nach Tijuana verlegt.",
+      "severity": "strong",
+      "source": "https://www.aljazeera.com/sports/2026/6/7/irans-world-cup-squad-lands-in-mexico-amid-us-visa-row ; https://www.espn.com/soccer/story/_/id/48984862/iran-usa-world-cup-visas-officials-2026",
+      "team": "Iran"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "updated_at": "2026-07-20T10:03:28.512752+00:00"
+  },
+  "checks": [
+    {
+      "detail": "104 finale Tipps sind chronologisch sortiert.",
+      "id": "final_tips_chronological",
+      "status": "pass"
+    },
+    {
+      "detail": "208 finale Tipps ueber alle Runden sind chronologisch sortiert.",
+      "id": "all_round_final_tips_chronological",
+      "status": "pass"
+    },
+    {
+      "detail": "104 Watchlist-Zeilen sind chronologisch sortiert.",
+      "id": "watchlist_chronological",
+      "status": "pass"
+    },
+    {
+      "detail": "Prediction-History enthaelt nur echte Tippwechsel.",
+      "id": "history_only_tip_changes",
+      "status": "pass"
+    },
+    {
+      "detail": "Mindestens ein simuliertes Matchday-Fenster braucht Review.",
+      "id": "matchday_windows_fire",
+      "status": "review"
+    },
+    {
+      "detail": "Kein zukuenftiges Spiel fuer den Matchday-Probelauf gefunden.",
+      "id": "target_match_available",
+      "status": "review"
+    }
+  ],
+  "counts": {
+    "all_round_final_tips": 208,
+    "final_tips": 104,
+    "history_events": 94,
+    "scenarios": 0,
+    "watchlist": 104
+  },
+  "scenarios": [],
+  "status": "review",
+  "target_match": {}
+}

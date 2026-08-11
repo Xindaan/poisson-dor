@@ -1,0 +1,1658 @@
+{
+  "_meta": {
+    "description": "Spielerdaten fuer Topscorer-Modell. Pro Team Top-3-Torschuetzen mit goal_share als Anteil an den Top-3-Toren des Teams in Nationalmannschafts-Spielen seit Anfang 2024.",
+    "source": "martj42/international_results goalscorers.csv",
+    "source_url": "https://raw.githubusercontent.com/martj42/international_results/master/goalscorers.csv",
+    "license": "CC0 1.0 Universal",
+    "license_url": "https://raw.githubusercontent.com/martj42/international_results/master/LICENSE",
+    "source_date_range": "1916-07-02 bis 2026-03-31",
+    "filter": "date >= 2024-01-01, team == WM-2026-Fixture-Team oder Alias, own_goal == FALSE, scorer vorhanden.",
+    "method": "Spielernamen werden akzent-/reihenfolge-tolerant gruppiert; goal_share = goals(spieler, seit 2024) / sum(goals(top-3, seit 2024)).",
+    "optional_fields": "position (ST/CF/FW/LW/RW/AM/MF/CM/DM/LM/RM/W oder GK/DF/CB/LB/RB/LWB/RWB/WB/SW) und role (starter/rotation/backup) je Spieler steuern das richtungssensitive News-Modell (T-0040). position manuell aus Squad-Quellen (Guardian Player-Guide, Wikipedia-Squads, FIFA-Squad) pflegen; Rebuild bewahrt sie via preserve_overrides.",
+    "role_assignment": "T-0040-role: role wird je Build heuristisch projiziert (role_source=heuristic_v1) -- key_player/Top-Scorer/relevante Tore => starter, nur eindeutig geringste Involvierung (goal_share<0.15 und <=2 Tore, kein key_player/Top-Scorer) => rotation. KEINE echten Lineup-/Minutendaten: goal_share unter Top-3-Torschuetzen ist kein zuverlaessiges Startelf-Signal, deshalb konservativ. Echte Rollen als role mit role_source!=heuristic_v1 pflegen; die gewinnen und ueberleben den Rebuild.",
+    "fallback": "Teams ohne Eintrag erhalten im Modell default_top_share=0.4; aktuelle Abdeckung hat keinen Fallback-Fall.",
+    "coverage": "48/48 Fixture-Teams mit mindestens einem Torschuetzen seit 2024.",
+    "team_aliases": {
+      "Bosnia & Herzegovina": "Bosnia and Herzegovina",
+      "USA": "United States"
+    },
+    "scorer_aliases": {
+      "Julián Álvarez": "Julián Alvarez",
+      "Mohamed El Amine Amoura": "Mohamed Amoura"
+    },
+    "updated_at": "2026-07-20"
+  },
+  "players": {
+    "Algeria": [
+      {
+        "name": "Mohamed Amoura",
+        "goal_share": 0.5263,
+        "goals_since_2024": 10,
+        "note": "10 von 19 Top-3-Toren seit 2024; Team gesamt: 29.",
+        "source_aliases": [
+          "Mohamed El Amine Amoura"
+        ],
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Baghdad Bounedjah",
+        "goal_share": 0.2632,
+        "goals_since_2024": 5,
+        "note": "5 von 19 Top-3-Toren seit 2024; Team gesamt: 29.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Riyad Mahrez",
+        "goal_share": 0.2105,
+        "goals_since_2024": 4,
+        "note": "4 von 19 Top-3-Toren seit 2024; Team gesamt: 29.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Argentina": [
+      {
+        "name": "Lautaro Martínez",
+        "goal_share": 0.4286,
+        "goals_since_2024": 9,
+        "note": "9 von 21 Top-3-Toren seit 2024; Team gesamt: 32.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Julián Alvarez",
+        "goal_share": 0.2857,
+        "goals_since_2024": 6,
+        "note": "6 von 21 Top-3-Toren seit 2024; Team gesamt: 32.",
+        "source_aliases": [
+          "Julián Álvarez"
+        ],
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Lionel Messi",
+        "goal_share": 0.2857,
+        "goals_since_2024": 6,
+        "note": "6 von 21 Top-3-Toren seit 2024; Team gesamt: 32.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Australia": [
+      {
+        "name": "Kusini Yengi",
+        "goal_share": 0.375,
+        "goals_since_2024": 6,
+        "note": "6 von 16 Top-3-Toren seit 2024; Team gesamt: 36.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Craig Goodwin",
+        "goal_share": 0.3125,
+        "goals_since_2024": 5,
+        "note": "5 von 16 Top-3-Toren seit 2024; Team gesamt: 36.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Jackson Irvine",
+        "goal_share": 0.3125,
+        "goals_since_2024": 5,
+        "note": "5 von 16 Top-3-Toren seit 2024; Team gesamt: 36.",
+        "position": "MF",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Austria": [
+      {
+        "name": "Marko Arnautović",
+        "goal_share": 0.44,
+        "goals_since_2024": 11,
+        "note": "11 von 25 Top-3-Toren seit 2024; Team gesamt: 43.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Michael Gregoritsch",
+        "goal_share": 0.32,
+        "goals_since_2024": 8,
+        "note": "8 von 25 Top-3-Toren seit 2024; Team gesamt: 43.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "goal_share": 0.24,
+        "goals_since_2024": 6,
+        "note": "6 von 25 Top-3-Toren seit 2024; Team gesamt: 43.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Konrad Laimer",
+        "goal_share": 0.0,
+        "position": "MF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Christoph Baumgartner",
+        "goal_share": 0.0,
+        "goals_since_2024": 0,
+        "note": "manuell ergaenzt (Ausfall-News, T-0040-Routing)",
+        "position": "MF",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "manual"
+      }
+    ],
+    "Belgium": [
+      {
+        "name": "Kevin De Bruyne",
+        "goal_share": 0.4737,
+        "goals_since_2024": 9,
+        "note": "9 von 19 Top-3-Toren seit 2024; Team gesamt: 41.",
+        "position": "MF",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Jérémy Doku",
+        "goal_share": 0.2632,
+        "goals_since_2024": 5,
+        "note": "5 von 19 Top-3-Toren seit 2024; Team gesamt: 41.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Youri Tielemans",
+        "goal_share": 0.2631,
+        "goals_since_2024": 5,
+        "note": "5 von 19 Top-3-Toren seit 2024; Team gesamt: 41.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Bosnia & Herzegovina": [
+      {
+        "name": "Edin Džeko",
+        "goal_share": 0.5714,
+        "goals_since_2024": 8,
+        "note": "8 von 14 Top-3-Toren seit 2024; Team gesamt: 22.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Ermedin Demirović",
+        "goal_share": 0.2143,
+        "goals_since_2024": 3,
+        "note": "3 von 14 Top-3-Toren seit 2024; Team gesamt: 22.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Haris Tabaković",
+        "goal_share": 0.2143,
+        "goals_since_2024": 3,
+        "note": "3 von 14 Top-3-Toren seit 2024; Team gesamt: 22.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Brazil": [
+      {
+        "name": "Raphinha",
+        "goal_share": 0.4545,
+        "goals_since_2024": 5,
+        "note": "5 von 11 Top-3-Toren seit 2024; Team gesamt: 21.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "goal_share": 0.3636,
+        "goals_since_2024": 4,
+        "note": "4 von 11 Top-3-Toren seit 2024; Team gesamt: 21.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Lucas Paquetá",
+        "goal_share": 0.1819,
+        "goals_since_2024": 2,
+        "note": "2 von 11 Top-3-Toren seit 2024; Team gesamt: 21.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Wesley",
+        "goal_share": 0.0,
+        "goals_since_2024": 0,
+        "note": "manuell ergaenzt (Ausfall-News, T-0040-Routing)",
+        "position": "DF",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "manual"
+      }
+    ],
+    "Canada": [
+      {
+        "name": "Jonathan David",
+        "goal_share": 0.4444,
+        "goals_since_2024": 4,
+        "note": "4 von 9 Top-3-Toren seit 2024; Team gesamt: 16.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Tajon Buchanan",
+        "goal_share": 0.3333,
+        "goals_since_2024": 3,
+        "note": "3 von 9 Top-3-Toren seit 2024; Team gesamt: 16.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Jacob Shaffelburg",
+        "goal_share": 0.2223,
+        "goals_since_2024": 2,
+        "note": "2 von 9 Top-3-Toren seit 2024; Team gesamt: 16.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Alphonso Davies",
+        "goal_share": 0.0,
+        "position": "DF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Cape Verde": [
+      {
+        "name": "Dailon Livramento",
+        "goal_share": 0.5,
+        "goals_since_2024": 4,
+        "note": "4 von 8 Top-3-Toren seit 2024; Team gesamt: 22.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Diney",
+        "goal_share": 0.25,
+        "goals_since_2024": 2,
+        "note": "2 von 8 Top-3-Toren seit 2024; Team gesamt: 22.",
+        "position": "DF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Jamiro Monteiro",
+        "goal_share": 0.25,
+        "goals_since_2024": 2,
+        "note": "2 von 8 Top-3-Toren seit 2024; Team gesamt: 22.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Colombia": [
+      {
+        "name": "Luis Díaz",
+        "goal_share": 0.4667,
+        "goals_since_2024": 7,
+        "note": "7 von 15 Top-3-Toren seit 2024; Team gesamt: 34.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Jhon Córdoba",
+        "goal_share": 0.2667,
+        "goals_since_2024": 4,
+        "note": "4 von 15 Top-3-Toren seit 2024; Team gesamt: 34.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Luis Suárez",
+        "goal_share": 0.2666,
+        "goals_since_2024": 4,
+        "note": "4 von 15 Top-3-Toren seit 2024; Team gesamt: 34.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Croatia": [
+      {
+        "name": "Andrej Kramarić",
+        "goal_share": 0.5,
+        "goals_since_2024": 8,
+        "note": "8 von 16 Top-3-Toren seit 2024; Team gesamt: 36.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Ivan Perišić",
+        "goal_share": 0.3125,
+        "goals_since_2024": 5,
+        "note": "5 von 16 Top-3-Toren seit 2024; Team gesamt: 36.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Ante Budimir",
+        "goal_share": 0.1875,
+        "goals_since_2024": 3,
+        "note": "3 von 16 Top-3-Toren seit 2024; Team gesamt: 36.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Luka Modric",
+        "goal_share": 0.0,
+        "position": "MF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Curaçao": [
+      {
+        "name": "Gervane Kastaneer",
+        "goal_share": 0.4545,
+        "goals_since_2024": 5,
+        "note": "5 von 11 Top-3-Toren seit 2024; Team gesamt: 29.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Juninho Bacuna",
+        "goal_share": 0.2727,
+        "goals_since_2024": 3,
+        "note": "3 von 11 Top-3-Toren seit 2024; Team gesamt: 29.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Kenji Gorré",
+        "goal_share": 0.2728,
+        "goals_since_2024": 3,
+        "note": "3 von 11 Top-3-Toren seit 2024; Team gesamt: 29.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Czech Republic": [
+      {
+        "name": "Patrik Schick",
+        "goal_share": 0.4,
+        "goals_since_2024": 6,
+        "note": "6 von 15 Top-3-Toren seit 2024; Team gesamt: 34.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Pavel Šulc",
+        "goal_share": 0.3333,
+        "goals_since_2024": 5,
+        "note": "5 von 15 Top-3-Toren seit 2024; Team gesamt: 34.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Tomáš Souček",
+        "goal_share": 0.2667,
+        "goals_since_2024": 4,
+        "note": "4 von 15 Top-3-Toren seit 2024; Team gesamt: 34.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "DR Congo": [
+      {
+        "name": "Cédric Bakambu",
+        "goal_share": 0.4167,
+        "goals_since_2024": 5,
+        "note": "5 von 12 Top-3-Toren seit 2024; Team gesamt: 27.",
+        "source_aliases": [
+          "Cedric Bakambu"
+        ],
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Yoane Wissa",
+        "goal_share": 0.3333,
+        "goals_since_2024": 4,
+        "note": "4 von 12 Top-3-Toren seit 2024; Team gesamt: 27.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Meschak Elia",
+        "goal_share": 0.25,
+        "goals_since_2024": 3,
+        "note": "3 von 12 Top-3-Toren seit 2024; Team gesamt: 27.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Ecuador": [
+      {
+        "name": "Enner Valencia",
+        "goal_share": 0.6,
+        "goals_since_2024": 6,
+        "note": "6 von 10 Top-3-Toren seit 2024; Team gesamt: 13.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Alan Minda",
+        "goal_share": 0.2,
+        "goals_since_2024": 2,
+        "note": "2 von 10 Top-3-Toren seit 2024; Team gesamt: 13.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Gonzalo Plata",
+        "goal_share": 0.2,
+        "goals_since_2024": 2,
+        "note": "2 von 10 Top-3-Toren seit 2024; Team gesamt: 13.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Moisés Caicedo",
+        "goal_share": 0.0,
+        "position": "MF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Egypt": [
+      {
+        "name": "Mohamed Salah",
+        "goal_share": 0.5556,
+        "goals_since_2024": 10,
+        "note": "10 von 18 Top-3-Toren seit 2024; Team gesamt: 28.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Mostafa Mohamed",
+        "goal_share": 0.2222,
+        "goals_since_2024": 4,
+        "note": "4 von 18 Top-3-Toren seit 2024; Team gesamt: 28.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Omar Marmoush",
+        "goal_share": 0.2222,
+        "goals_since_2024": 4,
+        "note": "4 von 18 Top-3-Toren seit 2024; Team gesamt: 28.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "England": [
+      {
+        "name": "Harry Kane",
+        "goal_share": 0.7,
+        "goals_since_2024": 14,
+        "note": "14 von 20 Top-3-Toren seit 2024; Team gesamt: 43.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Declan Rice",
+        "goal_share": 0.15,
+        "goals_since_2024": 3,
+        "note": "3 von 20 Top-3-Toren seit 2024; Team gesamt: 43.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Eberechi Eze",
+        "goal_share": 0.15,
+        "goals_since_2024": 3,
+        "note": "3 von 20 Top-3-Toren seit 2024; Team gesamt: 43.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "France": [
+      {
+        "name": "Kylian Mbappé",
+        "goal_share": 0.4706,
+        "goals_since_2024": 8,
+        "note": "8 von 17 Top-3-Toren seit 2024; Team gesamt: 35.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Randal Kolo Muani",
+        "goal_share": 0.2941,
+        "goals_since_2024": 5,
+        "note": "5 von 17 Top-3-Toren seit 2024; Team gesamt: 35.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Michael Olise",
+        "goal_share": 0.2353,
+        "goals_since_2024": 4,
+        "note": "4 von 17 Top-3-Toren seit 2024; Team gesamt: 35.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Germany": [
+      {
+        "name": "Florian Wirtz",
+        "goal_share": 0.4118,
+        "goals_since_2024": 7,
+        "note": "7 von 17 Top-3-Toren seit 2024; Team gesamt: 51.",
+        "position": "MF",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Jamal Musiala",
+        "goal_share": 0.3529,
+        "goals_since_2024": 6,
+        "note": "6 von 17 Top-3-Toren seit 2024; Team gesamt: 51.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Joshua Kimmich",
+        "goal_share": 0.2353,
+        "goals_since_2024": 4,
+        "note": "4 von 17 Top-3-Toren seit 2024; Team gesamt: 51.",
+        "position": "DF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Lennart Karl",
+        "goal_share": 0.0,
+        "goals_since_2024": 0,
+        "note": "manuell ergaenzt (Ausfall-News, T-0040-Routing)",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "manual"
+      }
+    ],
+    "Ghana": [
+      {
+        "name": "Jordan Ayew",
+        "goal_share": 0.5625,
+        "goals_since_2024": 9,
+        "note": "9 von 16 Top-3-Toren seit 2024; Team gesamt: 27.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Mohammed Kudus",
+        "goal_share": 0.25,
+        "goals_since_2024": 4,
+        "note": "4 von 16 Top-3-Toren seit 2024; Team gesamt: 27.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Alexander Djiku",
+        "goal_share": 0.1875,
+        "goals_since_2024": 3,
+        "note": "3 von 16 Top-3-Toren seit 2024; Team gesamt: 27.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Antoine Semenyo",
+        "goal_share": 0.0,
+        "position": "MF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Haiti": [
+      {
+        "name": "Duckens Nazon",
+        "goal_share": 0.5,
+        "goals_since_2024": 6,
+        "note": "6 von 12 Top-3-Toren seit 2024; Team gesamt: 22.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Don Deedson Louicius",
+        "goal_share": 0.25,
+        "goals_since_2024": 3,
+        "note": "3 von 12 Top-3-Toren seit 2024; Team gesamt: 22.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Frantzdy Pierrot",
+        "goal_share": 0.25,
+        "goals_since_2024": 3,
+        "note": "3 von 12 Top-3-Toren seit 2024; Team gesamt: 22.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Wilson Isidor",
+        "goal_share": 0.0,
+        "position": "FW",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Iran": [
+      {
+        "name": "Mehdi Taremi",
+        "goal_share": 0.44,
+        "goals_since_2024": 11,
+        "note": "11 von 25 Top-3-Toren seit 2024; Team gesamt: 40.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Sardar Azmoun",
+        "goal_share": 0.32,
+        "goals_since_2024": 8,
+        "note": "8 von 25 Top-3-Toren seit 2024; Team gesamt: 40.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Mohammad Mohebi",
+        "goal_share": 0.24,
+        "goals_since_2024": 6,
+        "note": "6 von 25 Top-3-Toren seit 2024; Team gesamt: 40.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Iraq": [
+      {
+        "name": "Aymen Hussein",
+        "goal_share": 0.75,
+        "goals_since_2024": 15,
+        "note": "15 von 20 Top-3-Toren seit 2024; Team gesamt: 36.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Mohanad Ali",
+        "goal_share": 0.15,
+        "goals_since_2024": 3,
+        "note": "3 von 20 Top-3-Toren seit 2024; Team gesamt: 36.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Ali Al-Hamadi",
+        "goal_share": 0.1,
+        "goals_since_2024": 2,
+        "note": "2 von 20 Top-3-Toren seit 2024; Team gesamt: 36.",
+        "position": "FW",
+        "role": "rotation",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Ivory Coast": [
+      {
+        "name": "Amad Diallo",
+        "goal_share": 0.3636,
+        "goals_since_2024": 4,
+        "note": "4 von 11 Top-3-Toren seit 2024; Team gesamt: 31.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Franck Kessié",
+        "goal_share": 0.3636,
+        "goals_since_2024": 4,
+        "note": "4 von 11 Top-3-Toren seit 2024; Team gesamt: 31.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Evann Guessand",
+        "goal_share": 0.2728,
+        "goals_since_2024": 3,
+        "note": "3 von 11 Top-3-Toren seit 2024; Team gesamt: 31.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Nicolas Pépé",
+        "goal_share": 0.0,
+        "position": "FW",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Japan": [
+      {
+        "name": "Ayase Ueda",
+        "goal_share": 0.3684,
+        "goals_since_2024": 7,
+        "note": "7 von 19 Top-3-Toren seit 2024; Team gesamt: 49.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Kōki Ogawa",
+        "goal_share": 0.3158,
+        "goals_since_2024": 6,
+        "note": "6 von 19 Top-3-Toren seit 2024; Team gesamt: 49.",
+        "source_aliases": [
+          "Koki Ogawa"
+        ],
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Takumi Minamino",
+        "goal_share": 0.3158,
+        "goals_since_2024": 6,
+        "note": "6 von 19 Top-3-Toren seit 2024; Team gesamt: 49.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Takefusa Kubo",
+        "goal_share": 0.0,
+        "position": "MF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Jordan": [
+      {
+        "name": "Yazan Al-Naimat",
+        "goal_share": 0.3667,
+        "goals_since_2024": 11,
+        "note": "11 von 30 Top-3-Toren seit 2024; Team gesamt: 41.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Musa Al-Taamari",
+        "goal_share": 0.3333,
+        "goals_since_2024": 10,
+        "note": "10 von 30 Top-3-Toren seit 2024; Team gesamt: 41.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Ali Olwan",
+        "goal_share": 0.3,
+        "goals_since_2024": 9,
+        "note": "9 von 30 Top-3-Toren seit 2024; Team gesamt: 41.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Mexico": [
+      {
+        "name": "César Montes",
+        "goal_share": 0.375,
+        "goals_since_2024": 3,
+        "note": "3 von 8 Top-3-Toren seit 2024; Team gesamt: 10.",
+        "position": "DF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Raúl Jiménez",
+        "goal_share": 0.375,
+        "goals_since_2024": 3,
+        "note": "3 von 8 Top-3-Toren seit 2024; Team gesamt: 10.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Edson Álvarez",
+        "goal_share": 0.25,
+        "goals_since_2024": 2,
+        "note": "2 von 8 Top-3-Toren seit 2024; Team gesamt: 10.",
+        "position": "DF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Morocco": [
+      {
+        "name": "Ayoub El Kaabi",
+        "goal_share": 0.4118,
+        "goals_since_2024": 7,
+        "note": "7 von 17 Top-3-Toren seit 2024; Team gesamt: 34.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Brahim Díaz",
+        "goal_share": 0.3529,
+        "goals_since_2024": 6,
+        "note": "6 von 17 Top-3-Toren seit 2024; Team gesamt: 34.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Ismael Saibari",
+        "goal_share": 0.2353,
+        "goals_since_2024": 4,
+        "note": "4 von 17 Top-3-Toren seit 2024; Team gesamt: 34.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "goal_share": 0.0,
+        "position": "DF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Netherlands": [
+      {
+        "name": "Cody Gakpo",
+        "goal_share": 0.3846,
+        "goals_since_2024": 10,
+        "note": "10 von 26 Top-3-Toren seit 2024; Team gesamt: 54.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Memphis Depay",
+        "goal_share": 0.3846,
+        "goals_since_2024": 10,
+        "note": "10 von 26 Top-3-Toren seit 2024; Team gesamt: 54.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Donyell Malen",
+        "goal_share": 0.2308,
+        "goals_since_2024": 6,
+        "note": "6 von 26 Top-3-Toren seit 2024; Team gesamt: 54.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Virgil van Dijk",
+        "goal_share": 0.0,
+        "position": "DF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Jurrien Timber",
+        "goal_share": 0.0,
+        "goals_since_2024": 0,
+        "note": "manuell ergaenzt (Ausfall-News, T-0040-Routing)",
+        "position": "DF",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "manual"
+      },
+      {
+        "name": "Matthijs de Ligt",
+        "goal_share": 0.0,
+        "goals_since_2024": 0,
+        "note": "manuell ergaenzt (Ausfall-News, T-0040-Routing)",
+        "position": "DF",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "manual"
+      }
+    ],
+    "New Zealand": [
+      {
+        "name": "Chris Wood",
+        "goal_share": 0.45,
+        "goals_since_2024": 9,
+        "note": "9 von 20 Top-3-Toren seit 2024; Team gesamt: 42.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Ben Waine",
+        "goal_share": 0.3,
+        "goals_since_2024": 6,
+        "note": "6 von 20 Top-3-Toren seit 2024; Team gesamt: 42.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Elijah Just",
+        "goal_share": 0.25,
+        "goals_since_2024": 5,
+        "note": "5 von 20 Top-3-Toren seit 2024; Team gesamt: 42.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Norway": [
+      {
+        "name": "Erling Haaland",
+        "goal_share": 0.6389,
+        "goals_since_2024": 23,
+        "note": "23 von 36 Top-3-Toren seit 2024; Team gesamt: 50.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Alexander Sørloth",
+        "goal_share": 0.2222,
+        "goals_since_2024": 8,
+        "note": "8 von 36 Top-3-Toren seit 2024; Team gesamt: 50.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Antonio Nusa",
+        "goal_share": 0.1389,
+        "goals_since_2024": 5,
+        "note": "5 von 36 Top-3-Toren seit 2024; Team gesamt: 50.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Panama": [
+      {
+        "name": "Ismael Díaz",
+        "goal_share": 0.5,
+        "goals_since_2024": 8,
+        "note": "8 von 16 Top-3-Toren seit 2024; Team gesamt: 36.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "José Fajardo",
+        "goal_share": 0.3125,
+        "goals_since_2024": 5,
+        "note": "5 von 16 Top-3-Toren seit 2024; Team gesamt: 36.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Eduardo Guerrero",
+        "goal_share": 0.1875,
+        "goals_since_2024": 3,
+        "note": "3 von 16 Top-3-Toren seit 2024; Team gesamt: 36.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Michael Murillo",
+        "goal_share": 0.0,
+        "position": "DF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Paraguay": [
+      {
+        "name": "Julio Enciso",
+        "goal_share": 0.4,
+        "goals_since_2024": 4,
+        "note": "4 von 10 Top-3-Toren seit 2024; Team gesamt: 16.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Antonio Sanabria",
+        "goal_share": 0.3,
+        "goals_since_2024": 3,
+        "note": "3 von 10 Top-3-Toren seit 2024; Team gesamt: 16.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Omar Alderete",
+        "goal_share": 0.3,
+        "goals_since_2024": 3,
+        "note": "3 von 10 Top-3-Toren seit 2024; Team gesamt: 16.",
+        "position": "DF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Portugal": [
+      {
+        "name": "Cristiano Ronaldo",
+        "goal_share": 0.5909,
+        "goals_since_2024": 13,
+        "note": "13 von 22 Top-3-Toren seit 2024; Team gesamt: 43.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "goal_share": 0.2727,
+        "goals_since_2024": 6,
+        "note": "6 von 22 Top-3-Toren seit 2024; Team gesamt: 43.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Bernardo Silva",
+        "goal_share": 0.1364,
+        "goals_since_2024": 3,
+        "note": "3 von 22 Top-3-Toren seit 2024; Team gesamt: 43.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Qatar": [
+      {
+        "name": "Akram Afif",
+        "goal_share": 0.5,
+        "goals_since_2024": 12,
+        "note": "12 von 24 Top-3-Toren seit 2024; Team gesamt: 38.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Almoez Ali",
+        "goal_share": 0.375,
+        "goals_since_2024": 9,
+        "note": "9 von 24 Top-3-Toren seit 2024; Team gesamt: 38.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Ahmed Al-Rawi",
+        "goal_share": 0.125,
+        "goals_since_2024": 3,
+        "note": "3 von 24 Top-3-Toren seit 2024; Team gesamt: 38.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Saudi Arabia": [
+      {
+        "name": "Firas Al-Buraikan",
+        "goal_share": 0.5455,
+        "goals_since_2024": 6,
+        "note": "6 von 11 Top-3-Toren seit 2024; Team gesamt: 23.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Musab Al-Juwayr",
+        "goal_share": 0.2727,
+        "goals_since_2024": 3,
+        "note": "3 von 11 Top-3-Toren seit 2024; Team gesamt: 23.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Abdulrahman Al-Aboud",
+        "goal_share": 0.1818,
+        "goals_since_2024": 2,
+        "note": "2 von 11 Top-3-Toren seit 2024; Team gesamt: 23.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Salem Al-Dawsari",
+        "goal_share": 0.0,
+        "position": "FW",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Scotland": [
+      {
+        "name": "Scott McTominay",
+        "goal_share": 0.5455,
+        "goals_since_2024": 6,
+        "note": "6 von 11 Top-3-Toren seit 2024; Team gesamt: 21.",
+        "position": "MF",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Ryan Christie",
+        "goal_share": 0.2727,
+        "goals_since_2024": 3,
+        "note": "3 von 11 Top-3-Toren seit 2024; Team gesamt: 21.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Che Adams",
+        "goal_share": 0.1818,
+        "goals_since_2024": 2,
+        "note": "2 von 11 Top-3-Toren seit 2024; Team gesamt: 21.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Senegal": [
+      {
+        "name": "Sadio Mané",
+        "goal_share": 0.4,
+        "goals_since_2024": 6,
+        "note": "6 von 15 Top-3-Toren seit 2024; Team gesamt: 38.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Habib Diallo",
+        "goal_share": 0.3333,
+        "goals_since_2024": 5,
+        "note": "5 von 15 Top-3-Toren seit 2024; Team gesamt: 38.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "goal_share": 0.2667,
+        "goals_since_2024": 4,
+        "note": "4 von 15 Top-3-Toren seit 2024; Team gesamt: 38.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "South Africa": [
+      {
+        "name": "Lyle Foster",
+        "goal_share": 0.3636,
+        "goals_since_2024": 4,
+        "note": "4 von 11 Top-3-Toren seit 2024; Team gesamt: 25.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Oswin Appollis",
+        "goal_share": 0.3636,
+        "goals_since_2024": 4,
+        "note": "4 von 11 Top-3-Toren seit 2024; Team gesamt: 25.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Evidence Makgopa",
+        "goal_share": 0.2728,
+        "goals_since_2024": 3,
+        "note": "3 von 11 Top-3-Toren seit 2024; Team gesamt: 25.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Teboho Mokoena",
+        "goal_share": 0.0,
+        "position": "MF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "South Korea": [
+      {
+        "name": "Son Heung-min",
+        "goal_share": 0.4545,
+        "goals_since_2024": 10,
+        "note": "10 von 22 Top-3-Toren seit 2024; Team gesamt: 41.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Lee Kang-in",
+        "goal_share": 0.3182,
+        "goals_since_2024": 7,
+        "note": "7 von 22 Top-3-Toren seit 2024; Team gesamt: 41.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Lee Jae-sung",
+        "goal_share": 0.2273,
+        "goals_since_2024": 5,
+        "note": "5 von 22 Top-3-Toren seit 2024; Team gesamt: 41.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Spain": [
+      {
+        "name": "Mikel Oyarzabal",
+        "goal_share": 0.4583,
+        "goals_since_2024": 11,
+        "note": "11 von 24 Top-3-Toren seit 2024; Team gesamt: 59.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Mikel Merino",
+        "goal_share": 0.375,
+        "goals_since_2024": 9,
+        "note": "9 von 24 Top-3-Toren seit 2024; Team gesamt: 59.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Dani Olmo",
+        "goal_share": 0.1667,
+        "goals_since_2024": 4,
+        "note": "4 von 24 Top-3-Toren seit 2024; Team gesamt: 59.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Lamine Yamal",
+        "goal_share": 0.0,
+        "position": "FW",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Sweden": [
+      {
+        "name": "Viktor Gyökeres",
+        "goal_share": 0.6842,
+        "goals_since_2024": 13,
+        "note": "13 von 19 Top-3-Toren seit 2024; Team gesamt: 29.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Alexander Isak",
+        "goal_share": 0.2105,
+        "goals_since_2024": 4,
+        "note": "4 von 19 Top-3-Toren seit 2024; Team gesamt: 29.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Anthony Elanga",
+        "goal_share": 0.1053,
+        "goals_since_2024": 2,
+        "note": "2 von 19 Top-3-Toren seit 2024; Team gesamt: 29.",
+        "position": "FW",
+        "role": "rotation",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Switzerland": [
+      {
+        "name": "Breel Embolo",
+        "goal_share": 0.5,
+        "goals_since_2024": 6,
+        "note": "6 von 12 Top-3-Toren seit 2024; Team gesamt: 28.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Dan Ndoye",
+        "goal_share": 0.25,
+        "goals_since_2024": 3,
+        "note": "3 von 12 Top-3-Toren seit 2024; Team gesamt: 28.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Zeki Amdouni",
+        "goal_share": 0.25,
+        "goals_since_2024": 3,
+        "note": "3 von 12 Top-3-Toren seit 2024; Team gesamt: 28.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Granit Xhaka",
+        "goal_share": 0.0,
+        "position": "MF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Tunisia": [
+      {
+        "name": "Mohamed Ali Ben Romdhane",
+        "goal_share": 0.4,
+        "goals_since_2024": 4,
+        "note": "4 von 10 Top-3-Toren seit 2024; Team gesamt: 25.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Elias Achouri",
+        "goal_share": 0.3,
+        "goals_since_2024": 3,
+        "note": "3 von 10 Top-3-Toren seit 2024; Team gesamt: 25.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Elias Saad",
+        "goal_share": 0.3,
+        "goals_since_2024": 3,
+        "note": "3 von 10 Top-3-Toren seit 2024; Team gesamt: 25.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Hannibal Mejbri",
+        "goal_share": 0.0,
+        "position": "MF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Turkey": [
+      {
+        "name": "Kerem Aktürkoğlu",
+        "goal_share": 0.5294,
+        "goals_since_2024": 9,
+        "note": "9 von 17 Top-3-Toren seit 2024; Team gesamt: 40.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Arda Güler",
+        "goal_share": 0.2353,
+        "goals_since_2024": 4,
+        "note": "4 von 17 Top-3-Toren seit 2024; Team gesamt: 40.",
+        "position": "FW",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "goal_share": 0.2353,
+        "goals_since_2024": 4,
+        "note": "4 von 17 Top-3-Toren seit 2024; Team gesamt: 40.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "USA": [
+      {
+        "name": "Diego Luna",
+        "goal_share": 0.375,
+        "goals_since_2024": 3,
+        "note": "3 von 8 Top-3-Toren seit 2024; Team gesamt: 16.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Malik Tillman",
+        "goal_share": 0.375,
+        "goals_since_2024": 3,
+        "note": "3 von 8 Top-3-Toren seit 2024; Team gesamt: 16.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Chris Richards",
+        "goal_share": 0.25,
+        "goals_since_2024": 2,
+        "note": "2 von 8 Top-3-Toren seit 2024; Team gesamt: 16.",
+        "position": "DF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Christian Pulisic",
+        "goal_share": 0.0,
+        "position": "FW",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Uruguay": [
+      {
+        "name": "Rodrigo Aguirre",
+        "goal_share": 0.4286,
+        "goals_since_2024": 3,
+        "note": "3 von 7 Top-3-Toren seit 2024; Team gesamt: 19.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Darwin Núñez",
+        "goal_share": 0.2857,
+        "goals_since_2024": 2,
+        "note": "2 von 7 Top-3-Toren seit 2024; Team gesamt: 19.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Federico Valverde",
+        "goal_share": 0.2857,
+        "goals_since_2024": 2,
+        "note": "2 von 7 Top-3-Toren seit 2024; Team gesamt: 19.",
+        "position": "MF",
+        "key_player": true,
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ],
+    "Uzbekistan": [
+      {
+        "name": "Abbosbek Fayzullaev",
+        "goal_share": 0.4615,
+        "goals_since_2024": 6,
+        "note": "6 von 13 Top-3-Toren seit 2024; Team gesamt: 29.",
+        "position": "MF",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Eldor Shomurodov",
+        "goal_share": 0.3077,
+        "goals_since_2024": 4,
+        "note": "4 von 13 Top-3-Toren seit 2024; Team gesamt: 29.",
+        "position": "FW",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Azizbek Turgunboev",
+        "goal_share": 0.2308,
+        "goals_since_2024": 3,
+        "note": "3 von 13 Top-3-Toren seit 2024; Team gesamt: 29.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      },
+      {
+        "name": "Abdukodir Khusanov",
+        "goal_share": 0.0,
+        "position": "DF",
+        "key_player": true,
+        "note": "Guardian-Star-Player (kein Top-3-Torschuetze); goal_share 0 haelt Topscorer-Bonus neutral.",
+        "role": "starter",
+        "role_source": "heuristic_v1"
+      }
+    ]
+  }
+}
