@@ -1,0 +1,716 @@
+/* ==========================================================================
+   PROTOTYP -- Dashboard auf der Pokalkurs-Linie.
+   Enthaelt die Schritte S2 (Farben/Typo), S4 (Radien/Schatten/Motion),
+   S5 (Sticky-Topbar), S6 (Tabellen), S8 (KPI), S9 (Fokus), S11 (Buttons).
+
+   Regel: JEDER heute von app.js emittierte Klassenname bleibt erhalten.
+   app.js ist in diesem Prototyp ein Symlink auf das Original und wurde
+   NICHT angefasst -- alles hier ist reines CSS.
+   ========================================================================== */
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Fokus: einheitlicher Ring statt Browserdefault (R-65) ------------- */
+:focus-visible {
+  outline: 2px solid var(--acc-d);
+  outline-offset: 2px;
+  border-radius: var(--r1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+/* ==========================================================================
+   Topbar: Header + Tabs bleiben stehen (R-02)
+   ========================================================================== */
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: rgba(251, 251, 253, 0.82);
+  backdrop-filter: blur(18px) saturate(1.4);
+  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+  border-bottom: 1px solid var(--line);
+  padding-top: env(safe-area-inset-top);
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s6);
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: var(--s4) var(--s5) var(--s3);
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 var(--s2);
+  padding: 5px 11px;
+  border-radius: var(--r-pill);
+  background: var(--acc-soft);
+  color: var(--acc-d);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--track-label);
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(24px, 3.2vw, 32px);
+  font-weight: 800;
+  letter-spacing: var(--track-tighter);
+  line-height: 1.05;
+}
+
+.app-title { min-width: 0; }
+
+.app-title .meta { margin: var(--s1) 0 0; font-size: 12.5px; }
+
+.app-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--s4);
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+/* Hauptaktion: global erreichbar, darum im Kopf statt in einem Tab. */
+.topbar-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.topbar-action button.run-command {
+  margin-bottom: 0;
+  min-height: 40px;
+  padding: 0 var(--s4);
+  background: var(--acc-d);
+  border-color: var(--acc-d);
+  color: #fff;
+}
+
+.topbar-action__meta {
+  font-size: 11.5px;
+  max-width: 190px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Zwischenueberschrift innerhalb eines Panels (Analyse, Bonus). */
+.section-head {
+  margin: var(--s7) 0 var(--s3);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--track-label);
+  color: var(--muted);
+}
+
+.panel > .section-head:first-child { margin-top: 0; }
+
+/* --- KPI-Streifen (R-05, R-06) ---------------------------------------- */
+
+/* Basis 600px: der laengste Wert ist der Zeitstempel "21.07.26, 19:45" und
+   braucht gemessen 113px Innenbreite -- darunter bricht er zweizeilig um. */
+/* Drei Kennzahlen; der Zeitstempel ist raus und diktiert die Breite
+   nicht mehr. */
+.status-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(118px, 1fr));
+  gap: var(--s2);
+  min-width: 0;
+  flex: 0 1 400px;
+}
+
+.metric {
+  padding: var(--s2) var(--s3);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--r2);
+  box-shadow: var(--sh-sm);
+}
+
+/* Jetzt reine Zahlen (der Zeitstempel ist als Nebenzeile abgewandert),
+   darum wieder groesser -- die 44px aus wm_journey.py:778 gelten dort
+   fuer eigenstaendige KPI-Karten, hier ist es ein kompakter Kopfstreifen. */
+.metric b {
+  display: block;
+  font-size: clamp(24px, 2.4vw, 32px);
+  font-weight: 800;
+  letter-spacing: var(--track-tighter);
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.metric span {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Metriken im Panel: auto-fit statt starrer 3 Spalten (R-32) */
+.metrics-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
+  gap: var(--s2);
+  margin-bottom: var(--s3);
+}
+
+.metric.compact {
+  box-shadow: none;
+  background: var(--bg2);
+  border-color: transparent;
+}
+
+.metric.compact b { font-size: 21px; }
+
+/* --- Tabs als Pillen (R-07, R-08, R-10) -------------------------------- */
+
+.tabs {
+  display: flex;
+  gap: 2px;
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 0 var(--s5) var(--s2);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tabs::-webkit-scrollbar { display: none; }
+
+.tab {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  min-height: 38px;
+  padding: 0 14px;
+  border-radius: var(--r-pill);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background var(--t), color var(--t);
+}
+
+.tab:hover { color: var(--ink); background: var(--bg2); }
+
+/* Aktiv = --ink, nicht Akzent (F2): der Akzent bleibt fuer Datenaussagen. */
+.tab.active,
+.tab.active:hover { background: var(--ink); color: #fff; }
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+/* Zurueckhaltend by default: die Kommandos-Tabelle hat 45 Zeilen mit je
+   einem Knopf -- als dunkle Pillen uebertoenen die alles andere. Nur die
+   eine Hauptaktion unten wird laut. */
+button.run-command {
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  min-height: 38px;
+  padding: 0 var(--s4);
+  border-radius: var(--r-pill);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-bottom: var(--s2);
+  box-shadow: var(--sh-sm);
+  transition: transform var(--t-fast), box-shadow var(--t-fast);
+}
+
+button.run-command:hover { transform: translateY(-1px); box-shadow: var(--sh); }
+button.run-command:active { transform: translateY(0); }
+
+button.run-command:disabled {
+  cursor: wait;
+  opacity: 0.55;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Die Hauptaktion der Seite ist das groesste Bedienelement (R-45). */
+.pipeline-primary button.run-command {
+  min-height: 46px;
+  padding: 0 var(--s5);
+  font-size: 16px;
+  background: var(--acc-d);
+  border-color: var(--acc-d);
+}
+
+.pipeline-primary {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--s4);
+  margin-top: var(--s4);
+  padding-top: var(--s4);
+  border-top: 1px solid var(--line2);
+}
+
+.pipeline-primary h3 {
+  margin: 0 0 var(--s1);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: var(--track-tight);
+}
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+main {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: var(--s5) var(--s5) calc(var(--s8) + env(safe-area-inset-bottom));
+}
+
+.toolbar {
+  display: flex;
+  gap: var(--s3);
+  flex-wrap: wrap;
+  margin-bottom: var(--s5);
+  align-items: end;
+}
+
+/* Die Sichtbarkeitssteuerung setzt `hidden`; ohne diese Regel gewinnt das
+   `display:grid` darunter und das Attribut bliebe wirkungslos. */
+.toolbar label[hidden] { display: none; }
+
+.toolbar label {
+  display: grid;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: var(--track-label);
+}
+
+input,
+select {
+  min-height: 40px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  border-radius: var(--r2);
+  padding: 0 var(--s3);
+  color: var(--ink);
+  font: inherit;
+  min-width: 210px;
+  box-shadow: var(--sh-sm);
+  transition: border-color var(--t);
+}
+
+input:hover,
+select:hover { border-color: var(--faint); }
+
+.panel { display: none; }
+
+.panel.active {
+  display: block;
+  animation: rise 0.35s var(--ease) both;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: var(--s4);
+}
+
+/* ==========================================================================
+   Karten
+   ========================================================================== */
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  padding: var(--s5);
+  box-shadow: var(--sh-sm);
+  transition: box-shadow var(--t), transform var(--t);
+}
+
+.card:hover { box-shadow: var(--sh); }
+
+section.card { border-radius: var(--r3); margin-bottom: var(--s4); }
+
+.card h2,
+.card h3 {
+  margin: 0 0 var(--s2);
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: var(--track-tight);
+}
+
+section.card > h2 { font-size: 22px; letter-spacing: var(--track-tighter); }
+
+.meta { color: var(--muted); font-size: 13px; }
+
+.tip-badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: var(--s3) 0;
+}
+
+/* --- Tipp-Boxen ------------------------------------------------------- */
+
+.round-tip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--s2);
+  margin: var(--s3) 0;
+}
+
+.round-tip-grid div {
+  display: grid;
+  gap: 2px;
+  min-height: 78px;
+  padding: var(--s3);
+  border: 1px solid var(--line);
+  border-radius: var(--r2);
+  background: var(--acc-soft);
+}
+
+.round-tip-grid span,
+.round-tip-grid small { color: var(--acc-d); font-size: 12px; font-weight: 600; }
+.round-tip-grid small { color: var(--muted); font-weight: 500; }
+
+.round-tip-grid b {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: var(--track-tighter);
+  line-height: 1.05;
+}
+
+/* ==========================================================================
+   Badges -- weiche Fuellung statt Rand mit Farbe (R-53)
+   ========================================================================== */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 0 10px;
+  border-radius: var(--r-pill);
+  border: 1px solid transparent;
+  background: var(--bg2);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink2);
+  white-space: nowrap;
+}
+
+.badge.stabil { background: var(--acc-soft); color: var(--acc-d); }
+.badge.volatil { background: var(--red-soft); color: var(--red-d); }
+.badge.warte { background: var(--amber-soft); color: var(--amber-d); }
+
+/* ==========================================================================
+   .list -- der Kernfix (R-18, R-22, R-40, R-49)
+   Heute display:grid, dadurch werden Badges zu Balken ueber die volle
+   Breite. Flex-Wrap laesst Badges fliessen; alles was eine eigene Zeile
+   ist (div, .line, .empty, p), bekommt sie explizit.
+   ========================================================================== */
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2);
+}
+
+.list > div,
+.list > p,
+.list > .line,
+.list > .empty { flex: 1 0 100%; }
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--s4);
+  border-bottom: 1px solid var(--line2);
+  padding: var(--s2) 0;
+}
+
+.line:last-child { border-bottom: 0; }
+.line b { font-variant-numeric: tabular-nums; }
+
+/* ==========================================================================
+   Hinweisboxen
+   ========================================================================== */
+
+.odds-warning {
+  margin: var(--s3) 0 var(--s1);
+  padding: var(--s2) var(--s3);
+  border-left: 3px solid var(--amber);
+  background: var(--amber-soft);
+  border-radius: var(--r1);
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--ink2);
+}
+
+.odds-warning--stale { border-left-color: var(--amber); background: var(--amber-soft); }
+.odds-warning--news { border-left-color: var(--red); background: var(--red-soft); }
+.odds-warning code { font-size: 12px; }
+
+.prob-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--s2);
+  margin: var(--s3) 0;
+}
+
+.prob {
+  padding: var(--s2) var(--s3);
+  border-radius: var(--r2);
+  background: var(--bg2);
+}
+
+.prob span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.prob b { font-size: 20px; font-weight: 800; letter-spacing: var(--track-tight); }
+
+/* ==========================================================================
+   Tabellen (R-25, R-50, R-51)
+   ========================================================================== */
+
+.table-wrap {
+  overflow-x: auto;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  box-shadow: var(--sh-sm);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 0;            /* war global 720px -- schnitt Karten-Tabellen ab */
+  font-size: 13.5px;
+}
+
+.table-wrap table { min-width: 720px; }
+
+/* Tabellen INNERHALB einer Karte duerfen nicht auf 720px gezwungen werden --
+   die Karte ist im Raster nur ~370px breit, der Rest lag bisher unerreichbar
+   hinter dem Rand (R-25). Freistehende Tabellen behalten die 720px. */
+.card .table-wrap table { min-width: 0; }
+.card .table-wrap td,
+.card .table-wrap th { padding: 7px var(--s2); }
+.card .table-wrap .badge { white-space: normal; }
+
+th,
+td {
+  padding: var(--s2) var(--s3);
+  border-bottom: 1px solid var(--line2);
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--card);
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 620;
+  text-transform: uppercase;
+  letter-spacing: var(--track-label);
+  white-space: nowrap;
+}
+
+tbody tr { transition: background var(--t-fast); }
+tbody tr:hover { background: var(--bg2); }
+tbody tr:last-child td { border-bottom: 0; }
+
+a { color: var(--acc-d); text-decoration-color: var(--line); }
+a:hover { text-decoration-color: currentColor; }
+
+.empty {
+  padding: var(--s5);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  color: var(--muted);
+  background: var(--card);
+}
+
+/* ==========================================================================
+   Drilldown
+   ========================================================================== */
+
+.drilldown { margin-top: var(--s3); }
+
+.drilldown summary {
+  cursor: pointer;
+  color: var(--acc-d);
+  font-weight: 620;
+  font-size: 13.5px;
+  padding: var(--s1) 0;
+  border-radius: var(--r1);
+}
+
+.drilldown summary:hover { color: var(--ink); }
+
+.drill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--s3);
+  margin-top: var(--s3);
+}
+
+.drill-grid section {
+  border: 1px solid var(--line);
+  border-radius: var(--r2);
+  padding: var(--s3);
+  background: var(--bg2);
+}
+
+.drill-grid h3 {
+  margin: 0 0 var(--s2);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--track-label);
+  color: var(--muted);
+}
+
+.drill-list { display: grid; gap: 5px; font-size: 13px; }
+.drill-list.compact { margin-top: var(--s2); font-size: 12px; }
+
+/* --- Kommandoausgabe: hell statt dunkel (R-43, R-44) ------------------- */
+
+.command-output {
+  max-width: none;
+  max-height: 240px;
+  overflow: auto;
+  margin: var(--s2) 0 0;
+  padding: var(--s3);
+  border: 1px solid var(--line);
+  border-radius: var(--r2);
+  background: var(--bg2);
+  color: var(--ink2);
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  font-size: 12px;
+  line-height: 1.55;
+  white-space: pre-wrap;
+}
+
+code {
+  padding: 1px 5px;
+  border-radius: 5px;
+  background: var(--bg2);
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  font-size: 0.92em;
+}
+
+/* ==========================================================================
+   Quoten & Maerkte -- Kacheln hoehen-begrenzt (Wert ist Logik, siehe R-26)
+   ========================================================================== */
+
+/* Karten mit mehrspaltigen Tabellen nehmen die volle Rasterbreite. Bei
+   ~370px Spaltenbreite ragten 4-5 Spalten ueber den Kartenrand hinaus und
+   waren praktisch nicht erreichbar (R-25). */
+.grid > .card--wide { grid-column: 1 / -1; }
+
+/* Freistehend hat die Tabelle wieder Platz fuer ihre Mindestbreite --
+   die generelle Karten-Ausnahme (min-width:0) wuerde sie sonst
+   zusammenquetschen. */
+.card--wide .table-wrap table { min-width: 720px; }
+
+/* Gilt fuer BEIDE Panels mit aufklappbaren Kacheln (T-0168). Haengt die
+   Regel nur an #markets, klappen die Analyse-Kacheln nie zu -- dieselbe
+   Falle wie bei clampMarketCards in app.js. */
+#markets .card--clamp:not(.is-open) .card__body,
+#analyse .card--clamp:not(.is-open) .card__body {
+  max-height: 19rem;
+  overflow: hidden;
+  mask-image: linear-gradient(180deg, #000 78%, transparent);
+}
+
+#markets .card__toggle,
+#analyse .card__toggle {
+  margin-top: var(--s3);
+  background: var(--bg2);
+  border: 1px solid transparent;
+  color: var(--acc-d);
+  border-radius: var(--r-pill);
+  padding: 7px 14px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--t);
+}
+
+#markets .card__toggle:hover,
+#analyse .card__toggle:hover { background: var(--acc-soft); }
+
+/* ==========================================================================
+   Responsive -- zweiter Breakpoint bei 560px (R-61)
+   ========================================================================== */
+
+@media (max-width: 860px) {
+  .app-header {
+    display: block;
+    padding: var(--s3) var(--s4) var(--s2);
+  }
+
+  .status-strip { margin-top: var(--s3); }
+  .tabs { padding-left: var(--s4); padding-right: var(--s4); }
+  main { padding-left: var(--s4); padding-right: var(--s4); }
+  .grid { grid-template-columns: 1fr; }
+  input, select { min-width: min(280px, calc(100vw - 36px)); }
+}
+
+@media (max-width: 560px) {
+  .status-strip { grid-template-columns: repeat(2, 1fr); }
+  .metrics-row { grid-template-columns: repeat(2, 1fr); }
+  .prob-grid { grid-template-columns: 1fr; }
+  .round-tip-grid { grid-template-columns: 1fr; }
+  .pipeline-primary { flex-direction: column; }
+  h1 { font-size: 23px; }
+  .toolbar { gap: var(--s2); }
+  input, select { min-width: 0; width: 100%; }
+  .toolbar label { flex: 1 0 100%; }
+}

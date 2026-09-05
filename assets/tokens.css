@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Design-Tokens -- einzige Quelle fuer Farbe, Typo, Abstand, Radius, Schatten.
+   Extrahiert aus analysis/wm_journey.py (Pokalkurs) und
+   analysis/pool_review_render.py (Pool-Review). Herkunft je Zeile in
+   analysis/ui_review.md, Abschnitt A1.
+
+   Diese Datei wird auch von den Python-Generatoren gelesen und in deren
+   Style-Block inlined -- die generierten Seiten bleiben dadurch
+   self-contained: kein Stylesheet-Verweis, kein Netzzugriff. (Die Tag-Namen
+   sind hier bewusst ausgeschrieben statt zitiert, sonst taucht ein
+   scheinbarer externer Verweis in jedem erzeugten Artefakt auf.)
+   ========================================================================== */
+
+:root {
+  /* --- Flaechen ------------------------------------------------------- */
+  --bg: #fbfbfd;              /* wm_journey.py:715 */
+  --bg2: #f1f1f4;             /* wm_journey.py:715 -- Rille, Chips, Code */
+  --card: #ffffff;            /* wm_journey.py:715 */
+
+  /* --- Text ----------------------------------------------------------- */
+  --ink: #1d1d1f;             /* wm_journey.py:715 */
+  --ink2: #3c3c43;            /* wm_journey.py:715 */
+  --muted: #6e6e73;           /* wm_journey.py:715 */
+  --faint: #a5a5ac;           /* wm_journey.py:715 */
+
+  /* --- Linien --------------------------------------------------------- */
+  --line: #e6e6ea;            /* wm_journey.py:716 */
+  --line2: #efeff2;           /* wm_journey.py:716 -- innere Trenner */
+
+  /* --- Akzent (F1: Pool-Review-Paar, Kontrast 5.31:1 fuer -deep) ------- */
+  --acc: #059669;             /* pool_review_render.py:28 */
+  --acc-d: #047857;           /* pool_review_render.py:29 -- Text/Links */
+  --acc-soft: #e6f8ec;        /* wm_journey.py:717 */
+  --acc-fill: rgba(5, 150, 105, 0.10);
+
+  /* --- Semantikfarben, je Basis/soft/deep ----------------------------- */
+  --blue: #007aff;   --blue-soft: #e6f0ff;   --blue-d: #0a62cc;   /* :718 */
+  --amber: #ff9500;  --amber-soft: #fff1dc;  --amber-d: #a25e00;  /* :719 */
+  --red: #ff3b30;    --red-soft: #ffe6e4;    --red-d: #bf271e;    /* :720 */
+  --gold: #c39214;   --gold-soft: #faf1d6;                        /* :721 */
+
+  /* --- Typografie ----------------------------------------------------- */
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+          "Segoe UI", system-ui, Roboto, sans-serif;              /* :731 */
+  --fs-base: 15px;            /* wm_journey.py:732 */
+  --lh-base: 1.5;             /* wm_journey.py:732 */
+  --track-tight: -0.022em;    /* wm_journey.py:735 */
+  --track-tighter: -0.03em;   /* wm_journey.py:769 */
+  --track-label: 0.06em;      /* pool_review_render.py:587 */
+
+  /* --- Abstandsleiter (F4) -------------------------------------------- */
+  /* Verdichtung der faktisch benutzten Werte, siehe ui_review.md F4.     */
+  --s1: 4px;   --s2: 8px;   --s3: 12px;  --s4: 16px;
+  --s5: 20px;  --s6: 26px;  --s7: 34px;  --s8: 56px;
+
+  /* --- Radien --------------------------------------------------------- */
+  --r1: 8px;                  /* Mikro: Score-Chip, Kbd */
+  --r2: 13px;                 /* wm_journey.py:725 -- Kachel, Zeile */
+  --r: 18px;                  /* wm_journey.py:725 -- Standardkarte */
+  --r3: 22px;                 /* pool_review_render.py:633 -- Sektionskarte */
+  --r-pill: 999px;            /* pool_review_render.py:573 */
+
+  /* --- Schatten (Ruhe = sm, md nur bei Hover, lg nur bei Overlay) ------ */
+  --sh-sm: 0 0.5px 1.5px rgba(0, 0, 0, 0.04),
+           0 1px 2px rgba(0, 0, 0, 0.05);                         /* :722 */
+  --sh: 0 1px 2px rgba(0, 0, 0, 0.04),
+        0 8px 22px rgba(0, 0, 0, 0.06);                           /* :723 */
+  --sh-lg: 0 2px 8px rgba(0, 0, 0, 0.05),
+           0 22px 50px rgba(0, 0, 0, 0.1);                        /* :724 */
+
+  /* --- Motion --------------------------------------------------------- */
+  --t-fast: 0.15s;            /* wm_journey.py:856 */
+  --t: 0.16s;                 /* wm_journey.py:748 */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);                         /* :752 */
+
+  /* --- Layout --------------------------------------------------------- */
+  --wrap: 1120px;             /* wm_journey.py:736 */
+}

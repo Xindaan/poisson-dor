@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "description": "Torschuetzenkoenig-Rennen (Golden Boot) WM 2026, Stand nach 103 gespielten Spielen (inkl. Spiel um Platz 3 FRA-ENG 4:6 am 18.7.). Basis fuer die Bonusfrage 'Mannschaft mit Torschuetzenkoenig'.",
+    "as_of": "2026-07-19T07:00:00Z",
+    "captured_by": "Claude (T-0152), Wikipedia 2026 FIFA World Cup (Stand 18.7.) + oddschecker Top-Goalscorer-Markt",
+    "scope": "Alle Spieler mit >= 5 Toren. Nur das Finale (SPA-ARG) ist offen -> nur Spieler aus Spanien/Argentinien koennen noch zulegen; Mbappe (FRA) ist bei 10 eingefroren.",
+    "tiebreak": "FIFA: (1) Tore, (2) Assists, (3) weniger Spielminuten.",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+        "note": "Goalscorers-Abschnitt, 'All statistics correct as of July 18, 2026'"
+      },
+      {
+        "url": "https://oddschecker.com/football/world-cup",
+        "note": "Top-Goalscorer-Markt + Finale-Quoten"
+      }
+    ],
+    "discrepancies": [
+      "ASSISTS Messi/Mbappe: ESPN sagt 4 bzw. 3; die goal.com-Tabelle sagt 2 bzw. 1. UEBERNOMMEN: ESPN (4/3). Fuer das Modell zaehlt nur die DIFFERENZ, und die ist in beiden Quellen identisch +1 fuer Messi -> Messi gewinnt jeden Gleichstand nach Toren. Die Absolutwerte sind unbestaetigt.",
+      "DEMBELE: FOX sagt 6 Tore, goal.com sagt 5. UEBERNOMMEN: 5 (konservativ). Immateriell: Dembele braucht so oder so einen Hattrick+ in ko-103, und er ist ohnehin Frankreich -- das Team-Ergebnis aendert sich durch ihn praktisch nicht."
+    ],
+    "notes": [
+      "Haaland (Norwegen) ist ausgeschieden -> bei 7 eingefroren und kann die 8 der Fuehrenden nicht mehr erreichen. Steht nur der Vollstaendigkeit halber drin.",
+      "Nur Spieler aus FRA/ENG (ko-103) und ESP/ARG (ko-104) koennen noch zulegen.",
+      "Der Stand ist NACH allen 102 gespielten Spielen -- der Sim darf nur Tore aus den SIMULIERTEN Restspielen addieren, sonst Doppelzaehlung (gleiche Klasse wie T-0146 beim HF-Bonus)."
+    ],
+    "market": {
+      "top_goalscorer_oddschecker": {
+        "Kylian Mbappe": "1/20 (~95%)",
+        "Lionel Messi": "12/1 (~8%)",
+        "Mikel Oyarzabal": "1000/1 (~0.1%)"
+      },
+      "as_of": "2026-07-19T07:00:00Z"
+    }
+  },
+  "players": [
+    {
+      "name": "Kylian Mbappe",
+      "team": "France",
+      "goals": 10,
+      "assists": 3
+    },
+    {
+      "name": "Lionel Messi",
+      "team": "Argentina",
+      "goals": 8,
+      "assists": 4
+    },
+    {
+      "name": "Jude Bellingham",
+      "team": "England",
+      "goals": 7,
+      "assists": null
+    },
+    {
+      "name": "Erling Haaland",
+      "team": "Norway",
+      "goals": 7,
+      "assists": null
+    },
+    {
+      "name": "Harry Kane",
+      "team": "England",
+      "goals": 6,
+      "assists": null
+    },
+    {
+      "name": "Ousmane Dembele",
+      "team": "France",
+      "goals": 6,
+      "assists": null
+    },
+    {
+      "name": "Mikel Oyarzabal",
+      "team": "Spain",
+      "goals": 5,
+      "assists": null
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "decision": "accepted_partial_coverage",
+    "task": "T-0054b",
+    "updated_at": "2026-06-07T18:50:43.923923+00:00"
+  },
+  "decision": {
+    "reason": "historical_extra_markets_imported_but_require_backtest_value",
+    "recommendation": "Use imported O/U, BTTS and handicap lines only in backtest-report until the market-score variant shows positive Kicktipp value.",
+    "status": "backtest_only"
+  },
+  "sources": [
+    {
+      "accepted": false,
+      "errors": 25,
+      "free": true,
+      "id": "checkbestodds_world_cup_2014",
+      "imported_matches": 0,
+      "markets": [
+        "over_under",
+        "btts",
+        "handicap"
+      ],
+      "match_links": 25,
+      "name": "CheckBestOdds World Cup 2014",
+      "note": "Freie Archivseiten liefern 1X2 und per xajax-Nachlade-POST Over/Under, BTTS und Handicap-Tabellen, soweit historisch vorhanden.",
+      "status": "rejected_links_404_or_no_relevant_markets",
+      "url": "https://checkbestodds.com/football-odds/archive-world-cup-2014"
+    },
+    {
+      "accepted": true,
+      "errors": 0,
+      "free": true,
+      "id": "checkbestodds_world_cup_2018",
+      "imported_matches": 43,
+      "markets": [
+        "over_under",
+        "btts",
+        "handicap"
+      ],
+      "match_links": 43,
+      "name": "CheckBestOdds World Cup 2018",
+      "note": "Freie Archivseiten liefern 1X2 und per xajax-Nachlade-POST Over/Under, BTTS und Handicap-Tabellen, soweit historisch vorhanden.",
+      "status": "accepted_partial_coverage",
+      "url": "https://checkbestodds.com/football-odds/archive-world-cup-2018"
+    },
+    {
+      "accepted": true,
+      "errors": 0,
+      "free": true,
+      "id": "checkbestodds_world_cup_2022",
+      "imported_matches": 64,
+      "markets": [
+        "over_under",
+        "btts",
+        "handicap"
+      ],
+      "match_links": 64,
+      "name": "CheckBestOdds World Cup 2022",
+      "note": "Freie Archivseiten liefern 1X2 und per xajax-Nachlade-POST Over/Under, BTTS und Handicap-Tabellen, soweit historisch vorhanden.",
+      "status": "accepted_partial_coverage",
+      "url": "https://checkbestodds.com/football-odds/archive-world-cup-2022"
+    },
+    {
+      "accepted": false,
+      "free": true,
+      "id": "fctables_worldcup_under_over",
+      "markets": [
+        "over_under"
+      ],
+      "name": "FCTables World Cup Under/Over pages",
+      "note": "Under/Over content is match/team statistics, not pre-match bookmaker odds.",
+      "status": "rejected_not_market_odds",
+      "url": "https://www.fctables.com/worldcup/"
+    }
+  ]
+}

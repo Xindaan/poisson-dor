@@ -1,0 +1,970 @@
+{
+  "_meta": {
+    "description": "NUR Override/Korrektur (T-0081). Die Endergebnisse kommen jetzt automatisch aus den openfootball-Fixtures (status=played + result, stabile match_id) -- via eval_live._results_from_fixtures. Hier nur eintragen, wenn openfootball falsch/fehlt oder ein penalty_winner (KO-Elfer) noetig ist; manuelle Eintraege schlagen die Auto-Quelle.",
+    "format": "results: { \"<match_id>\": {\"actual\": [home, away], \"penalty_winner\": \"home\"|\"away\"|null} }. match_id wie in data/fixtures.json.",
+    "notes": [
+      "2026-07-03: ko-085 Schweiz-Algerien nach Guardian-Endstand 2:0 eingetragen; ko-086/087/088 zu dem Zeitpunkt offen/kuenftig -> NICHT eingetragen, nichts erfunden.",
+      "2026-07-04 Korrektur (Claude): ESPN zeigte am 3.7. spaetabends fuer ko-085 einen widerspruechlichen Live-State (32', tickend) -- laut Guardian-FT-Eintrag (Parallel-Session, 2:0, updated 07:32 CEST) war das Spiel aber schon am Morgen regulaer beendet. Die fruehere Unterbrechungs-Vermutung war ein ESPN-Feed-Artefakt, kein Spielabbruch. ko-086/087/088 offen.",
+      "2026-07-04: ko-086 Argentinien-Kap Verde 3:2 n.V., ko-087 Kolumbien-Ghana 1:0, ko-088 Australien-Aegypten 1:1 n.V. / 2:4 i.E. nach Guardian-Endstaenden eingetragen."
+    ],
+    "shootout_note": "shootout = reine Elfmeterbilanz (Heim:Auswaerts). Runden mit Elfmeter-Scope werten die volle Linie = actual + shootout (ko-088: 1:1 n.V. + 2:4 = 3:5). Hier steht nur die Bilanz, nicht die bereits addierte Linie."
+  },
+  "results": {
+    "ga-001": {
+      "actual": [
+        2,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, CBS Sports",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "ga-002": {
+      "actual": [
+        2,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, Al Jazeera, Sky Sports",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "gb-007": {
+      "actual": [
+        1,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, olympic.ca, Yahoo Sports",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "gb-008": {
+      "actual": [
+        1,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, Sky Sports",
+      "observed_at": "2026-06-14T19:41:40Z",
+      "auto": true
+    },
+    "gc-013": {
+      "actual": [
+        1,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, Al Jazeera, FOX Sports, CBS Sports",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "gc-014": {
+      "actual": [
+        0,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "gd-019": {
+      "actual": [
+        4,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, Yahoo Sports, US Soccer",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "gd-020": {
+      "actual": [
+        2,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, Sky Sports, SBS News",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "ge-025": {
+      "actual": [
+        7,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA",
+      "observed_at": "2026-06-14T19:42:00Z",
+      "auto": true
+    },
+    "ge-026": {
+      "actual": [
+        1,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FOX Sports, FIFA",
+      "observed_at": "2026-06-15T06:34:27Z",
+      "auto": true
+    },
+    "gf-031": {
+      "actual": [
+        2,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, NBC Sports",
+      "observed_at": "2026-06-15T06:34:27Z",
+      "auto": true
+    },
+    "gf-032": {
+      "actual": [
+        5,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FOX Sports",
+      "observed_at": "2026-06-15T06:34:27Z",
+      "auto": true
+    },
+    "gg-037": {
+      "actual": [
+        1,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, Seattle Times, FOX Sports",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "gg-038": {
+      "actual": [
+        2,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, World Soccer Talk",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "gh-043": {
+      "actual": [
+        0,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, Yahoo Sports",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "gh-044": {
+      "actual": [
+        1,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, Outlook India",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "gi-049": {
+      "actual": [
+        3,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, Al Jazeera, NBC Sports",
+      "observed_at": "2026-06-17T06:39:29Z",
+      "auto": true
+    },
+    "gi-050": {
+      "actual": [
+        1,
+        4
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, Sofascore",
+      "observed_at": "2026-06-17T06:39:29Z",
+      "auto": true
+    },
+    "gj-055": {
+      "actual": [
+        3,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, NBC Sports, VAVEL, Yahoo Sports",
+      "observed_at": "2026-06-17T06:39:29Z",
+      "auto": true
+    },
+    "gj-056": {
+      "actual": [
+        3,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, LiveScore",
+      "observed_at": "2026-06-17T06:39:29Z",
+      "auto": true
+    },
+    "gk-061": {
+      "actual": [
+        1,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, Al Jazeera, FOX Sports, NBC News",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "gk-062": {
+      "actual": [
+        1,
+        3
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FOX Sports, NBC News",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "gl-067": {
+      "actual": [
+        4,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, England Football, NBC News, Al Jazeera, CBS Sports",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "gl-068": {
+      "actual": [
+        1,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, NBC News",
+      "observed_at": "2026-06-18T06:39:00Z",
+      "auto": true
+    },
+    "ga-003": {
+      "actual": [
+        1,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, VAVEL, FOX Sports",
+      "observed_at": "2026-06-19T06:39:00Z",
+      "auto": true
+    },
+    "ga-004": {
+      "actual": [
+        1,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "VAVEL, FOX Sports, Opta Analyst, ESPN, NBC Sports",
+      "observed_at": "2026-06-19T06:39:00Z",
+      "auto": true
+    },
+    "gb-009": {
+      "actual": [
+        4,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FOX Sports, VAVEL, heavy.com",
+      "observed_at": "2026-06-19T06:39:00Z",
+      "auto": true
+    },
+    "gb-010": {
+      "actual": [
+        6,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, Yahoo Sports, CBC, FIFA, Canada Soccer",
+      "observed_at": "2026-06-19T06:39:00Z",
+      "auto": true
+    },
+    "gc-015": {
+      "actual": [
+        0,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports",
+      "observed_at": "2026-06-22T09:28:57Z",
+      "auto": true
+    },
+    "gc-016": {
+      "actual": [
+        3,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, Al Jazeera",
+      "observed_at": "2026-06-22T09:28:57Z",
+      "auto": true
+    },
+    "gd-021": {
+      "actual": [
+        2,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, Yahoo Sports, olympics.com, NBC News",
+      "observed_at": "2026-06-22T09:28:57Z",
+      "auto": true
+    },
+    "gd-022": {
+      "actual": [
+        0,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports",
+      "observed_at": "2026-06-22T09:28:57Z",
+      "auto": true
+    },
+    "ge-027": {
+      "actual": [
+        2,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, CBS Sports, Sky Sports",
+      "observed_at": "2026-06-22T09:28:57Z",
+      "auto": true
+    },
+    "ge-028": {
+      "actual": [
+        0,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports",
+      "observed_at": "2026-06-22T09:28:57Z",
+      "auto": true
+    },
+    "gf-033": {
+      "actual": [
+        5,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, Al Jazeera",
+      "observed_at": "2026-06-22T09:28:57Z",
+      "auto": true
+    },
+    "gf-034": {
+      "actual": [
+        0,
+        4
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FOX Sports, SI, Al Jazeera",
+      "observed_at": "2026-06-22T09:28:57Z",
+      "auto": true
+    },
+    "gg-039": {
+      "actual": [
+        0,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, SI",
+      "observed_at": "2026-06-22T09:28:57Z",
+      "auto": true
+    },
+    "gg-040": {
+      "actual": [
+        1,
+        3
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, Sky Sports, Opta Analyst",
+      "observed_at": "2026-06-22T09:28:57Z",
+      "auto": true
+    },
+    "gh-045": {
+      "actual": [
+        4,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, CBS Sports",
+      "observed_at": "2026-06-22T09:28:57Z",
+      "auto": true
+    },
+    "gh-046": {
+      "actual": [
+        2,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, Sky Sports, Opta Analyst",
+      "observed_at": "2026-06-22T09:28:57Z",
+      "auto": true
+    },
+    "gi-051": {
+      "actual": [
+        3,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, NBC News, FOX Sports, FIFA",
+      "observed_at": "2026-06-23T06:39:00Z",
+      "auto": true
+    },
+    "gi-052": {
+      "actual": [
+        3,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, NBC News, FourFourTwo",
+      "observed_at": "2026-06-23T06:39:00Z",
+      "auto": true
+    },
+    "gj-057": {
+      "actual": [
+        2,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, Goal.com, FOX Sports, Al Jazeera",
+      "observed_at": "2026-06-23T06:39:00Z",
+      "auto": true
+    },
+    "gj-058": {
+      "actual": [
+        1,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, Bleacher Report, FOX Sports, Outlook India",
+      "observed_at": "2026-06-23T06:39:00Z",
+      "auto": true
+    },
+    "gk-063": {
+      "actual": [
+        5,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, VAVEL, CBS Sports",
+      "observed_at": "2026-06-24T06:39:00Z",
+      "auto": true
+    },
+    "gk-064": {
+      "actual": [
+        1,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, FOX Sports, Wikipedia",
+      "observed_at": "2026-06-24T06:39:00Z",
+      "auto": true
+    },
+    "gl-069": {
+      "actual": [
+        0,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FIFA, England Football, FOX Sports, NBC Sports, Sky Sports",
+      "observed_at": "2026-06-24T06:39:00Z",
+      "auto": true
+    },
+    "gl-070": {
+      "actual": [
+        0,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FOX Sports, VAVEL, Outlook India",
+      "observed_at": "2026-06-24T06:39:00Z",
+      "auto": true
+    },
+    "ga-005": {
+      "actual": [
+        0,
+        3
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Tippuebersicht (fixtures/openfootball noch scheduled)",
+      "observed_at": "2026-06-25T05:46:00Z",
+      "auto": false
+    },
+    "ga-006": {
+      "actual": [
+        1,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Tippuebersicht (fixtures/openfootball noch scheduled)",
+      "observed_at": "2026-06-25T05:46:00Z",
+      "auto": false
+    },
+    "gb-011": {
+      "actual": [
+        2,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "FIFA, ESPN, CBC, olympics.com",
+      "observed_at": "2026-06-25T06:42:00Z",
+      "auto": true
+    },
+    "gb-012": {
+      "actual": [
+        3,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, FOX Sports, The Analyst",
+      "observed_at": "2026-06-25T06:42:00Z",
+      "auto": true
+    },
+    "gc-017": {
+      "actual": [
+        0,
+        3
+      ],
+      "penalty_winner": null,
+      "source": "ESPN, Yahoo Sports, Wikipedia, FIFA",
+      "observed_at": "2026-06-25T06:42:00Z",
+      "auto": true
+    },
+    "gc-018": {
+      "actual": [
+        4,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "FIFA, ESPN, Wikipedia",
+      "observed_at": "2026-06-25T06:42:00Z",
+      "auto": true
+    },
+    "gd-023": {
+      "actual": [
+        3,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Tippuebersicht (fixtures noch scheduled)",
+      "observed_at": "2026-06-26T06:24:00Z",
+      "auto": false
+    },
+    "gd-024": {
+      "actual": [
+        0,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Tippuebersicht (fixtures noch scheduled)",
+      "observed_at": "2026-06-26T06:24:00Z",
+      "auto": false
+    },
+    "gi-053": {
+      "actual": [
+        1,
+        4
+      ],
+      "penalty_winner": null,
+      "source": "manueller Eintrag aus Tippuebersicht (27. Juni 2026)",
+      "observed_at": "2026-06-27T06:59:00Z",
+      "auto": false
+    },
+    "gi-054": {
+      "actual": [
+        5,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "manueller Eintrag aus Tippuebersicht (27. Juni 2026)",
+      "observed_at": "2026-06-27T06:59:00Z",
+      "auto": false
+    },
+    "gh-048": {
+      "actual": [
+        0,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "manueller Eintrag aus Tippuebersicht (27. Juni 2026)",
+      "observed_at": "2026-06-27T06:59:00Z",
+      "auto": false
+    },
+    "gh-047": {
+      "actual": [
+        0,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "manueller Eintrag aus Tippuebersicht (27. Juni 2026)",
+      "observed_at": "2026-06-27T06:59:00Z",
+      "auto": false
+    },
+    "gg-042": {
+      "actual": [
+        1,
+        5
+      ],
+      "penalty_winner": null,
+      "source": "manueller Eintrag aus Tippuebersicht (27. Juni 2026)",
+      "observed_at": "2026-06-27T06:59:00Z",
+      "auto": false
+    },
+    "gg-041": {
+      "actual": [
+        1,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "manueller Eintrag aus Tippuebersicht (27. Juni 2026)",
+      "observed_at": "2026-06-27T06:59:00Z",
+      "auto": false
+    },
+    "ko-073": {
+      "actual": [
+        0,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "SB Nation Round of 32 score: Canada 1, South Africa 0",
+      "observed_at": "2026-06-29T03:09:36Z",
+      "auto": false
+    },
+    "ko-076": {
+      "actual": [
+        2,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Tippuebersicht Sechzehntelfinale 30.6 (regulaer, Brasilien)",
+      "observed_at": "2026-06-30T07:21:00Z",
+      "auto": false
+    },
+    "ko-074": {
+      "actual": [
+        1,
+        1
+      ],
+      "penalty_winner": "away",
+      "source": "Kicktipp Sechzehntelfinale 30.6: 1:1 n.V., Paraguay i.E. (Elfer-Runde 4:5) | Elferbilanz (T-0155), verifiziert gegen die Kicktipp-Linie",
+      "observed_at": "2026-06-30T07:21:00Z",
+      "auto": false,
+      "shootout": [
+        3,
+        4
+      ]
+    },
+    "ko-075": {
+      "actual": [
+        1,
+        1
+      ],
+      "penalty_winner": "away",
+      "source": "Kicktipp Sechzehntelfinale 30.6: 1:1 n.V., Marokko i.E. (Elfer-Runde 3:4) | Elferbilanz (T-0155), verifiziert gegen die Kicktipp-Linie",
+      "observed_at": "2026-06-30T07:21:00Z",
+      "auto": false,
+      "shootout": [
+        2,
+        3
+      ]
+    },
+    "ko-077": {
+      "actual": [
+        3,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Sechzehntelfinale 1.7 (regulaer)",
+      "observed_at": "2026-07-01T07:18:00Z",
+      "auto": false
+    },
+    "ko-078": {
+      "actual": [
+        1,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Sechzehntelfinale 1.7 (regulaer)",
+      "observed_at": "2026-07-01T07:18:00Z",
+      "auto": false
+    },
+    "ko-079": {
+      "actual": [
+        2,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Sechzehntelfinale 1.7 (regulaer)",
+      "observed_at": "2026-07-01T07:18:00Z",
+      "auto": false
+    },
+    "ko-080": {
+      "actual": [
+        2,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Sechzehntelfinale 2.7 (regulaer)",
+      "observed_at": "2026-07-02T04:52:00Z",
+      "auto": false
+    },
+    "ko-081": {
+      "actual": [
+        2,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Sechzehntelfinale 2.7 (regulaer)",
+      "observed_at": "2026-07-02T04:52:00Z",
+      "auto": false
+    },
+    "ko-082": {
+      "actual": [
+        3,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Sechzehntelfinale 2.7 (regulaer)",
+      "observed_at": "2026-07-02T04:52:00Z",
+      "auto": false
+    },
+    "ko-083": {
+      "actual": [
+        2,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "ESPN Scoreboard FT 3.7. (Portugal-Croatia; Kreuzbeleg: POR in Kicktipp-WM-Spalte 05:14 nicht ausgegraut)",
+      "observed_at": "2026-07-03T21:50:00Z",
+      "auto": true
+    },
+    "ko-084": {
+      "actual": [
+        3,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "ESPN Scoreboard FT 3.7. (Spain-Austria; Kreuzbeleg: SPA-Picks 05:14 nicht ausgegraut)",
+      "observed_at": "2026-07-03T21:50:00Z",
+      "auto": true
+    },
+    "ko-085": {
+      "actual": [
+        2,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "Guardian liveblog FT 3.7. (Switzerland-Algeria 2-0, updated 07:32 CEST)",
+      "observed_at": "2026-07-03T05:32:00Z",
+      "auto": true
+    },
+    "ko-086": {
+      "actual": [
+        3,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "Guardian report FT 4.7. (Argentina-Cape Verde 3-2 aet)",
+      "observed_at": "2026-07-04T04:19:00Z",
+      "auto": true
+    },
+    "ko-087": {
+      "actual": [
+        1,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "Guardian liveblog FT 4.7. (Colombia-Ghana 1-0)",
+      "observed_at": "2026-07-04T03:42:00Z",
+      "auto": true
+    },
+    "ko-088": {
+      "actual": [
+        1,
+        1
+      ],
+      "penalty_winner": "away",
+      "source": "Guardian liveblog FT 3.7. (Australia-Egypt 1-1, Egypt 4-2 pens) | Elferbilanz (T-0155), verifiziert gegen die Kicktipp-Linie",
+      "observed_at": "2026-07-03T20:56:00Z",
+      "auto": true,
+      "shootout": [
+        2,
+        4
+      ]
+    },
+    "ko-089": {
+      "actual": [
+        0,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Achtelfinale 5.7 (regulaer)",
+      "observed_at": "2026-07-05T05:36:00Z",
+      "auto": false
+    },
+    "ko-090": {
+      "actual": [
+        0,
+        3
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Achtelfinale 5.7 (regulaer)",
+      "observed_at": "2026-07-05T05:36:00Z",
+      "auto": false
+    },
+    "ko-091": {
+      "actual": [
+        1,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Achtelfinale 6.7 (regulaer)",
+      "observed_at": "2026-07-06T08:40:00Z",
+      "auto": false
+    },
+    "ko-092": {
+      "actual": [
+        2,
+        3
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Achtelfinale 6.7 (regulaer)",
+      "observed_at": "2026-07-06T08:40:00Z",
+      "auto": false
+    },
+    "ko-093": {
+      "actual": [
+        0,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Achtelfinale 7.7 (regulaer)",
+      "observed_at": "2026-07-07T04:31:00Z",
+      "auto": false
+    },
+    "ko-094": {
+      "actual": [
+        1,
+        4
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Achtelfinale 7.7 (regulaer)",
+      "observed_at": "2026-07-07T04:31:00Z",
+      "auto": false
+    },
+    "ko-096": {
+      "actual": [
+        0,
+        0
+      ],
+      "penalty_winner": "home",
+      "source": "Kicktipp Achtelfinale 8.7: 0:0 n.V., Schweiz i.E. (Elfer-Runde 4:3) | Elferbilanz (T-0155), verifiziert gegen die Kicktipp-Linie",
+      "observed_at": "2026-07-08T05:45:00Z",
+      "auto": false,
+      "shootout": [
+        4,
+        3
+      ]
+    },
+    "ko-095": {
+      "actual": [
+        3,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Achtelfinale 8.7 (regulaer)",
+      "observed_at": "2026-07-08T05:45:00Z",
+      "auto": false
+    },
+    "ko-097": {
+      "actual": [
+        2,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Viertelfinale 10.7: Frankreich - Marokko 2:0 (regulaer)",
+      "observed_at": "2026-07-10T06:06:00Z",
+      "auto": false
+    },
+    "ko-098": {
+      "actual": [
+        2,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Viertelfinale 11.7: Spanien - Belgien 2:1 (regulaer)",
+      "observed_at": "2026-07-11T05:42:00Z",
+      "auto": false
+    },
+    "ko-099": {
+      "actual": [
+        1,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Viertelfinale 12.7: Norwegen - England 1:2 (regulaer)",
+      "observed_at": "2026-07-12T07:02:00Z",
+      "auto": false
+    },
+    "ko-100": {
+      "actual": [
+        3,
+        1
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Viertelfinale 12.7: Argentinien - Schweiz 3:1 (regulaer)",
+      "observed_at": "2026-07-12T07:02:00Z",
+      "auto": false
+    },
+    "ko-101": {
+      "actual": [
+        0,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Halbfinale 14.7: Frankreich - Spanien 0:2 (regulaer)",
+      "observed_at": "2026-07-14T23:11:00Z",
+      "auto": false
+    },
+    "ko-102": {
+      "actual": [
+        1,
+        2
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Halbfinale 15.7: England - Argentinien 1:2 (regulaer)",
+      "observed_at": "2026-07-15T23:05:00Z",
+      "auto": false
+    },
+    "ko-103": {
+      "actual": [
+        4,
+        6
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Spiel um Platz 3, 18.7.: Frankreich - England 4:6",
+      "observed_at": "2026-07-19T03:55:00Z",
+      "auto": false
+    },
+    "ko-104": {
+      "actual": [
+        1,
+        0
+      ],
+      "penalty_winner": null,
+      "source": "Kicktipp Finale 19.7.: Spanien - Argentinien 1:0 (Spanien Weltmeister)",
+      "observed_at": "2026-07-20T06:38:00Z",
+      "auto": false
+    }
+  }
+}

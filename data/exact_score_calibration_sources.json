@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "note": "Audit for free historical exact-score calibration sources. A source is accepted only if it provides reproducible, free, pre-match exact-score snapshots suitable for 2018/2022 World Cup backtests.",
+    "updated_at": "2026-05-20T08:39:09+00:00"
+  },
+  "decision": {
+    "accepted_sources": 0,
+    "reason": "no_free_reproducible_historical_exact_score_snapshot_source",
+    "recommendation": "Use Bwin exact-score as a manual watch/disagreement signal only. Do not blend it into scoreline probabilities until a free historical exact-score snapshot dataset can be backtested against 2018/2022 or a later complete tournament.",
+    "requirements": [
+      "free/no paid API/no credit-card trial/no paywall",
+      "machine-readable or reproducibly exportable",
+      "pre-match timestamped exact-score prices",
+      "World Cup 2018/2022 coverage or enough comparable tournament coverage",
+      "match-level mapping to the local fixture ids"
+    ],
+    "searched_sources": 6,
+    "status": "watch_only"
+  },
+  "sources": [
+    {
+      "accepted": false,
+      "name": "Bwin.de current CDS fixture-view",
+      "result": "Accepted for current 2026 watch snapshots, rejected for calibration because no free 2018/2022 historical Bwin exact-score snapshot archive was found.",
+      "url": "https://www.bwin.de/de/sports/fu%C3%9Fball-4/wetten/welt-6/wm-2026-0:14"
+    },
+    {
+      "accepted": false,
+      "name": "OddsPortal archived results",
+      "result": "Rejected for this repo step: archived odds are visible in an interactive site, but no free, stable, repo-reproducible Bwin exact-score snapshot export for the 2018/2022 World Cup backtests was accepted.",
+      "url": "https://www.oddsportal.com/results/"
+    },
+    {
+      "accepted": false,
+      "name": "Football-Data.co.uk free CSV archive",
+      "result": "Useful free machine-readable historical results and 1X2/over-under/handicap odds, but no exact-score price grid for the required World Cup calibration.",
+      "url": "https://www.football-data.co.uk/"
+    },
+    {
+      "accepted": false,
+      "name": "The Odds API historical odds",
+      "result": "Rejected by project constraints because historical odds snapshots are only available on paid usage plans.",
+      "url": "https://the-odds-api.com/historical-odds-data/"
+    },
+    {
+      "accepted": false,
+      "name": "Betfair Historical Data",
+      "result": "Rejected for the local no-friction workflow: access depends on a registered Betfair account/historical-data service and was not accepted as a free reproducible source for 2018/2022 exact-score calibration.",
+      "url": "https://support.developer.betfair.com/hc/en-us/articles/360002407712-How-can-I-access-the-Betfair-Historical-Data-service"
+    },
+    {
+      "accepted": false,
+      "name": "OddsPapi historical odds",
+      "result": "Not accepted for this calibration pass: public material advertises historical odds, but no validated free 2018/2022 World Cup exact-score snapshot dataset was found.",
+      "url": "https://oddspapi.io/de"
+    }
+  ]
+}

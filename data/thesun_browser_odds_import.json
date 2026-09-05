@@ -1,0 +1,64 @@
+{
+  "source": "thesun_world_cup_2026",
+  "observed_at": "2026-06-27T20:42:47+00:00",
+  "odds_format": "fractional",
+  "decimal_conversion": "decimal = numerator / denominator + 1",
+  "entries": [
+    {
+      "match_id": "gl-071",
+      "match": "Panama - England",
+      "url": "https://www.thesun.co.uk/sport/39471544/panama-vs-england-preview-betting-tips-predictions/",
+      "home_fractional": "14/1",
+      "draw_fractional": "13/2",
+      "away_fractional": "2/13",
+      "home_decimal": 15.0,
+      "draw_decimal": 7.5,
+      "away_decimal": 1.1538
+    },
+    {
+      "match_id": "gl-072",
+      "match": "Croatia - Ghana",
+      "url": "https://www.thesun.co.uk/sport/39512159/croatia-ghana-betting-tips-predictions-world-cup/",
+      "home_fractional": "7/10",
+      "draw_fractional": "23/10",
+      "away_fractional": "9/2",
+      "home_decimal": 1.7,
+      "draw_decimal": 3.3,
+      "away_decimal": 5.5
+    },
+    {
+      "match_id": "gk-065",
+      "match": "Colombia - Portugal",
+      "url": "https://www.thesun.co.uk/sport/39551794/colombia-portugal-match-preview-predictions-odds-world-cup/",
+      "home_fractional": "10/3",
+      "draw_fractional": "14/5",
+      "away_fractional": "20/23",
+      "home_decimal": 4.3333,
+      "draw_decimal": 3.8,
+      "away_decimal": 1.8696
+    },
+    {
+      "match_id": "gj-060",
+      "match": "Jordan - Argentina",
+      "url": "https://www.thesun.co.uk/sport/39471602/jordan-argentina-preview-betting-tips-predictions/",
+      "home_fractional": "9/1",
+      "draw_fractional": "6/1",
+      "away_fractional": "2/9",
+      "home_decimal": 10.0,
+      "draw_decimal": 7.0,
+      "away_decimal": 1.2222
+    }
+  ],
+  "unimported": [
+    {
+      "match_id": "gk-066",
+      "match": "DR Congo - Uzbekistan",
+      "reason": "No complete 1X2 price row found in accessible sources during this run."
+    },
+    {
+      "match_id": "gj-059",
+      "match": "Algeria - Austria",
+      "reason": "No complete 1X2 price row found in accessible sources during this run."
+    }
+  ]
+}

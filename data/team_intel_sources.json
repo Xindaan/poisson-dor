@@ -1,0 +1,2006 @@
+{
+  "_meta": {
+    "last_reachability_refresh": "2026-07-20T10:02:55.037610+00:00",
+    "machine_readability_audit_updated_at": "2026-05-20T08:32:04.206645+00:00",
+    "note": "Free team-intelligence source catalog for news, squads, lineups, weather, travel, venue and pitch context. Sources marked manual_watch/manual_watch_unverified are explicit matchday/watch targets and not scraped by default.",
+    "updated_at": "2026-07-20T10:02:55.037610+00:00"
+  },
+  "sources": [
+    {
+      "checked_at": "2026-05-20T08:29:43.642813+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/news",
+      "http_status": 200,
+      "id": "fifa_worldcup_2026_news",
+      "name": "FIFA World Cup 2026 news",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/news",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/news"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "travel",
+        "venue",
+        "pitch",
+        "general"
+      ],
+      "source_type": "official_tournament",
+      "status": "active_page",
+      "teams": [
+        "*"
+      ],
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/news",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/news."
+    },
+    {
+      "checked_at": "2026-05-19T18:10:22.201059+00:00",
+      "cost": "free",
+      "id": "fifa_worldcup_2026_scores_fixtures",
+      "name": "FIFA World Cup 2026 scores and fixtures",
+      "official": true,
+      "refresh_hint": "from T-90 minutes every 10-15 minutes for confirmed lineups and match status",
+      "reliability": "high",
+      "signals": [
+        "lineup",
+        "confirmed_lineup",
+        "fixture",
+        "venue",
+        "result"
+      ],
+      "source_type": "lineup_watch",
+      "status": "active_page",
+      "teams": [
+        "*"
+      ],
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+      "verification": "curl HEAD 200 on 2026-05-19."
+    },
+    {
+      "checked_at": "2026-05-19T18:10:22.201059+00:00",
+      "cost": "free",
+      "id": "canada_soccer_rss",
+      "name": "Canada Soccer official RSS",
+      "official": true,
+      "refresh_hint": "included in refresh-news --live RSS adapter",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "travel",
+        "friendly"
+      ],
+      "source_type": "official_federation_rss",
+      "status": "active_rss",
+      "teams": [
+        "Canada"
+      ],
+      "url": "https://canadasoccer.com/feed/",
+      "verification": "RSS integrated and tested in refresh_news."
+    },
+    {
+      "checked_at": "2026-05-20T08:29:43.642813+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://canadasoccer.com/national-teams/mens/",
+      "http_status": 200,
+      "id": "canada_soccer_mens",
+      "machine_readable_alternative_ids": [
+        "canada_soccer_rss"
+      ],
+      "name": "Canada Soccer men's national teams page",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://canadasoccer.com/national-teams/mens/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://canadasoccer.com/national-teams/mens/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "friendly",
+        "travel"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Canada"
+      ],
+      "url": "https://canadasoccer.com/national-teams/mens/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://canadasoccer.com/national-teams/mens/."
+    },
+    {
+      "checked_at": "2026-05-20T08:29:43.642813+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.ussoccer.com/teams/usmnt",
+      "http_status": 200,
+      "id": "us_soccer_usmnt",
+      "name": "U.S. Soccer USMNT page",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.ussoccer.com/teams/usmnt",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.ussoccer.com/teams/usmnt"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "USA"
+      ],
+      "url": "https://www.ussoccer.com/teams/usmnt",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.ussoccer.com/teams/usmnt."
+    },
+    {
+      "checked_at": "2026-05-20T08:29:43.642813+00:00",
+      "content_type": "text/html;charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://miseleccion.mx/",
+      "http_status": 200,
+      "id": "mexico_miseleccion",
+      "machine_readable_alternative_ids": [
+        "mexico_miseleccion_json"
+      ],
+      "name": "Selección Nacional de México",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html;charset=UTF-8",
+        "effective_url": "https://miseleccion.mx/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://miseleccion.mx/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "friendly",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Mexico"
+      ],
+      "url": "https://miseleccion.mx/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://miseleccion.mx/."
+    },
+    {
+      "checked_at": "2026-05-20T08:32:04.206645+00:00",
+      "content_type": "application/json; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://miseleccion.mx/json/convocatorias.json",
+      "http_status": 200,
+      "id": "mexico_miseleccion_json",
+      "name": "Mi Seleccion official JSON endpoints",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "application/json; charset=utf-8",
+        "effective_url": "https://miseleccion.mx/json/convocatorias.json",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://miseleccion.mx/json/convocatorias.json"
+      },
+      "refresh_hint": "machine/json watch for Mexico callups, squad lists, schedule and official updates",
+      "related_urls": [
+        "https://miseleccion.mx/json/calendario.json",
+        "https://miseleccion.mx/json/noticias.json",
+        "https://miseleccion.mx/json/galerias.json",
+        "https://miseleccion.mx/json/videos.json",
+        "https://miseleccion.mx/json/convocatorias.json"
+      ],
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "fixture",
+        "friendly",
+        "roster",
+        "travel",
+        "media"
+      ],
+      "source_type": "official_federation_json",
+      "status": "active_json",
+      "teams": [
+        "Mexico"
+      ],
+      "url": "https://miseleccion.mx/json/convocatorias.json",
+      "verification": "curl GET 200 application/json on 2026-05-20 for calendario, noticias, galerias, videos and convocatorias JSON endpoints; /json/notas.json returned HTML and is not used."
+    },
+    {
+      "checked_at": "2026-05-19T18:10:22.201059+00:00",
+      "cost": "free",
+      "id": "dfb_men",
+      "name": "DFB Männer-Nationalmannschaft",
+      "official": true,
+      "refresh_hint": "manual/page watch; DFB RSS probe paths were 404",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "lineup",
+        "friendly"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Germany"
+      ],
+      "url": "https://www.dfb.de/maenner/nationalmannschaften/nationalmannschaft",
+      "verification": "curl followed redirect and returned 200 on 2026-05-19."
+    },
+    {
+      "checked_at": "2026-05-19T18:10:22.201059+00:00",
+      "cost": "free",
+      "id": "england_mens",
+      "name": "England Football men's senior team",
+      "official": true,
+      "refresh_hint": "manual/page watch; previous RSS probes returned HTML",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "lineup",
+        "friendly"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "England"
+      ],
+      "url": "https://www.englandfootball.com/england/mens-senior-team",
+      "verification": "curl HEAD 200 on 2026-05-19."
+    },
+    {
+      "checked_at": "2026-05-19T18:10:22.201059+00:00",
+      "cost": "free",
+      "id": "france_fff",
+      "name": "FFF Equipe de France",
+      "official": true,
+      "refresh_hint": "manual/page watch; official source for France roster and team news",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "France"
+      ],
+      "url": "https://www.fff.fr/selection/2-equipe-de-france/index.html",
+      "verification": "curl HEAD 200 on 2026-05-19."
+    },
+    {
+      "checked_at": "2026-05-20T08:29:43.642813+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://rfef.es/es/selecciones/seleccion-absoluta-masculina",
+      "http_status": 403,
+      "id": "spain_rfef",
+      "machine_readability_decision": "browser_or_manual_only_after_feed_probe_2026-05-20",
+      "machine_readable_alternatives": [
+        {
+          "note": "Specific senior-men page remains Cloudflare-blocked for curl; keep browser/manual watch.",
+          "status": "rejected_blocked_http_403",
+          "url": "https://rfef.es/es/selecciones/seleccion-absoluta-masculina"
+        },
+        {
+          "note": "No stable official RSS endpoint accepted in this pass.",
+          "status": "not_accepted_unverified_feed",
+          "url": "https://rfef.es/rss"
+        }
+      ],
+      "name": "RFEF selección absoluta masculina",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://rfef.es/es/selecciones/seleccion-absoluta-masculina",
+        "error": null,
+        "http_status": 403,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://rfef.es/es/selecciones/seleccion-absoluta-masculina"
+      },
+      "refresh_hint": "browser/manual watch; curl probe is blocked",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly"
+      ],
+      "source_type": "official_federation_page",
+      "status": "blocked_curl_manual_watch",
+      "teams": [
+        "Spain"
+      ],
+      "url": "https://rfef.es/es/selecciones/seleccion-absoluta-masculina",
+      "verification": "curl GET HTTP 403 on 2026-05-20; keep as browser/manual watch. Effective URL https://rfef.es/es/selecciones/seleccion-absoluta-masculina."
+    },
+    {
+      "checked_at": "2026-05-19T18:10:22.201059+00:00",
+      "cost": "free",
+      "id": "fotmob_worldcup_lineups",
+      "name": "FotMob World Cup match pages",
+      "official": false,
+      "refresh_hint": "matchday cross-check only; use official FIFA/teams first",
+      "reliability": "medium",
+      "signals": [
+        "expected_lineup",
+        "confirmed_lineup",
+        "injury",
+        "form"
+      ],
+      "source_type": "lineup_watch",
+      "status": "active_page",
+      "teams": [
+        "*"
+      ],
+      "url": "https://www.fotmob.com/leagues/77/overview/world-cup",
+      "verification": "curl HEAD 200 on 2026-05-19."
+    },
+    {
+      "checked_at": "2026-05-19T18:10:22.201059+00:00",
+      "cost": "free",
+      "countries": [
+        "USA"
+      ],
+      "id": "weather_gov",
+      "name": "NOAA National Weather Service",
+      "official": true,
+      "refresh_hint": "daily from T-72; every watch cycle from T-6 for US host cities",
+      "reliability": "high",
+      "signals": [
+        "weather",
+        "heat",
+        "humidity",
+        "wind",
+        "storm",
+        "alerts"
+      ],
+      "source_type": "host_context",
+      "status": "active_page",
+      "url": "https://www.weather.gov/",
+      "verification": "curl HEAD 200 on 2026-05-19."
+    },
+    {
+      "checked_at": "2026-05-19T18:10:22.201059+00:00",
+      "cost": "free",
+      "countries": [
+        "Canada"
+      ],
+      "id": "environment_canada_weather",
+      "name": "Environment and Climate Change Canada weather",
+      "official": true,
+      "refresh_hint": "daily from T-72; every watch cycle from T-6 for Toronto and Vancouver",
+      "reliability": "high",
+      "signals": [
+        "weather",
+        "temperature",
+        "wind",
+        "rain",
+        "alerts"
+      ],
+      "source_type": "host_context",
+      "status": "active_page",
+      "url": "https://weather.gc.ca/",
+      "verification": "curl HEAD 200 on 2026-05-19."
+    },
+    {
+      "checked_at": "2026-05-19T18:10:22.201059+00:00",
+      "cost": "free",
+      "countries": [
+        "Mexico"
+      ],
+      "id": "smn_conagua",
+      "name": "Servicio Meteorológico Nacional México",
+      "official": true,
+      "refresh_hint": "daily from T-72; every watch cycle from T-6 for Mexico host cities",
+      "reliability": "high",
+      "signals": [
+        "weather",
+        "temperature",
+        "rain",
+        "wind",
+        "alerts"
+      ],
+      "source_type": "host_context",
+      "status": "active_page",
+      "url": "https://smn.conagua.gob.mx/es/",
+      "verification": "curl followed redirect and returned 200 on 2026-05-19."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://www.faf.dz/",
+      "http_status": 200,
+      "id": "algeria_faf",
+      "name": "Algerian Football Federation",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://www.faf.dz/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.faf.dz/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Algeria"
+      ],
+      "url": "https://www.faf.dz/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.faf.dz/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://www.afa.com.ar/es/",
+      "http_status": 200,
+      "id": "argentina_afa",
+      "name": "Asociación del Fútbol Argentino",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://www.afa.com.ar/es/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.afa.com.ar/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Argentina"
+      ],
+      "url": "https://www.afa.com.ar/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.afa.com.ar/es/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://socceroos.com.au/",
+      "http_status": 200,
+      "id": "australia_socceroos",
+      "name": "Football Australia Socceroos",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://socceroos.com.au/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.socceroos.com.au/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Australia"
+      ],
+      "url": "https://www.socceroos.com.au/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://socceroos.com.au/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.oefb.at/",
+      "http_status": 200,
+      "id": "austria_oefb",
+      "name": "ÖFB Nationalteam",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.oefb.at/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.oefb.at/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Austria"
+      ],
+      "url": "https://www.oefb.at/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.oefb.at/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html",
+      "cost": "free",
+      "effective_url": "https://www.rbfa.be/en",
+      "http_status": 200,
+      "id": "belgium_rbfa",
+      "name": "Royal Belgian FA",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html",
+        "effective_url": "https://www.rbfa.be/en",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.rbfa.be/en"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Belgium"
+      ],
+      "url": "https://www.rbfa.be/en",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.rbfa.be/en."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.nfsbih.ba/",
+      "http_status": 200,
+      "id": "bosnia_nfsbih",
+      "name": "Football Association of Bosnia and Herzegovina",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.nfsbih.ba/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.nfsbih.ba/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Bosnia & Herzegovina"
+      ],
+      "url": "https://www.nfsbih.ba/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.nfsbih.ba/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.cbf.com.br/",
+      "http_status": 200,
+      "id": "brazil_cbf",
+      "name": "Confederação Brasileira de Futebol",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.cbf.com.br/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.cbf.com.br/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Brazil"
+      ],
+      "url": "https://www.cbf.com.br/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.cbf.com.br/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://fcf.cv/",
+      "http_status": 200,
+      "id": "cape_verde_fcf",
+      "name": "Federação Cabo-verdiana de Futebol",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://fcf.cv/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://fcf.cv/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Cape Verde"
+      ],
+      "url": "https://fcf.cv/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://fcf.cv/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://fcf.com.co/",
+      "http_status": 200,
+      "id": "colombia_fcf",
+      "name": "Federación Colombiana de Fútbol",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://fcf.com.co/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://fcf.com.co/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Colombia"
+      ],
+      "url": "https://fcf.com.co/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://fcf.com.co/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://hns.family/en/",
+      "http_status": 200,
+      "id": "croatia_hns",
+      "name": "Croatian Football Federation",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://hns.family/en/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://hns.family/en/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Croatia"
+      ],
+      "url": "https://hns.family/en/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://hns.family/en/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://ffk.cw/",
+      "http_status": 200,
+      "id": "curacao_ffk",
+      "name": "Federashon Futbòl Kòrsou",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://ffk.cw/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.ffk.cw/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Curaçao"
+      ],
+      "url": "https://www.ffk.cw/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://ffk.cw/."
+    },
+    {
+      "checked_at": "2026-05-20T08:29:43.642813+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://www.fotbal.cz/",
+      "http_status": 403,
+      "id": "czech_republic_facr",
+      "machine_readability_decision": "browser_or_manual_only_after_feed_probe_2026-05-20",
+      "machine_readable_alternatives": [
+        {
+          "note": "Team-news path identified but blocked for curl.",
+          "status": "rejected_blocked_http_403",
+          "url": "https://www.fotbal.cz/repre/clanky/rubrika/4"
+        },
+        {
+          "note": "RSS probe path is also blocked for curl.",
+          "status": "rejected_blocked_http_403",
+          "url": "https://www.fotbal.cz/rss/"
+        }
+      ],
+      "name": "Football Association of the Czech Republic",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://www.fotbal.cz/",
+        "error": null,
+        "http_status": 403,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.fotbal.cz/"
+      },
+      "refresh_hint": "browser/manual watch; curl probe is blocked",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "blocked_curl_manual_watch",
+      "teams": [
+        "Czech Republic"
+      ],
+      "url": "https://www.fotbal.cz/",
+      "verification": "curl GET HTTP 403 on 2026-05-20; keep as browser/manual watch. Effective URL https://www.fotbal.cz/."
+    },
+    {
+      "checked_at": "2026-05-20T08:29:43.642813+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://www.fecofa-rdc.com/",
+      "http_status": 403,
+      "id": "dr_congo_fecofa",
+      "machine_readability_decision": "browser_or_manual_only_after_feed_probe_2026-05-20",
+      "machine_readable_alternatives": [
+        {
+          "note": "Returned RSS XML, but feed title/content pointed to betting-site text instead of reliable FECOFA team news.",
+          "status": "rejected_suspicious_feed",
+          "url": "https://www.fecofa-rdc.com/feed/"
+        }
+      ],
+      "name": "FECOFA DR Congo",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://www.fecofa-rdc.com/",
+        "error": null,
+        "http_status": 403,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.fecofa-rdc.com/"
+      },
+      "refresh_hint": "browser/manual watch; curl probe is blocked",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "blocked_curl_manual_watch",
+      "teams": [
+        "DR Congo"
+      ],
+      "url": "https://www.fecofa-rdc.com/",
+      "verification": "curl GET HTTP 403 on 2026-05-20; keep as browser/manual watch. Effective URL https://www.fecofa-rdc.com/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://www.fef.ec/",
+      "http_status": 200,
+      "id": "ecuador_fef",
+      "name": "Federación Ecuatoriana de Fútbol",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://www.fef.ec/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.fef.ec/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Ecuador"
+      ],
+      "url": "https://www.fef.ec/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.fef.ec/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.efa.com.eg/",
+      "http_status": 200,
+      "id": "egypt_efa",
+      "name": "Egyptian Football Association",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.efa.com.eg/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.efa.com.eg/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Egypt"
+      ],
+      "url": "https://www.efa.com.eg/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.efa.com.eg/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://www.ghanafa.org/",
+      "http_status": 200,
+      "id": "ghana_gfa",
+      "name": "Ghana Football Association",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://www.ghanafa.org/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.ghanafa.org/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Ghana"
+      ],
+      "url": "https://www.ghanafa.org/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.ghanafa.org/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html",
+      "cost": "free",
+      "effective_url": "https://fhfhaiti.com/",
+      "http_status": 200,
+      "id": "haiti_fhf",
+      "name": "Fédération Haïtienne de Football",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html",
+        "effective_url": "https://fhfhaiti.com/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://fhfhaiti.com/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Haiti"
+      ],
+      "url": "https://fhfhaiti.com/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://fhfhaiti.com/."
+    },
+    {
+      "checked_at": "2026-07-20T10:02:55.037610+00:00",
+      "content_type": null,
+      "cost": "free",
+      "effective_url": "https://ffiri.ir/",
+      "http_status": null,
+      "id": "iran_ffiri",
+      "machine_readability_decision": "manual_watch_unverified_after_timeout_probe_2026-05-20",
+      "machine_readable_alternatives": [
+        {
+          "note": "Curl probe timed out.",
+          "status": "timeout",
+          "url": "https://ffiri.ir/feed/"
+        },
+        {
+          "note": "Curl probe timed out.",
+          "status": "timeout",
+          "url": "https://www.ffiri.ir/feed/"
+        },
+        {
+          "note": "Curl probe timed out.",
+          "status": "timeout",
+          "url": "https://ffiri.ir/fa/feed/"
+        }
+      ],
+      "name": "Football Federation Islamic Republic of Iran",
+      "official": true,
+      "reachability_probe": {
+        "content_type": null,
+        "effective_url": "https://ffiri.ir/",
+        "error": "curl: (28) Connection timed out after 12003 milliseconds",
+        "http_status": null,
+        "returncode": 28,
+        "status": "error",
+        "url": "https://ffiri.ir/"
+      },
+      "refresh_hint": "manual/page watch; live reachability needs replacement or retry",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "manual_watch_unverified",
+      "teams": [
+        "Iran"
+      ],
+      "url": "https://ffiri.ir/",
+      "verification": "curl probe failed: curl: (28) Connection timed out after 12003 milliseconds on 2026-07-20; keep unverified and search replacement if still needed."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://ifa.iq/",
+      "http_status": 200,
+      "id": "iraq_ifa",
+      "name": "Iraq Football Association",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://ifa.iq/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://ifa.iq/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Iraq"
+      ],
+      "url": "https://ifa.iq/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://ifa.iq/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.fifciv.com/",
+      "http_status": 200,
+      "id": "ivory_coast_fif",
+      "name": "Fédération Ivoirienne de Football",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.fifciv.com/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.fifciv.com/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Ivory Coast"
+      ],
+      "url": "https://www.fifciv.com/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.fifciv.com/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html",
+      "cost": "free",
+      "effective_url": "https://www.jfa.jp/eng/",
+      "http_status": 200,
+      "id": "japan_jfa",
+      "name": "Japan Football Association",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html",
+        "effective_url": "https://www.jfa.jp/eng/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.jfa.jp/eng/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Japan"
+      ],
+      "url": "https://www.jfa.jp/eng/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.jfa.jp/eng/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://www.jfa.jo/",
+      "http_status": 200,
+      "id": "jordan_jfa",
+      "name": "Jordan Football Association",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://www.jfa.jo/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.jfa.jo/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Jordan"
+      ],
+      "url": "https://www.jfa.jo/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.jfa.jo/."
+    },
+    {
+      "checked_at": "2026-05-20T08:29:43.642813+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://frmf.ma/",
+      "http_status": 403,
+      "id": "morocco_frmf",
+      "machine_readability_decision": "browser_or_manual_only_after_feed_probe_2026-05-20",
+      "machine_readable_alternatives": [
+        {
+          "note": "WordPress-style feed path blocked for curl.",
+          "status": "rejected_blocked_http_403",
+          "url": "https://frmf.ma/feed/"
+        },
+        {
+          "note": "French feed path blocked for curl.",
+          "status": "rejected_blocked_http_403",
+          "url": "https://frmf.ma/fr/feed/"
+        }
+      ],
+      "name": "Fédération Royale Marocaine de Football",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://frmf.ma/",
+        "error": null,
+        "http_status": 403,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://frmf.ma/"
+      },
+      "refresh_hint": "browser/manual watch; curl probe is blocked",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "blocked_curl_manual_watch",
+      "teams": [
+        "Morocco"
+      ],
+      "url": "https://frmf.ma/",
+      "verification": "curl GET HTTP 403 on 2026-05-20; keep as browser/manual watch. Effective URL https://frmf.ma/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.onsoranje.nl/",
+      "http_status": 200,
+      "id": "netherlands_onsoranje",
+      "name": "OnsOranje",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.onsoranje.nl/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.onsoranje.nl/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Netherlands"
+      ],
+      "url": "https://www.onsoranje.nl/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.onsoranje.nl/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.nzfootball.co.nz/",
+      "http_status": 200,
+      "id": "new_zealand_nzf",
+      "name": "New Zealand Football",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.nzfootball.co.nz/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.nzfootball.co.nz/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "New Zealand"
+      ],
+      "url": "https://www.nzfootball.co.nz/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.nzfootball.co.nz/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.fotball.no/",
+      "http_status": 200,
+      "id": "norway_nff",
+      "name": "Norwegian Football Federation",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.fotball.no/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.fotball.no/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Norway"
+      ],
+      "url": "https://www.fotball.no/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.fotball.no/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://www.fepafut.com/",
+      "http_status": 200,
+      "id": "panama_fepafut",
+      "name": "Federación Panameña de Fútbol",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://www.fepafut.com/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://fepafut.com/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Panama"
+      ],
+      "url": "https://fepafut.com/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.fepafut.com/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.apf.org.py/",
+      "http_status": 200,
+      "id": "paraguay_apf",
+      "name": "Asociación Paraguaya de Fútbol",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.apf.org.py/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.apf.org.py/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Paraguay"
+      ],
+      "url": "https://www.apf.org.py/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.apf.org.py/."
+    },
+    {
+      "checked_at": "2026-05-20T08:29:43.642813+00:00",
+      "content_type": "text/plain",
+      "cost": "free",
+      "effective_url": "https://www.fpf.pt/",
+      "http_status": 403,
+      "id": "portugal_fpf",
+      "machine_readability_decision": "browser_or_manual_only_after_feed_probe_2026-05-20",
+      "machine_readable_alternatives": [
+        {
+          "note": "Specific Seleção A page blocked for curl.",
+          "status": "rejected_blocked_http_403",
+          "url": "https://www.fpf.pt/pt/Selecoes/Futebol-Masculino/Selecao-A"
+        },
+        {
+          "note": "News page blocked for curl.",
+          "status": "rejected_blocked_http_403",
+          "url": "https://www.fpf.pt/pt/News"
+        }
+      ],
+      "name": "Federação Portuguesa de Futebol",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/plain",
+        "effective_url": "https://www.fpf.pt/",
+        "error": null,
+        "http_status": 403,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.fpf.pt/"
+      },
+      "refresh_hint": "browser/manual watch; curl probe is blocked",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "blocked_curl_manual_watch",
+      "teams": [
+        "Portugal"
+      ],
+      "url": "https://www.fpf.pt/",
+      "verification": "curl GET HTTP 403 on 2026-05-20; keep as browser/manual watch. Effective URL https://www.fpf.pt/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://www.qfa.qa/",
+      "http_status": 200,
+      "id": "qatar_qfa",
+      "name": "Qatar Football Association",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://www.qfa.qa/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.qfa.qa/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Qatar"
+      ],
+      "url": "https://www.qfa.qa/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.qfa.qa/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=windows-1256",
+      "cost": "free",
+      "effective_url": "https://www.saff.com.sa/",
+      "http_status": 200,
+      "id": "saudi_arabia_saff",
+      "name": "Saudi Arabian Football Federation",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=windows-1256",
+        "effective_url": "https://www.saff.com.sa/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.saff.com.sa/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Saudi Arabia"
+      ],
+      "url": "https://www.saff.com.sa/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.saff.com.sa/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.scottishfa.co.uk/",
+      "http_status": 200,
+      "id": "scotland_sfa",
+      "name": "Scottish FA",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.scottishfa.co.uk/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.scottishfa.co.uk/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Scotland"
+      ],
+      "url": "https://www.scottishfa.co.uk/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.scottishfa.co.uk/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://fsfoot.sn/",
+      "http_status": 200,
+      "id": "senegal_fsfoot",
+      "name": "Fédération Sénégalaise de Football",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://fsfoot.sn/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.fsfoot.sn/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Senegal"
+      ],
+      "url": "https://www.fsfoot.sn/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://fsfoot.sn/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://www.safa.net/",
+      "http_status": 200,
+      "id": "south_africa_safa",
+      "name": "South African Football Association",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://www.safa.net/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.safa.net/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "South Africa"
+      ],
+      "url": "https://www.safa.net/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.safa.net/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.kfa.or.kr/",
+      "http_status": 200,
+      "id": "south_korea_kfa",
+      "name": "Korea Football Association",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.kfa.or.kr/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.kfa.or.kr/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "South Korea"
+      ],
+      "url": "https://www.kfa.or.kr/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.kfa.or.kr/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "cost": "free",
+      "effective_url": "https://www.svenskfotboll.se/",
+      "http_status": 200,
+      "id": "sweden_svff",
+      "name": "Swedish Football Association",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=utf-8",
+        "effective_url": "https://www.svenskfotboll.se/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.svenskfotboll.se/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Sweden"
+      ],
+      "url": "https://www.svenskfotboll.se/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.svenskfotboll.se/."
+    },
+    {
+      "checked_at": "2026-05-20T08:29:43.642813+00:00",
+      "content_type": "text/plain",
+      "cost": "free",
+      "effective_url": "https://www.football.ch/",
+      "http_status": 403,
+      "id": "switzerland_sfv",
+      "machine_readability_decision": "browser_or_manual_only_after_feed_probe_2026-05-20",
+      "machine_readable_alternatives": [
+        {
+          "note": "Specific A-team page blocked for curl.",
+          "status": "rejected_blocked_http_403",
+          "url": "https://www.football.ch/sfv/nationalteams/a-team.aspx"
+        },
+        {
+          "note": "National teams overview blocked for curl.",
+          "status": "rejected_blocked_http_403",
+          "url": "https://www.football.ch/sfv/nationalteams.aspx"
+        }
+      ],
+      "name": "Swiss Football Association",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/plain",
+        "effective_url": "https://www.football.ch/",
+        "error": null,
+        "http_status": 403,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.football.ch/"
+      },
+      "refresh_hint": "browser/manual watch; curl probe is blocked",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "blocked_curl_manual_watch",
+      "teams": [
+        "Switzerland"
+      ],
+      "url": "https://www.football.ch/",
+      "verification": "curl GET HTTP 403 on 2026-05-20; keep as browser/manual watch. Effective URL https://www.football.ch/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://www.ftf.org.tn/fr/",
+      "http_status": 200,
+      "id": "tunisia_ftf",
+      "name": "Fédération Tunisienne de Football",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://www.ftf.org.tn/fr/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.ftf.org.tn/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Tunisia"
+      ],
+      "url": "https://www.ftf.org.tn/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.ftf.org.tn/fr/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=windows-1254",
+      "cost": "free",
+      "effective_url": "https://www.tff.org/",
+      "http_status": 200,
+      "id": "turkey_tff",
+      "name": "Turkish Football Federation",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=windows-1254",
+        "effective_url": "https://www.tff.org/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.tff.org/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Turkey"
+      ],
+      "url": "https://www.tff.org/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.tff.org/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=iso-8859-1",
+      "cost": "free",
+      "effective_url": "https://www.auf.org.uy/",
+      "http_status": 200,
+      "id": "uruguay_auf",
+      "name": "Asociación Uruguaya de Fútbol",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=iso-8859-1",
+        "effective_url": "https://www.auf.org.uy/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://www.auf.org.uy/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Uruguay"
+      ],
+      "url": "https://www.auf.org.uy/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://www.auf.org.uy/."
+    },
+    {
+      "checked_at": "2026-05-20T04:33:03.578668+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "cost": "free",
+      "effective_url": "https://ufa.uz/",
+      "http_status": 200,
+      "id": "uzbekistan_ufa",
+      "name": "Uzbekistan Football Association",
+      "official": true,
+      "reachability_probe": {
+        "content_type": "text/html; charset=UTF-8",
+        "effective_url": "https://ufa.uz/",
+        "error": null,
+        "http_status": 200,
+        "returncode": 0,
+        "status": "ok",
+        "url": "https://ufa.uz/"
+      },
+      "refresh_hint": "manual/page watch around roster, camp, injury and lineup windows; curl reachability verified",
+      "reliability": "high",
+      "signals": [
+        "squad",
+        "coach",
+        "injury",
+        "friendly",
+        "lineup",
+        "roster"
+      ],
+      "source_type": "official_federation_page",
+      "status": "active_page",
+      "teams": [
+        "Uzbekistan"
+      ],
+      "url": "https://ufa.uz/",
+      "verification": "curl GET HTTP 200 on 2026-05-20; effective URL https://ufa.uz/."
+    }
+  ]
+}

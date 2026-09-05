@@ -1,0 +1,204 @@
+{
+  "_meta": {
+    "bonus_values": {
+      "classic": {
+        "world_champion": 10
+      },
+      "escalating": {
+        "world_champion": 10
+      }
+    },
+    "captured_at": "2026-06-26",
+    "method": "handgepflegt aus der Bonusfragen-Seite der eigenen Runde",
+    "notes": "Nur Runden auffuehren, die tatsaechlich Bonusfragen stellen. bonus_values spiegelt die Punktwerte der jeweiligen Runde.",
+    "round_ids": "Muessen zu deiner Rundenkonfiguration passen (neutrale Defaults: 'classic', 'escalating'; eigene Runden via src/wm_tipps/rounds_local.py -- siehe rounds_local.example.py).",
+    "source": "BEISPIELDATEN -- frei erfunden. Kopiere nach data/manual_bonus_tips.json.",
+    "validation": "Die Summe der korrekt getippten Gruppensieger muss zu group_winners_correct passen."
+  },
+  "rounds": {
+    "classic": {
+      "Chaser-B": {
+        "group_winner_picks": {
+          "A": "Mexico",
+          "B": "Canada"
+        },
+        "group_winners_correct": 0,
+        "semifinalists": [
+          {
+            "eliminated": false,
+            "team": "Brazil"
+          },
+          {
+            "eliminated": false,
+            "team": "Argentina"
+          },
+          {
+            "eliminated": false,
+            "team": "Spain"
+          },
+          {
+            "eliminated": false,
+            "team": "Germany"
+          }
+        ],
+        "settled_bonus_points": 0,
+        "world_champion": {
+          "eliminated": false,
+          "team": "Brazil"
+        }
+      },
+      "Favoritenjaeger": {
+        "group_winner_picks": {
+          "A": "Mexico",
+          "B": "Canada"
+        },
+        "group_winners_correct": 0,
+        "semifinalists": [
+          {
+            "eliminated": false,
+            "team": "Argentina"
+          },
+          {
+            "eliminated": false,
+            "team": "Netherlands"
+          },
+          {
+            "eliminated": false,
+            "team": "Spain"
+          },
+          {
+            "eliminated": false,
+            "team": "France"
+          }
+        ],
+        "settled_bonus_points": 0,
+        "world_champion": {
+          "eliminated": false,
+          "team": "Argentina"
+        }
+      },
+      "Tipper-A": {
+        "group_winner_picks": {
+          "A": "Mexico",
+          "B": "Canada"
+        },
+        "group_winners_correct": 0,
+        "semifinalists": [
+          {
+            "eliminated": false,
+            "team": "Spain"
+          },
+          {
+            "eliminated": false,
+            "team": "France"
+          },
+          {
+            "eliminated": false,
+            "team": "Brazil"
+          },
+          {
+            "eliminated": false,
+            "team": "England"
+          }
+        ],
+        "settled_bonus_points": 0,
+        "world_champion": {
+          "eliminated": false,
+          "team": "Spain"
+        }
+      }
+    },
+    "escalating": {
+      "Chaser-B": {
+        "group_winner_picks": {
+          "A": "Mexico",
+          "B": "Canada"
+        },
+        "group_winners_correct": 0,
+        "semifinalists": [
+          {
+            "eliminated": false,
+            "team": "Brazil"
+          },
+          {
+            "eliminated": false,
+            "team": "Argentina"
+          },
+          {
+            "eliminated": false,
+            "team": "Spain"
+          },
+          {
+            "eliminated": false,
+            "team": "Germany"
+          }
+        ],
+        "settled_bonus_points": 0,
+        "world_champion": {
+          "eliminated": false,
+          "team": "Brazil"
+        }
+      },
+      "Favoritenjaeger": {
+        "group_winner_picks": {
+          "A": "Mexico",
+          "B": "Canada"
+        },
+        "group_winners_correct": 0,
+        "semifinalists": [
+          {
+            "eliminated": false,
+            "team": "Argentina"
+          },
+          {
+            "eliminated": false,
+            "team": "Netherlands"
+          },
+          {
+            "eliminated": false,
+            "team": "Spain"
+          },
+          {
+            "eliminated": false,
+            "team": "France"
+          }
+        ],
+        "settled_bonus_points": 0,
+        "world_champion": {
+          "eliminated": false,
+          "team": "Argentina"
+        }
+      },
+      "Tipper-A": {
+        "group_winner_picks": {
+          "A": "Mexico",
+          "B": "Canada"
+        },
+        "group_winners_correct": 0,
+        "semifinalists": [
+          {
+            "eliminated": false,
+            "team": "Spain"
+          },
+          {
+            "eliminated": false,
+            "team": "France"
+          },
+          {
+            "eliminated": false,
+            "team": "Brazil"
+          },
+          {
+            "eliminated": false,
+            "team": "England"
+          }
+        ],
+        "settled_bonus_points": 0,
+        "world_champion": {
+          "eliminated": false,
+          "team": "Spain"
+        }
+      }
+    }
+  }
+}

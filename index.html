@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#fbfbfd">
+    <title>WM 2026 Kicktipp</title>
+    <link rel="stylesheet" href="assets/tokens.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/player_board.css">
+  </head>
+  <body>
+    <!-- Kopf und Tabs stehen zusammen in .topbar und bleiben beim
+         Scrollen stehen. -->
+    <div class="topbar">
+      <header class="app-header">
+        <div class="app-title">
+          <!-- Rundenname kommt aus dem Payload (app.js). -->
+          <p class="eyebrow" id="round-eyebrow"></p>
+          <h1>WM 2026 Kicktipp</h1>
+          <!-- Zeitstempel ist Nebeninformation, kein KPI. -->
+          <p class="meta" id="stand"></p>
+        </div>
+        <div class="app-actions">
+          <div class="status-strip" id="status-strip"></div>
+          <!-- Ein-Klick-Update gilt global und ist darum aus jedem Tab
+               erreichbar, statt in einem Tab vergraben (app.js). -->
+          <div class="topbar-action" id="topbar-action"></div>
+        </div>
+      </header>
+
+      <nav class="tabs" aria-label="Dashboard Tabs">
+        <button class="tab active" data-tab="matches">Spiele</button>
+        <button class="tab" data-tab="news">News-Radar</button>
+        <button class="tab" data-tab="markets">Quoten &amp; Maerkte</button>
+        <button class="tab" data-tab="tips">Finale Tipps</button>
+        <button class="tab" data-tab="history">History</button>
+        <button class="tab" data-tab="analyse">Analyse</button>
+      </nav>
+    </div>
+
+    <main>
+      <section class="toolbar">
+        <label>
+          Suche
+          <input id="search" type="search" placeholder="Team, Spiel, Quelle">
+        </label>
+        <label data-control="status">
+          Status
+          <select id="status-filter">
+            <option value="">Alle</option>
+            <option value="stabil">Stabil</option>
+            <option value="volatil">Volatil</option>
+            <option value="warte auf Lineup">Warte auf Lineup</option>
+          </select>
+        </label>
+        <label data-control="sort">
+          Sortierung
+          <select id="sort-order">
+            <option value="kickoff">Chronologisch</option>
+            <option value="match_number">Spielnummer</option>
+            <option value="expected_points">Erwartete Punkte</option>
+          </select>
+        </label>
+        <label data-control="round">
+          Tipprunde
+          <!-- Optionen werden aus dem Dashboard-Payload befuellt (app.js). -->
+          <select id="round-filter">
+            <option value="">Alle Runden</option>
+          </select>
+        </label>
+        <!-- News- und History-Filter standen bis T-0167 im Panel-Markup und
+             wurden bei jedem Render neu erzeugt UND neu gebunden. Jetzt
+             stehen sie hier, werden einmal befuellt und einmal gebunden;
+             sichtbar sind sie nur im jeweiligen Tab (app.js). -->
+        <label data-control="news-severity">
+          Schwere
+          <select id="news-severity">
+            <option value="">Alle Schweren</option>
+          </select>
+        </label>
+        <label data-control="news-category">
+          Kategorie
+          <select id="news-category">
+            <option value="">Alle Kategorien</option>
+          </select>
+        </label>
+        <label data-control="news-impact">
+          Wirkung
+          <select id="news-impact">
+            <option value="">Alle</option>
+          </select>
+        </label>
+        <label data-control="history-trigger">
+          Ausloeser
+          <select id="history-trigger">
+            <option value="">Alle Ausloeser</option>
+          </select>
+        </label>
+      </section>
+
+      <section id="matches" class="panel active"></section>
+      <section id="news" class="panel"></section>
+      <section id="markets" class="panel"></section>
+      <section id="tips" class="panel"></section>
+      <section id="history" class="panel"></section>
+      <!-- Zwei Container: die Karten werden bei jedem Filterwechsel neu
+           gebaut, das Rival-Lab NICHT -- es haelt eigenen Zustand (Runde,
+           Unter-Tab, Mindest-Tipps) und wird genau einmal montiert. -->
+      <section id="analyse" class="panel">
+        <div id="analyse-cards"></div>
+        <div id="analyse-rival-lab" class="rival-lab"></div>
+        <div id="analyse-player-board" class="player-board"></div>
+      </section>
+    </main>
+
+    <script src="assets/player_board.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

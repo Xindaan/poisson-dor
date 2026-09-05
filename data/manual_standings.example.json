@@ -1,0 +1,180 @@
+{
+  "_meta": {
+    "description": "BEISPIELDATEN -- frei erfunden. Kopiere nach data/manual_standings.json. Ein Eintrag je beobachtetem Tabellenstand und Runde. 'me' ist der eigene Anzeigename in dieser Runde; 'me_aliases' faengt Schreibvarianten ab.",
+    "me_aliases": [
+      "Tipper-A",
+      "TipperA"
+    ],
+    "round_ids": "Muessen zu deiner Rundenkonfiguration passen (neutrale Defaults: 'classic', 'escalating'; eigene Runden via src/wm_tipps/rounds_local.py -- siehe rounds_local.example.py)."
+  },
+  "observations": [
+    {
+      "deficit_to_leader": 2,
+      "entries": [
+        {
+          "name": "Chaser-B",
+          "points": 9,
+          "rank": 1
+        },
+        {
+          "name": "Tipper-A",
+          "points": 7,
+          "rank": 2
+        },
+        {
+          "name": "Favoritenjaeger",
+          "points": 4,
+          "rank": 3
+        }
+      ],
+      "field_size": 3,
+      "leader_points": 9,
+      "matchday": 1,
+      "me": "Tipper-A",
+      "me_points": 7,
+      "me_rank": 2,
+      "observed_at": "2026-06-12",
+      "round_id": "classic"
+    },
+    {
+      "deficit_to_leader": 0,
+      "entries": [
+        {
+          "name": "Tipper-A",
+          "points": 18,
+          "rank": 1
+        },
+        {
+          "name": "Chaser-B",
+          "points": 15,
+          "rank": 2
+        },
+        {
+          "name": "Favoritenjaeger",
+          "points": 11,
+          "rank": 3
+        }
+      ],
+      "field_size": 3,
+      "leader_points": 18,
+      "matchday": 2,
+      "me": "Tipper-A",
+      "me_points": 18,
+      "me_rank": 1,
+      "observed_at": "2026-06-19",
+      "round_id": "classic"
+    },
+    {
+      "deficit_to_leader": 0,
+      "entries": [
+        {
+          "name": "Tipper-A",
+          "points": 26,
+          "rank": 1
+        },
+        {
+          "name": "Favoritenjaeger",
+          "points": 23,
+          "rank": 2
+        },
+        {
+          "name": "Chaser-B",
+          "points": 21,
+          "rank": 3
+        }
+      ],
+      "field_size": 3,
+      "leader_points": 26,
+      "matchday": 3,
+      "me": "Tipper-A",
+      "me_points": 26,
+      "me_rank": 1,
+      "observed_at": "2026-06-26",
+      "round_id": "classic"
+    },
+    {
+      "deficit_to_leader": 2,
+      "entries": [
+        {
+          "name": "Chaser-B",
+          "points": 9,
+          "rank": 1
+        },
+        {
+          "name": "Tipper-A",
+          "points": 7,
+          "rank": 2
+        },
+        {
+          "name": "Favoritenjaeger",
+          "points": 4,
+          "rank": 3
+        }
+      ],
+      "field_size": 3,
+      "leader_points": 9,
+      "matchday": 1,
+      "me": "Tipper-A",
+      "me_points": 7,
+      "me_rank": 2,
+      "observed_at": "2026-06-12",
+      "round_id": "escalating"
+    },
+    {
+      "deficit_to_leader": 0,
+      "entries": [
+        {
+          "name": "Tipper-A",
+          "points": 18,
+          "rank": 1
+        },
+        {
+          "name": "Chaser-B",
+          "points": 15,
+          "rank": 2
+        },
+        {
+          "name": "Favoritenjaeger",
+          "points": 11,
+          "rank": 3
+        }
+      ],
+      "field_size": 3,
+      "leader_points": 18,
+      "matchday": 2,
+      "me": "Tipper-A",
+      "me_points": 18,
+      "me_rank": 1,
+      "observed_at": "2026-06-19",
+      "round_id": "escalating"
+    },
+    {
+      "deficit_to_leader": 0,
+      "entries": [
+        {
+          "name": "Tipper-A",
+          "points": 26,
+          "rank": 1
+        },
+        {
+          "name": "Favoritenjaeger",
+          "points": 23,
+          "rank": 2
+        },
+        {
+          "name": "Chaser-B",
+          "points": 21,
+          "rank": 3
+        }
+      ],
+      "field_size": 3,
+      "leader_points": 26,
+      "matchday": 3,
+      "me": "Tipper-A",
+      "me_points": 26,
+      "me_rank": 1,
+      "observed_at": "2026-06-26",
+      "round_id": "escalating"
+    }
+  ]
+}
